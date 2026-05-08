@@ -63,6 +63,15 @@
       "removed": [
         "CohereLabs/command-a-translate-08-2025"
       ]
+    },
+    {
+      "timestamp": "2026-05-08T15:14:14.875820+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [
+        "inclusionai/ring-2.6-1t:free"
+      ],
+      "removed": []
     }
   ]
 }
