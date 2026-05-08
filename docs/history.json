@@ -18,6 +18,24 @@
         "Qwen/Qwen3-235B-A22B"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-05-08T13:54:28.955178+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [
+        "nvidia/vila"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-05-08T13:54:28.955178+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "CohereLabs/c4ai-command-a-03-2025"
+      ]
     }
   ]
 }
