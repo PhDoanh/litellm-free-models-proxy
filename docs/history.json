@@ -591,6 +591,19 @@
       "removed": [
         "cogvideox-flash"
       ]
+    },
+    {
+      "timestamp": "2026-05-08T22:18:06.649536+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "openai-audio-large",
+        "openai-fast",
+        "openai-large",
+        "perplexity-reasoning",
+        "qwen-large"
+      ]
     }
   ]
 }
