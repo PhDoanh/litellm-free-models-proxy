@@ -965,6 +965,15 @@
         "gemini-3.1-flash-image-preview-agent",
         "gemini-3.1-flash-lite-preview-agent"
       ]
+    },
+    {
+      "timestamp": "2026-05-11T23:17:43.173645+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "katanemo/Arch-Router-1.5B"
+      ]
     }
   ]
 }
