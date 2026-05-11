@@ -930,6 +930,30 @@
       "removed": [
         "alibaba/happyhorse-1.0-i2v"
       ]
+    },
+    {
+      "timestamp": "2026-05-11T19:31:20.548187+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [
+        "gemini-3-flash-preview-agent",
+        "gemini-3.1-flash-image-preview-agent",
+        "gemini-3.1-flash-lite-preview-agent"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-05-11T19:31:20.548187+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "Qwen/QwQ-32B",
+        "Qwen/Qwen2.5-Coder-3B-Instruct",
+        "Qwen/Qwen3-14B",
+        "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
+      ]
     }
   ]
 }
