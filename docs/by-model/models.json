@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T20:31:45.109245+00:00",
+  "updated": "2026-05-11T21:27:03.666284+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -146,12 +146,6 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
-          "limits": "varies per model"
-        },
-        {
           "id": "qwen/qwen3-32b",
           "name": "qwen/qwen3-32b",
           "context": 131072,
@@ -163,22 +157,10 @@
           ]
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model"
-        },
-        {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ]
         },
         {
           "id": "llama-3.1-8b-instant",
@@ -188,18 +170,6 @@
           "capabilities": [
             "function_calling",
             "tool_choice"
-          ]
-        },
-        {
-          "id": "openai/gpt-oss-20b",
-          "name": "openai/gpt-oss-20b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
           ]
         },
         {
@@ -228,6 +198,36 @@
             "tool_choice",
             "response_schema",
             "reasoning"
+          ]
+        },
+        {
+          "id": "openai/gpt-oss-20b",
+          "name": "openai/gpt-oss-20b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ]
+        },
+        {
+          "id": "groq/compound",
+          "name": "groq/compound",
+          "context": 131072,
+          "limits": "varies per model"
+        },
+        {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
           ]
         }
       ],
@@ -354,24 +354,6 @@
           "id": "gemini-3.1-flash-lite",
           "name": "Gemini 3.1 Flash Lite",
           "context": 1048576,
-          "limits": "varies — see AI Studio"
-        },
-        {
-          "id": "gemini-3.1-flash-lite-preview-agent",
-          "name": "Gemini 3.1 Flash Lite Preview (Agent)",
-          "context": 1048576,
-          "limits": "varies — see AI Studio"
-        },
-        {
-          "id": "gemini-3-flash-preview-agent",
-          "name": "Gemini 3 Flash Preview (Agent)",
-          "context": 1048576,
-          "limits": "varies — see AI Studio"
-        },
-        {
-          "id": "gemini-3.1-flash-image-preview-agent",
-          "name": "Gemini 3.1 Flash Image Preview (Agent)",
-          "context": 65536,
           "limits": "varies — see AI Studio"
         }
       ],

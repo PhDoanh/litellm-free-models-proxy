@@ -954,6 +954,17 @@
         "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
         "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
       ]
+    },
+    {
+      "timestamp": "2026-05-11T21:27:03.676701+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [],
+      "removed": [
+        "gemini-3-flash-preview-agent",
+        "gemini-3.1-flash-image-preview-agent",
+        "gemini-3.1-flash-lite-preview-agent"
+      ]
     }
   ]
 }
