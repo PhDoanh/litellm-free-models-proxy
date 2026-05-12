@@ -974,6 +974,19 @@
       "removed": [
         "katanemo/Arch-Router-1.5B"
       ]
+    },
+    {
+      "timestamp": "2026-05-12T00:22:22.877126+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [],
+      "removed": [
+        "google/gemma-3-27b-it",
+        "minimaxai/minimax-m2.5",
+        "moonshotai/kimi-k2-instruct",
+        "moonshotai/kimi-k2-thinking",
+        "qwen/qwen2.5-coder-32b-instruct"
+      ]
     }
   ]
 }
