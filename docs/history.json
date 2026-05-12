@@ -987,6 +987,15 @@
         "moonshotai/kimi-k2-thinking",
         "qwen/qwen2.5-coder-32b-instruct"
       ]
+    },
+    {
+      "timestamp": "2026-05-12T01:33:03.012434+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "katanemo/Arch-Router-1.5B"
+      ],
+      "removed": []
     }
   ]
 }
