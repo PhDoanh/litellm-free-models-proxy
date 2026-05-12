@@ -1055,6 +1055,15 @@
       "removed": [
         "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
       ]
+    },
+    {
+      "timestamp": "2026-05-12T15:49:04.454373+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+      ],
+      "removed": []
     }
   ]
 }
