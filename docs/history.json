@@ -1239,6 +1239,15 @@
         "CohereLabs/command-a-reasoning-08-2025"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-05-13T23:22:36.101014+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "google/gemma-3-27b-it"
+      ]
     }
   ]
 }
