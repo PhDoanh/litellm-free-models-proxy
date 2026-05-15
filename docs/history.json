@@ -1407,6 +1407,15 @@
         "qwen-vision-pro"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-05-15T17:33:33.954405+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "gpt-5.4-mini"
+      ],
+      "removed": []
     }
   ]
 }
