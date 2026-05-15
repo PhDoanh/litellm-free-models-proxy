@@ -1369,6 +1369,15 @@
       "removed": [
         "zai-org/GLM-4.6-FP8"
       ]
+    },
+    {
+      "timestamp": "2026-05-15T11:38:04.629909+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "zai-org/GLM-4.6-FP8"
+      ],
+      "removed": []
     }
   ]
 }
