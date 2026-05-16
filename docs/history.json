@@ -2582,6 +2582,24 @@
       "removed": [
         "nvidia/vila"
       ]
+    },
+    {
+      "timestamp": "2026-05-16T10:25:47.090502+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [],
+      "removed": [
+        "baidu/cobuddy:free"
+      ]
+    },
+    {
+      "timestamp": "2026-05-16T10:25:47.090502+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "zai-org/GLM-4.7-FP8"
+      ],
+      "removed": []
     }
   ]
 }
