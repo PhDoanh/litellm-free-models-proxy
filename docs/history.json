@@ -2722,6 +2722,15 @@
       "removed": [
         "zai-org/GLM-4.6-FP8"
       ]
+    },
+    {
+      "timestamp": "2026-05-17T15:20:56.713151+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "Qwen/Qwen3.5-35B-A3B"
+      ]
     }
   ]
 }
