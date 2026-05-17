@@ -2741,6 +2741,15 @@
         "zai-org/GLM-4.7-Flash"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-05-17T17:20:08.818768+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "zai-org/GLM-4.6-FP8"
+      ],
+      "removed": []
     }
   ]
 }
