@@ -2711,6 +2711,17 @@
       "removed": [
         "zai-org/GLM-4.7-Flash"
       ]
+    },
+    {
+      "timestamp": "2026-05-17T14:28:42.781741+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen3.5-35B-A3B"
+      ],
+      "removed": [
+        "zai-org/GLM-4.6-FP8"
+      ]
     }
   ]
 }
