@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T15:02:31.838468+00:00",
+  "updated": "2026-05-18T16:55:32.829417+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -120,18 +120,6 @@
           ]
         },
         {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ]
-        },
-        {
           "id": "openai/gpt-oss-120b",
           "name": "openai/gpt-oss-120b",
           "context": 131072,
@@ -140,6 +128,27 @@
             "function_calling",
             "tool_choice",
             "response_schema",
+            "reasoning"
+          ]
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ]
+        },
+        {
+          "id": "qwen/qwen3-32b",
+          "name": "qwen/qwen3-32b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
             "reasoning"
           ]
         },
@@ -156,24 +165,15 @@
           ]
         },
         {
-          "id": "qwen/qwen3-32b",
-          "name": "qwen/qwen3-32b",
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
             "tool_choice",
-            "reasoning"
-          ]
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
+            "response_schema",
+            "vision"
           ]
         },
         {
@@ -196,16 +196,6 @@
       "url": "https://cloud.cerebras.ai",
       "models": [
         {
-          "id": "llama3.1-8b",
-          "name": "llama3.1-8b",
-          "context": 128000,
-          "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ]
-        },
-        {
           "id": "zai-glm-4.7",
           "name": "zai-glm-4.7",
           "context": 128000,
@@ -227,6 +217,16 @@
             "response_schema",
             "reasoning"
           ]
+        },
+        {
+          "id": "llama3.1-8b",
+          "name": "llama3.1-8b",
+          "context": 128000,
+          "limits": "1M tokens/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ]
         }
       ],
       "error": null
@@ -238,21 +238,6 @@
         {
           "id": "gemini-2.5-flash",
           "name": "Gemini 2.5 Flash",
-          "context": 1048576,
-          "limits": "varies — see AI Studio",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision",
-            "system_messages",
-            "reasoning",
-            "prompt_caching"
-          ]
-        },
-        {
-          "id": "gemini-2.5-flash-lite",
-          "name": "Gemini 2.5 Flash-Lite",
           "context": 1048576,
           "limits": "varies — see AI Studio",
           "capabilities": [
@@ -377,6 +362,18 @@
         {
           "id": "nvidia/nemotron-3-nano-30b-a3b",
           "name": "nvidia/nemotron-3-nano-30b-a3b",
+          "context": null,
+          "limits": "40 req/min"
+        },
+        {
+          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+          "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+          "context": null,
+          "limits": "40 req/min"
+        },
+        {
+          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+          "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
           "context": null,
           "limits": "40 req/min"
         },
@@ -1201,6 +1198,12 @@
           "id": "gpt-oss-20b",
           "name": "gpt-oss-20b",
           "context": null,
+          "limits": "anonymous · 30 req/min with token"
+        },
+        {
+          "id": "codestral-latest",
+          "name": "codestral-latest",
+          "context": 32000,
           "limits": "anonymous · 30 req/min with token"
         },
         {
