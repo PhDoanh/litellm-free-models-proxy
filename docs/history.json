@@ -3212,6 +3212,24 @@
         "devstral-small-2:24b-cloud"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-05-19T17:44:57.899769+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [
+        "z-ai/glm-5.1"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-05-19T17:44:57.899769+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [
+        "gemini-3.5-flash"
+      ],
+      "removed": []
     }
   ]
 }

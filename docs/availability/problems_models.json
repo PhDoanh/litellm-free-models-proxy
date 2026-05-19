@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T16:05:25.426382+00:00",
+  "updated": "2026-05-19T17:44:57.887011+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -472,10 +472,34 @@
           "limits": "1 req/s · 1B tok/month"
         },
         {
+          "id": "mistral-small-latest",
+          "name": "mistral-small-2603",
+          "context": 131072,
+          "limits": "1 req/s · 1B tok/month",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ]
+        },
+        {
           "id": "mistral-vibe-cli-fast",
           "name": "mistral-small-2603",
           "context": null,
           "limits": "1 req/s · 1B tok/month"
+        },
+        {
+          "id": "magistral-small-latest",
+          "name": "mistral-small-2603",
+          "context": 40000,
+          "limits": "1 req/s · 1B tok/month",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ]
         },
         {
           "id": "mistral-large-2411",
