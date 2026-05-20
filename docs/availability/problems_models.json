@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20T00:26:59.852015+00:00",
+  "updated": "2026-05-20T19:42:48.766611+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -150,10 +150,19 @@
           ]
         },
         {
-          "id": "gemini-3.1-flash-lite",
-          "name": "Gemini 3.1 Flash Lite",
+          "id": "gemini-3.5-flash",
+          "name": "Gemini 3.5 Flash",
           "context": 1048576,
-          "limits": "varies — see AI Studio"
+          "limits": "varies — see AI Studio",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision",
+            "system_messages",
+            "reasoning",
+            "prompt_caching"
+          ]
         }
       ],
       "error": null
@@ -365,6 +374,12 @@
           "limits": "40 req/min"
         },
         {
+          "id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+          "name": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+          "context": null,
+          "limits": "40 req/min"
+        },
+        {
           "id": "nvidia/llama-3.3-nemotron-super-49b-v1",
           "name": "nvidia/llama-3.3-nemotron-super-49b-v1",
           "context": null,
@@ -373,18 +388,6 @@
         {
           "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
           "name": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "context": null,
-          "limits": "40 req/min"
-        },
-        {
-          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-          "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-          "context": null,
-          "limits": "40 req/min"
-        },
-        {
-          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-          "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
           "context": null,
           "limits": "40 req/min"
         },
@@ -530,12 +533,6 @@
           "id": "perplexity-fast",
           "name": "perplexity-fast",
           "context": 127072,
-          "limits": "free tier — token from enter.pollinations.ai"
-        },
-        {
-          "id": "mistral-large",
-          "name": "mistral-large",
-          "context": 256000,
           "limits": "free tier — token from enter.pollinations.ai"
         },
         {
