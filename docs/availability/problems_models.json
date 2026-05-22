@@ -1,10 +1,16 @@
 {
-  "updated": "2026-05-21T23:20:30.116887+00:00",
+  "updated": "2026-05-22T00:25:09.943443+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
       "url": "https://openrouter.ai",
       "models": [
+        {
+          "id": "openrouter/owl-alpha",
+          "name": "Owl Alpha",
+          "context": 1048756,
+          "limits": "20 req/min · 50 req/day"
+        },
         {
           "id": "deepseek/deepseek-v4-flash:free",
           "name": "DeepSeek: DeepSeek V4 Flash (free)",
