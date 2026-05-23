@@ -4213,6 +4213,15 @@
       "removed": [
         "cogvideox-flash"
       ]
+    },
+    {
+      "timestamp": "2026-05-23T03:00:52.337406+00:00",
+      "provider": "sambanova",
+      "provider_label": "SambaNova",
+      "added": [],
+      "removed": [
+        "MiniMax-M2.7"
+      ]
     }
   ]
 }
