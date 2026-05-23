@@ -4313,6 +4313,15 @@
       "removed": [
         "nvidia/vila"
       ]
+    },
+    {
+      "timestamp": "2026-05-23T11:24:49.229995+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [],
+      "removed": [
+        "baidu/cobuddy:free"
+      ]
     }
   ]
 }
