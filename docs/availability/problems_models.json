@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T23:17:08.742721+00:00",
+  "updated": "2026-05-24T00:23:40.558902+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -311,6 +311,12 @@
         {
           "id": "mistralai/ministral-14b-instruct-2512",
           "name": "mistralai/ministral-14b-instruct-2512",
+          "context": null,
+          "limits": "40 req/min"
+        },
+        {
+          "id": "mistralai/mistral-7b-instruct-v0.3",
+          "name": "mistralai/mistral-7b-instruct-v0.3",
           "context": null,
           "limits": "40 req/min"
         },
