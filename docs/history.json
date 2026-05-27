@@ -5118,6 +5118,24 @@
         "gpt-5.5",
         "midijourney-large"
       ]
+    },
+    {
+      "timestamp": "2026-05-27T18:45:38.080320+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [
+        "moonshotai/kimi-k2.6:free"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-05-27T18:45:38.080320+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [
+        "orion/deepseek-ai/deepseek-v4-pro"
+      ],
+      "removed": []
     }
   ]
 }
