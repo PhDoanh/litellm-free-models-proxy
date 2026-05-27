@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T19:39:30.505338+00:00",
+  "updated": "2026-05-27T20:40:29.385255+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -423,6 +423,12 @@
           "id": "grok-4.3",
           "name": "grok-4.3",
           "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai"
+        },
+        {
+          "id": "midijourney",
+          "name": "midijourney",
+          "context": null,
           "limits": "free tier — token from enter.pollinations.ai"
         },
         {

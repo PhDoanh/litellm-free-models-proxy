@@ -5136,6 +5136,24 @@
         "orion/deepseek-ai/deepseek-v4-pro"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-05-27T20:40:29.389499+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "google/gemma-3-27b-it"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-05-27T20:40:29.389499+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [],
+      "removed": [
+        "orion/deepseek-ai/deepseek-v4-pro"
+      ]
     }
   ]
 }
