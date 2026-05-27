@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T07:19:47.641090+00:00",
+  "updated": "2026-05-27T09:03:15.348877+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -108,6 +108,39 @@
           ]
         },
         {
+          "id": "qwen/qwen3-32b",
+          "name": "qwen/qwen3-32b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ]
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ]
+        },
+        {
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ]
+        },
+        {
           "id": "allam-2-7b",
           "name": "allam-2-7b",
           "context": 4096,
@@ -126,28 +159,6 @@
           ]
         },
         {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ]
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ]
-        },
-        {
           "id": "openai/gpt-oss-20b",
           "name": "openai/gpt-oss-20b",
           "context": 131072,
@@ -156,17 +167,6 @@
             "function_calling",
             "tool_choice",
             "response_schema",
-            "reasoning"
-          ]
-        },
-        {
-          "id": "qwen/qwen3-32b",
-          "name": "qwen/qwen3-32b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
             "reasoning"
           ]
         }
@@ -781,7 +781,7 @@
         },
         {
           "id": "mistral-vibe-cli-latest",
-          "name": "mistral-vibe-cli-latest",
+          "name": "mistral-medium-3-5",
           "context": null,
           "limits": "1 req/s · 1B tok/month"
         },
