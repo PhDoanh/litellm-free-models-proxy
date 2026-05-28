@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T21:36:13.824152+00:00",
+  "updated": "2026-05-28T22:30:53.975364+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -98,17 +98,6 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "qwen/qwen3-32b",
-          "name": "qwen/qwen3-32b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ]
-        },
-        {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
           "name": "meta-llama/llama-4-scout-17b-16e-instruct",
           "context": 131072,
@@ -118,6 +107,17 @@
             "tool_choice",
             "response_schema",
             "vision"
+          ]
+        },
+        {
+          "id": "qwen/qwen3-32b",
+          "name": "qwen/qwen3-32b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
           ]
         },
         {
@@ -133,13 +133,15 @@
           ]
         },
         {
-          "id": "llama-3.1-8b-instant",
-          "name": "llama-3.1-8b-instant",
+          "id": "openai/gpt-oss-20b",
+          "name": "openai/gpt-oss-20b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
-            "tool_choice"
+            "tool_choice",
+            "response_schema",
+            "reasoning"
           ]
         },
         {
@@ -153,22 +155,20 @@
           ]
         },
         {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model"
-        },
-        {
-          "id": "openai/gpt-oss-20b",
-          "name": "openai/gpt-oss-20b",
+          "id": "llama-3.1-8b-instant",
+          "name": "llama-3.1-8b-instant",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
+            "tool_choice"
           ]
+        },
+        {
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model"
         }
       ],
       "error": null
@@ -459,6 +459,18 @@
             "function_calling",
             "tool_choice",
             "response_schema"
+          ]
+        },
+        {
+          "id": "mistral-medium-latest",
+          "name": "mistral-medium-2508",
+          "context": 131072,
+          "limits": "1 req/s · 1B tok/month",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
           ]
         },
         {
