@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T19:47:36.669709+00:00",
+  "updated": "2026-05-28T20:44:56.866284+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -462,6 +462,12 @@
       "name": "LLM7",
       "url": "https://llm7.io",
       "models": [
+        {
+          "id": "qwen3-235b-a22b-instruct-2507-fp8",
+          "name": "qwen3-235b-a22b-instruct-2507-fp8",
+          "context": 240000,
+          "limits": "anonymous · 30 req/min with token"
+        },
         {
           "id": "GLM-4.6V-Flash",
           "name": "GLM-4.6V-Flash",
