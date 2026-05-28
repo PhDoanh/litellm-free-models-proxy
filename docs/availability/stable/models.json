@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T01:32:46.199129+00:00",
+  "updated": "2026-05-28T03:01:55.693563+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -134,8 +134,25 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model"
+        },
+        {
+          "id": "qwen/qwen3-32b",
+          "name": "qwen/qwen3-32b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ]
+        },
+        {
+          "id": "openai/gpt-oss-20b",
+          "name": "openai/gpt-oss-20b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
@@ -144,12 +161,6 @@
             "response_schema",
             "reasoning"
           ]
-        },
-        {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
-          "limits": "varies per model"
         },
         {
           "id": "llama-3.3-70b-versatile",
@@ -162,21 +173,19 @@
           ]
         },
         {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
+          "id": "groq/compound",
+          "name": "groq/compound",
+          "context": 131072,
           "limits": "varies per model"
         },
         {
-          "id": "openai/gpt-oss-20b",
-          "name": "openai/gpt-oss-20b",
+          "id": "llama-3.1-8b-instant",
+          "name": "llama-3.1-8b-instant",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
+            "tool_choice"
           ]
         },
         {
@@ -192,31 +201,22 @@
           ]
         },
         {
-          "id": "qwen/qwen3-32b",
-          "name": "qwen/qwen3-32b",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
+          "limits": "varies per model"
+        },
+        {
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
             "tool_choice",
+            "response_schema",
             "reasoning"
           ]
-        },
-        {
-          "id": "llama-3.1-8b-instant",
-          "name": "llama-3.1-8b-instant",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ]
-        },
-        {
-          "id": "groq/compound",
-          "name": "groq/compound",
-          "context": 131072,
-          "limits": "varies per model"
         }
       ],
       "error": null
@@ -457,7 +457,20 @@
     "together": {
       "name": "Together AI",
       "url": "https://api.together.ai",
-      "models": [],
+      "models": [
+        {
+          "id": "rime-labs/rime-mist-v3",
+          "name": "Rime Labs Mist v3",
+          "context": 448,
+          "limits": "free"
+        },
+        {
+          "id": "rime-labs/rime-mist-v3-omni",
+          "name": "Rime Labs Mist v3 Omni",
+          "context": 448,
+          "limits": "free"
+        }
+      ],
       "error": null
     },
     "nvidia": {
