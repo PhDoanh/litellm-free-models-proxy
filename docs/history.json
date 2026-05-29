@@ -5260,6 +5260,18 @@
         "MiniMaxAI/MiniMax-M2.5-FP4"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-05-29T00:28:40.520670+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [
+        "stepfun-ai/step-3.7-flash"
+      ],
+      "removed": [
+        "google/gemma-3-12b-it",
+        "google/gemma-3-4b-it"
+      ]
     }
   ]
 }

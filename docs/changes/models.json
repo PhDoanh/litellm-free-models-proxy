@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T23:27:33.546887+00:00",
+  "updated": "2026-05-29T00:28:40.516385+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -134,22 +134,6 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "llama-3.1-8b-instant",
-          "name": "llama-3.1-8b-instant",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ]
-        },
-        {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
-          "limits": "varies per model"
-        },
-        {
           "id": "groq/compound",
           "name": "groq/compound",
           "context": 131072,
@@ -165,6 +149,22 @@
             "tool_choice",
             "reasoning"
           ]
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ]
+        },
+        {
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
+          "limits": "varies per model"
         },
         {
           "id": "openai/gpt-oss-120b",
@@ -191,20 +191,8 @@
           ]
         },
         {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ]
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
+          "id": "llama-3.1-8b-instant",
+          "name": "llama-3.1-8b-instant",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
@@ -217,6 +205,18 @@
           "name": "allam-2-7b",
           "context": 4096,
           "limits": "varies per model"
+        },
+        {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ]
         }
       ],
       "error": null
@@ -226,6 +226,17 @@
       "url": "https://cloud.cerebras.ai",
       "models": [
         {
+          "id": "zai-glm-4.7",
+          "name": "zai-glm-4.7",
+          "context": 128000,
+          "limits": "1M tokens/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ]
+        },
+        {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
           "context": 131072,
@@ -234,17 +245,6 @@
             "function_calling",
             "tool_choice",
             "response_schema",
-            "reasoning"
-          ]
-        },
-        {
-          "id": "zai-glm-4.7",
-          "name": "zai-glm-4.7",
-          "context": 128000,
-          "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
             "reasoning"
           ]
         }
@@ -492,18 +492,6 @@
         {
           "id": "deepseek-ai/deepseek-v4-pro",
           "name": "deepseek-ai/deepseek-v4-pro",
-          "context": null,
-          "limits": "40 req/min"
-        },
-        {
-          "id": "google/gemma-3-12b-it",
-          "name": "google/gemma-3-12b-it",
-          "context": null,
-          "limits": "40 req/min"
-        },
-        {
-          "id": "google/gemma-3-4b-it",
-          "name": "google/gemma-3-4b-it",
           "context": null,
           "limits": "40 req/min"
         },
@@ -798,6 +786,12 @@
         {
           "id": "stepfun-ai/step-3.5-flash",
           "name": "stepfun-ai/step-3.5-flash",
+          "context": null,
+          "limits": "40 req/min"
+        },
+        {
+          "id": "stepfun-ai/step-3.7-flash",
+          "name": "stepfun-ai/step-3.7-flash",
           "context": null,
           "limits": "40 req/min"
         },
