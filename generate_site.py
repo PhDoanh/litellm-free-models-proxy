@@ -16,10 +16,35 @@ from pathlib import Path
 OUT_DIR = Path(__file__).parent / "docs"
 OUT_DIR.mkdir(exist_ok=True)
 
-CHEAHJS_URL = (
-    "https://raw.githubusercontent.com/cheahjs/free-llm-api-resources"
-    "/refs/heads/main/README.md"
-)
+
+# ── Model metadata ──────────────────────────────────────────────────────────
+
+_MOE_RE = re.compile(r"(\d+)\s*x\s*(\d+(?:\.\d+)?)\s*b\b")
+_PARAMS_RE = re.compile(r"(?<![\d.\w])(\d+(?:\.\d+)?)\s*b\b")
+
+
+def parse_params_b(model_id, name=""):
+    """Best-effort parameter count in billions, parsed from the model id/name.
+
+    Heuristic — there is no params field in any provider API, so we read it
+    from the name (e.g. ``llama-3.3-70b`` → 70, ``gpt-oss-120b`` → 120). For
+    MoE names we take the largest number-of-billions present: ``8x7b`` → 56
+    (total), ``qwen3-235b-a22b`` → 235 (total), ``30b-a3b`` → 30 (total).
+    Returns ``None`` when the name carries no size (e.g. ``gemini-flash``,
+    ``zai-glm-4.7``) — honest "unknown" rather than a guess.
+
+    Consumers use this only as a rough strength proxy for ordering fallback
+    chains "strongest-first"; it is intentionally not authoritative.
+    """
+    text = f"{model_id} {name}".lower()
+    best = None
+    for m in _MOE_RE.finditer(text):
+        best = max(best or 0.0, int(m.group(1)) * float(m.group(2)))
+    for m in _PARAMS_RE.finditer(text):
+        val = float(m.group(1))
+        if 0.3 <= val <= 2000:  # ignore version-ish noise / absurd values
+            best = max(best or 0.0, val)
+    return best
 
 
 # ── HTTP ──────────────────────────────────────────────────────────────────────
@@ -375,16 +400,6 @@ def enrich_with_litellm(results, db):
             enriched += 1
     if enriched:
         print(f"  Enriched {enriched} models from litellm DB")
-
-
-# ── Community cross-reference ─────────────────────────────────────────────────
-
-def fetch_cheahjs():
-    try:
-        return _get(CHEAHJS_URL)
-    except Exception as e:
-        print(f"[community] {e}")
-        return ""
 
 
 # ── Model utilities ───────────────────────────────────────────────────────────
@@ -1512,9 +1527,6 @@ def render_availability(provider_list, results, availability):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    print("Fetching community cross-reference...")
-    # (used for Cohere fallback — already in sync_models.py logic)
-
     results = {}  # provider_key → list of model dicts
     errors = {}
 
@@ -1597,6 +1609,14 @@ def main():
             "models": results[p["key"]],
             "error": str(errors[p["key"]]) if p["key"] in errors else None,
         }
+
+    # Enrich every model with a best-effort parameter count (billions) parsed
+    # from its name — a rough strength signal so consumers can order fallback
+    # chains strongest-first. Flows into models.json + the stable/problems
+    # variants (which keep the model dicts intact). None when unknown.
+    for pdata in json_out["providers"].values():
+        for m in pdata["models"]:
+            m["params_b"] = parse_params_b(m.get("id", ""), m.get("name", ""))
 
     old_models_path.write_text(json.dumps(json_out, indent=2, ensure_ascii=False))
     print("Written docs/models.json")
