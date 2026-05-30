@@ -5799,6 +5799,33 @@
       "removed": [
         "gpt-5.4-mini"
       ]
+    },
+    {
+      "timestamp": "2026-05-30T03:01:12.272661+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "google/gemma-3-27b-it-lora"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-05-30T03:01:12.272661+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [],
+      "removed": [
+        "nvidia/vila"
+      ]
+    },
+    {
+      "timestamp": "2026-05-30T03:01:12.272661+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "pearl-ai/Gemma-4-31B-it-pearl"
+      ],
+      "removed": []
     }
   ]
 }
