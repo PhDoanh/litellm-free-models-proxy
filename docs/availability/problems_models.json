@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T13:29:47.971040+00:00",
+  "updated": "2026-05-30T14:29:45.924990+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -48,15 +48,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -474,13 +474,6 @@
       "name": "Pollinations",
       "url": "https://pollinations.ai",
       "models": [
-        {
-          "id": "deepseek-pro",
-          "name": "deepseek-pro",
-          "context": 1048576,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
         {
           "id": "grok-4.3",
           "name": "grok-4.3",
