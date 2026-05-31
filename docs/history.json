@@ -6325,6 +6325,24 @@
         "pixtral-large-latest",
         "voxtral-mini-2507"
       ]
+    },
+    {
+      "timestamp": "2026-05-31T14:30:49.172481+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [],
+      "removed": [
+        "deepseek/deepseek-v4-flash:free"
+      ]
+    },
+    {
+      "timestamp": "2026-05-31T14:30:49.172481+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "mistral-small-3.2"
+      ]
     }
   ]
 }

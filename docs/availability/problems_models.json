@@ -1,17 +1,10 @@
 {
-  "updated": "2026-05-31T13:30:34.909594+00:00",
+  "updated": "2026-05-31T14:30:49.166740+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
       "url": "https://openrouter.ai",
       "models": [
-        {
-          "id": "deepseek/deepseek-v4-flash:free",
-          "name": "DeepSeek: DeepSeek V4 Flash (free)",
-          "context": 1048576,
-          "limits": "20 req/min · 50 req/day",
-          "params_b": null
-        },
         {
           "id": "moonshotai/kimi-k2.6:free",
           "name": "MoonshotAI: Kimi K2.6 (free)",
