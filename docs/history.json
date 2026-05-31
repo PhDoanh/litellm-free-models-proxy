@@ -6356,6 +6356,28 @@
         "ministral-8b-2512",
         "qwen3-235b"
       ]
+    },
+    {
+      "timestamp": "2026-05-31T22:19:02.239227+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen3-235B-A22B-Thinking-2507"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-05-31T22:19:02.239227+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "GLM-4.6V-Flash",
+        "codestral-latest",
+        "kimi-k2.6",
+        "ministral-8b-2512",
+        "qwen3-235b"
+      ],
+      "removed": []
     }
   ]
 }
