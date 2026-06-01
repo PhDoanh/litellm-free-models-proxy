@@ -6440,6 +6440,44 @@
         "voxtral-mini-transcribe-2602"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-01T09:45:17.210099+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "MiniMaxAI/MiniMax-M2",
+        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+        "deepseek-ai/DeepSeek-V3.1",
+        "deepseek-ai/DeepSeek-V3.2-Exp",
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "moonshotai/Kimi-K2-Instruct-0905",
+        "zai-org/GLM-4.5"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-01T09:45:17.210099+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [
+        "voxtral-mini-2507"
+      ],
+      "removed": [
+        "voxtral-mini-transcribe-2602"
+      ]
+    },
+    {
+      "timestamp": "2026-06-01T09:45:17.210099+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "devstral-small-2:24b",
+        "mistral-small-2506"
+      ],
+      "removed": [
+        "ministral-8b-2512"
+      ]
     }
   ]
 }

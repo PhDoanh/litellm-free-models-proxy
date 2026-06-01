@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T07:37:32.806697+00:00",
+  "updated": "2026-06-01T09:45:17.204275+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -454,6 +454,20 @@
           "params_b": 235.0
         },
         {
+          "id": "swiss-ai/Apertus-70B-Instruct-2509",
+          "name": "swiss-ai/Apertus-70B-Instruct-2509",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 70.0
+        },
+        {
+          "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+          "name": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 80.0
+        },
+        {
           "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
           "name": "deepseek-ai/DeepSeek-V3.1-Terminus",
           "context": null,
@@ -476,7 +490,7 @@
       "models": [
         {
           "id": "voxtral-mini-latest",
-          "name": "voxtral-mini-transcribe-2602",
+          "name": "voxtral-mini-2507",
           "context": null,
           "limits": "1 req/s · 1B tok/month",
           "params_b": null
@@ -550,13 +564,6 @@
           "context": 32000,
           "limits": "anonymous · 30 req/min with token",
           "params_b": null
-        },
-        {
-          "id": "ministral-8b-2512",
-          "name": "ministral-8b-2512",
-          "context": 32000,
-          "limits": "anonymous · 30 req/min with token",
-          "params_b": 8.0
         },
         {
           "id": "GLM-4.6V-Flash",
