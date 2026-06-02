@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T13:07:27.807524+00:00",
+  "updated": "2026-06-02T15:19:06.400261+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -86,6 +86,13 @@
       "name": "Gemini",
       "url": "https://aistudio.google.com",
       "models": [
+        {
+          "id": "gemma-4-26b-a4b-it",
+          "name": "Gemma 4 26B A4B IT",
+          "context": 262144,
+          "limits": "varies — see AI Studio",
+          "params_b": 26.0
+        },
         {
           "id": "gemma-4-31b-it",
           "name": "Gemma 4 31B IT",
@@ -474,6 +481,13 @@
           "params_b": 235.0
         },
         {
+          "id": "google/gemma-3n-E4B-it",
+          "name": "google/gemma-3n-E4B-it",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        },
+        {
           "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
           "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
           "context": null,
@@ -483,13 +497,6 @@
         {
           "id": "MiniMaxAI/MiniMax-M2",
           "name": "MiniMaxAI/MiniMax-M2",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": null
-        },
-        {
-          "id": "google/gemma-3n-E4B-it",
-          "name": "google/gemma-3n-E4B-it",
           "context": null,
           "limits": "free credits/month",
           "params_b": null
@@ -530,6 +537,13 @@
           "params_b": 32.0
         },
         {
+          "id": "EssentialAI/rnj-1-instruct",
+          "name": "EssentialAI/rnj-1-instruct",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        },
+        {
           "id": "allenai/Olmo-3-7B-Instruct",
           "name": "allenai/Olmo-3-7B-Instruct",
           "context": null,
@@ -544,11 +558,11 @@
           "params_b": null
         },
         {
-          "id": "EssentialAI/rnj-1-instruct",
-          "name": "EssentialAI/rnj-1-instruct",
+          "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+          "name": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
           "context": null,
           "limits": "free credits/month",
-          "params_b": null
+          "params_b": 424.0
         },
         {
           "id": "deepseek-ai/DeepSeek-V3.1",
@@ -556,13 +570,6 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": null
-        },
-        {
-          "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
-          "name": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 424.0
         },
         {
           "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
