@@ -23,6 +23,8 @@ import time
 import urllib.error
 import urllib.request
 
+from common import _opener
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s %(levelname)s %(message)s",
@@ -49,7 +51,6 @@ CHEAHJS_README_URL = (
 
 # ── HTTP helpers (stdlib only) ────────────────────────────────────────────────
 
-from common import _opener
 
 _HEADERS = {"User-Agent": "litellm-free-models-proxy/1.0"}
 

@@ -14,6 +14,8 @@ from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 
+from common import _opener
+
 OUT_DIR = Path(__file__).parent / "docs"
 OUT_DIR.mkdir(exist_ok=True)
 
@@ -50,7 +52,6 @@ def parse_params_b(model_id, name=""):
 
 # ── HTTP ──────────────────────────────────────────────────────────────────────
 
-from common import _opener
 
 _HEADERS = {"User-Agent": "litellm-free-models-proxy/1.0"}
 
