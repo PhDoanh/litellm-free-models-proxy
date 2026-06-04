@@ -7492,6 +7492,16 @@
         "MiniMaxAI/MiniMax-M2.5-FP4"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-04T23:23:47.642085+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+        "zai-org/GLM-4.7-Flash"
+      ]
     }
   ]
 }
