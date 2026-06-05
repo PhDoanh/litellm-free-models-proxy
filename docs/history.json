@@ -7539,6 +7539,25 @@
         "XiaomiMiMo/MiMo-V2-Flash"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-05T05:27:53.061526+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "MiniMaxAI/MiniMax-M2.5-FP4"
+      ]
+    },
+    {
+      "timestamp": "2026-06-05T05:27:53.061526+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "CohereLabs/c4ai-command-r7b-12-2024",
+        "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+      ],
+      "removed": []
     }
   ]
 }
