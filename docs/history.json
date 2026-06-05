@@ -2,30 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-08T20:37:34.949937+00:00",
-      "provider": "openrouter",
-      "provider_label": "OpenRouter",
-      "added": [],
-      "removed": [
-        "google/lyria-3-clip-preview",
-        "google/lyria-3-pro-preview",
-        "meta-llama/llama-3.2-3b-instruct:free",
-        "nousresearch/hermes-3-llama-3.1-405b:free",
-        "qwen/qwen3-coder:free",
-        "qwen/qwen3-next-80b-a3b-instruct:free"
-      ]
-    },
-    {
-      "timestamp": "2026-05-08T20:37:34.949937+00:00",
-      "provider": "cerebras",
-      "provider_label": "Cerebras",
-      "added": [],
-      "removed": [
-        "qwen-3-235b-a22b-instruct-2507",
-        "zai-glm-4.7"
-      ]
-    },
-    {
-      "timestamp": "2026-05-08T20:37:34.949937+00:00",
       "provider": "gemini",
       "provider_label": "Gemini",
       "added": [],
@@ -7602,6 +7578,25 @@
         "gpt-5.4-mini"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-05T23:24:37.533705+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "perplexity",
+        "perplexity-deep"
+      ]
+    },
+    {
+      "timestamp": "2026-06-05T23:24:37.533705+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "minimax-m2.7"
+      ]
     }
   ]
 }
