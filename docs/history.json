@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-08T16:35:25.856636+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [],
-      "removed": [
-        "nvidia/vila"
-      ]
-    },
-    {
-      "timestamp": "2026-05-08T16:35:25.856636+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "deepseek-ai/DeepSeek-V3.2-Exp"
-      ]
-    },
-    {
       "timestamp": "2026-05-08T17:28:45.119505+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7606,6 +7588,25 @@
       "removed": [
         "minimax-m2.7"
       ]
+    },
+    {
+      "timestamp": "2026-06-05T20:34:28.237854+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "perplexity",
+        "perplexity-deep"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-05T20:34:28.237854+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "minimax-m2.7"
+      ],
+      "removed": []
     }
   ]
 }
