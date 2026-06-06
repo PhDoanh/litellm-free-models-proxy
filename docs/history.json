@@ -1,48 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-08T20:47:43.412284+00:00",
-      "provider": "github",
-      "provider_label": "GitHub Models",
-      "added": [],
-      "removed": [
-        "azureml://registries/azure-openai/models/gpt-4o-mini/versions/1",
-        "azureml://registries/azure-openai/models/gpt-4o/versions/2"
-      ]
-    },
-    {
-      "timestamp": "2026-05-08T20:47:43.412284+00:00",
-      "provider": "cloudflare",
-      "provider_label": "Cloudflare AI",
-      "added": [],
-      "removed": [
-        "@cf/tiiuae/falcon-7b-instruct",
-        "@hf/thebloke/zephyr-7b-beta-awq"
-      ]
-    },
-    {
-      "timestamp": "2026-05-08T20:47:43.412284+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "GLM-4.6V-Flash",
-        "ministral-8b-2512"
-      ]
-    },
-    {
-      "timestamp": "2026-05-08T21:07:58.773759+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "glm",
-        "kimi-k2.6",
-        "openai",
-        "openai-audio"
-      ]
-    },
-    {
       "timestamp": "2026-05-08T21:07:58.773759+00:00",
       "provider": "kluster",
       "provider_label": "Kluster AI",
@@ -7597,6 +7555,80 @@
         "swiss-ai/Apertus-70B-Instruct-2509",
         "zai-org/GLM-4.5",
         "zai-org/GLM-4.7-Flash"
+      ]
+    },
+    {
+      "timestamp": "2026-06-06T03:01:19.222955+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "Qwen/Qwen2.5-32B-Instruct",
+        "Qwen/Qwen3-14B",
+        "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
+        "Qwen/Qwen3-32B",
+        "allenai/Molmo-7B-D-0924",
+        "google/gemma-3-1b-pt",
+        "google/medgemma-27b-text-it"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-06T03:01:19.222955+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "CohereLabs/c4ai-command-a-03-2025",
+        "CohereLabs/tiny-aya-earth",
+        "EssentialAI/rnj-1-instruct",
+        "MiniMaxAI/MiniMax-M2",
+        "Qwen/Qwen3-235B-A22B-Thinking-2507",
+        "Qwen/Qwen3-Next-80B-A3B-Thinking",
+        "Qwen/Qwen3-VL-8B-Instruct",
+        "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+        "allenai/Olmo-3-7B-Instruct",
+        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+        "deepseek-ai/DeepSeek-V3.1",
+        "deepseek-ai/DeepSeek-V3.1-Terminus",
+        "deepseek-ai/DeepSeek-V3.2-Exp",
+        "google/gemma-3n-E4B-it",
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "moonshotai/Kimi-K2-Instruct-0905",
+        "moonshotai/Kimi-K2-Thinking",
+        "swiss-ai/Apertus-70B-Instruct-2509",
+        "zai-org/GLM-4.5",
+        "zai-org/GLM-4.7-Flash"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-06T03:01:19.222955+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [
+        "labs-leanstral-2603",
+        "mistral-ocr-2512",
+        "mistral-ocr-latest",
+        "voxtral-mini-2602",
+        "voxtral-mini-realtime-2602",
+        "voxtral-mini-realtime-latest",
+        "voxtral-mini-transcribe-realtime-2602",
+        "voxtral-mini-tts-2603",
+        "voxtral-mini-tts-latest"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-06T03:01:19.222955+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "openai-audio-large",
+        "openai-fast",
+        "openai-large",
+        "perplexity-reasoning"
+      ],
+      "removed": [
+        "qwen-vision-pro"
       ]
     }
   ]
