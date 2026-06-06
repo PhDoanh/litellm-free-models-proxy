@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-10T18:15:41.120797+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "allenai/Olmo-3-7B-Instruct",
-        "utter-project/EuroLLM-22B-Instruct-2512"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-05-10T22:13:53.723088+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7892,6 +7882,15 @@
         "zai-org/GLM-4.7-Flash"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-06T12:22:26.494827+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [],
+      "removed": [
+        "nvidia/vila"
+      ]
     }
   ]
 }
