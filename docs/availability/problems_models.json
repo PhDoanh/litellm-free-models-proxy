@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T07:18:25.758782+00:00",
+  "updated": "2026-06-07T08:59:57.735498+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -537,11 +537,32 @@
           "params_b": null
         },
         {
+          "id": "zai-org/GLM-4.5",
+          "name": "zai-org/GLM-4.5",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        },
+        {
+          "id": "EssentialAI/rnj-1-instruct",
+          "name": "EssentialAI/rnj-1-instruct",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        },
+        {
           "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
           "name": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
           "context": null,
           "limits": "free credits/month",
           "params_b": 424.0
+        },
+        {
+          "id": "google/gemma-3n-E4B-it",
+          "name": "google/gemma-3n-E4B-it",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
         },
         {
           "id": "deepseek-ai/DeepSeek-V3.1",
@@ -565,13 +586,6 @@
           "params_b": null
         },
         {
-          "id": "swiss-ai/Apertus-70B-Instruct-2509",
-          "name": "swiss-ai/Apertus-70B-Instruct-2509",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 70.0
-        },
-        {
           "id": "deepseek-ai/DeepSeek-V3.2-Exp",
           "name": "deepseek-ai/DeepSeek-V3.2-Exp",
           "context": null,
@@ -579,22 +593,8 @@
           "params_b": null
         },
         {
-          "id": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
-          "name": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 32.0
-        },
-        {
           "id": "MiniMaxAI/MiniMax-M2",
           "name": "MiniMaxAI/MiniMax-M2",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": null
-        },
-        {
-          "id": "EssentialAI/rnj-1-instruct",
-          "name": "EssentialAI/rnj-1-instruct",
           "context": null,
           "limits": "free credits/month",
           "params_b": null
@@ -607,18 +607,18 @@
           "params_b": null
         },
         {
-          "id": "google/gemma-3n-E4B-it",
-          "name": "google/gemma-3n-E4B-it",
+          "id": "swiss-ai/Apertus-70B-Instruct-2509",
+          "name": "swiss-ai/Apertus-70B-Instruct-2509",
           "context": null,
           "limits": "free credits/month",
-          "params_b": null
+          "params_b": 70.0
         },
         {
-          "id": "zai-org/GLM-4.5",
-          "name": "zai-org/GLM-4.5",
+          "id": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+          "name": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
           "context": null,
           "limits": "free credits/month",
-          "params_b": null
+          "params_b": 32.0
         }
       ],
       "error": null
