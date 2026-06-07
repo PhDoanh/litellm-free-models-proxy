@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-11T17:37:42.591236+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "zai-org/GLM-4.7-Flash"
-      ]
-    },
-    {
       "timestamp": "2026-05-11T18:33:32.261939+00:00",
       "provider": "gemini",
       "provider_label": "Gemini",
@@ -7990,6 +7981,15 @@
         "swiss-ai/Apertus-70B-Instruct-2509",
         "zai-org/GLM-4.5",
         "zai-org/GLM-4.7-Flash"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-07T11:31:45.763884+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "mistral-small-3.2"
       ],
       "removed": []
     }
