@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-12T10:46:49.183909+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "XiaomiMiMo/MiMo-V2-Flash",
-        "katanemo/Arch-Router-1.5B"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-12T14:53:48.332427+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
-      ]
-    },
-    {
-      "timestamp": "2026-05-12T15:49:04.454373+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-05-12T19:31:31.666467+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -8062,6 +8034,36 @@
         "mistral-small-3.2",
         "qwen3-235b"
       ]
+    },
+    {
+      "timestamp": "2026-06-08T18:45:23.367355+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [
+        "nex-agi/nex-n2-pro:free"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-08T18:45:23.367355+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen2.5-VL-72B-Instruct"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-08T18:45:23.367355+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "codestral-latest",
+        "devstral-small-2:24b",
+        "mistral-small-3.2",
+        "qwen3-235b"
+      ],
+      "removed": []
     }
   ]
 }
