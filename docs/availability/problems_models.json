@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T00:29:26.073198+00:00",
+  "updated": "2026-06-08T01:44:15.801286+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -100,22 +100,6 @@
         {
           "id": "gemini-3-flash-preview",
           "name": "Gemini 3 Flash Preview",
-          "context": 1048576,
-          "limits": "varies — see AI Studio",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision",
-            "system_messages",
-            "reasoning",
-            "prompt_caching"
-          ],
-          "params_b": null
-        },
-        {
-          "id": "gemini-3.1-flash-lite-preview",
-          "name": "Gemini 3.1 Flash Lite Preview",
           "context": 1048576,
           "limits": "varies — see AI Studio",
           "capabilities": [
