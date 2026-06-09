@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-13T18:33:55.556451+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "google/gemma-3-27b-it"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-05-13T19:32:06.379600+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -8300,6 +8291,15 @@
         "zai-org/GLM-4.6V",
         "zai-org/GLM-4.7-FP8",
         "zai-org/GLM-5.1"
+      ]
+    },
+    {
+      "timestamp": "2026-06-09T12:53:15.792854+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.7-fp4"
       ]
     }
   ]
