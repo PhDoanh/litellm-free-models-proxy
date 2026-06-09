@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T05:19:13.304954+00:00",
+  "updated": "2026-06-09T07:07:57.758697+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -118,35 +118,16 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "id": "qwen/qwen3-32b",
+          "name": "qwen/qwen3-32b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
             "tool_choice",
-            "response_schema",
-            "vision"
+            "reasoning"
           ],
-          "params_b": 17.0
-        },
-        {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
-        },
-        {
-          "id": "llama-3.1-8b-instant",
-          "name": "llama-3.1-8b-instant",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 8.0
+          "params_b": 32.0
         },
         {
           "id": "openai/gpt-oss-20b",
@@ -162,6 +143,17 @@
           "params_b": 20.0
         },
         {
+          "id": "llama-3.1-8b-instant",
+          "name": "llama-3.1-8b-instant",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 8.0
+        },
+        {
           "id": "openai/gpt-oss-120b",
           "name": "openai/gpt-oss-120b",
           "context": 131072,
@@ -175,18 +167,6 @@
           "params_b": 120.0
         },
         {
-          "id": "qwen/qwen3-32b",
-          "name": "qwen/qwen3-32b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": 32.0
-        },
-        {
           "id": "llama-3.3-70b-versatile",
           "name": "llama-3.3-70b-versatile",
           "context": 131072,
@@ -196,6 +176,26 @@
             "tool_choice"
           ],
           "params_b": 70.0
+        },
+        {
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model",
+          "params_b": 7.0
+        },
+        {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": 17.0
         }
       ],
       "error": null
@@ -229,6 +229,13 @@
           "context": 262144,
           "limits": "varies — see AI Studio",
           "params_b": 26.0
+        },
+        {
+          "id": "gemma-4-31b-it",
+          "name": "Gemma 4 31B IT",
+          "context": 262144,
+          "limits": "varies — see AI Studio",
+          "params_b": 31.0
         },
         {
           "id": "gemini-flash-lite-latest",
@@ -326,6 +333,76 @@
           "context": 131072,
           "limits": "free tier",
           "params_b": 31.0
+        }
+      ],
+      "error": null
+    },
+    "cohere": {
+      "name": "Cohere",
+      "url": "https://cohere.com",
+      "models": [
+        {
+          "id": "c4ai-aya-expanse-32b",
+          "name": "c4ai-aya-expanse-32b",
+          "context": 128000,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": 32.0
+        },
+        {
+          "id": "c4ai-aya-vision-32b",
+          "name": "c4ai-aya-vision-32b",
+          "context": 16384,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": 32.0
+        },
+        {
+          "id": "command-a-03-2025",
+          "name": "command-a-03-2025",
+          "context": 288000,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": null
+        },
+        {
+          "id": "command-a-translate-08-2025",
+          "name": "command-a-translate-08-2025",
+          "context": 8992,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": null
+        },
+        {
+          "id": "command-a-vision-07-2025",
+          "name": "command-a-vision-07-2025",
+          "context": 128000,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": null
+        },
+        {
+          "id": "command-r-08-2024",
+          "name": "command-r-08-2024",
+          "context": 128000,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": null
+        },
+        {
+          "id": "command-r-plus-08-2024",
+          "name": "command-r-plus-08-2024",
+          "context": 128000,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": null
+        },
+        {
+          "id": "command-r7b-12-2024",
+          "name": "command-r7b-12-2024",
+          "context": 132000,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": null
+        },
+        {
+          "id": "command-r7b-arabic-02-2025",
+          "name": "command-r7b-arabic-02-2025",
+          "context": 128000,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": null
         }
       ],
       "error": null
