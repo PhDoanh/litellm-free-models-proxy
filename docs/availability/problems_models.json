@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T09:03:06.772221+00:00",
+  "updated": "2026-06-09T11:00:31.088349+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -218,6 +218,13 @@
       "url": "https://cohere.com",
       "models": [
         {
+          "id": "command-a-03-2025",
+          "name": "command-a-03-2025",
+          "context": 288000,
+          "limits": "20 req/min · 1000 req/month",
+          "params_b": null
+        },
+        {
           "id": "command-a-reasoning-08-2025",
           "name": "command-a-reasoning-08-2025",
           "context": 288768,
@@ -398,13 +405,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 49.0
-        },
-        {
-          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-          "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 30.0
         },
         {
           "id": "nvidia/nemotron-3-ultra-550b-a55b",
