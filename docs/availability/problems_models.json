@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T01:34:34.364115+00:00",
+  "updated": "2026-06-09T03:02:07.384183+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -95,6 +95,22 @@
       "name": "Gemini",
       "url": "https://aistudio.google.com",
       "models": [
+        {
+          "id": "gemini-2.5-flash",
+          "name": "Gemini 2.5 Flash",
+          "context": 1048576,
+          "limits": "varies — see AI Studio",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision",
+            "system_messages",
+            "reasoning",
+            "prompt_caching"
+          ],
+          "params_b": null
+        },
         {
           "id": "gemma-4-31b-it",
           "name": "Gemma 4 31B IT",
