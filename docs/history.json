@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-13T19:32:06.379600+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "rime-labs/rime-mist-v3",
-        "rime-labs/rime-mist-v3-omni"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-05-13T20:31:24.301093+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -8301,6 +8291,15 @@
       "removed": [
         "zai-org/GLM-4.7-fp4"
       ]
+    },
+    {
+      "timestamp": "2026-06-09T13:49:54.022902+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "zai-org/GLM-4.7-fp4"
+      ],
+      "removed": []
     }
   ]
 }
