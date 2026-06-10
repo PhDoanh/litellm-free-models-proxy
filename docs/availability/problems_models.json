@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10T16:59:44.486512+00:00",
+  "updated": "2026-06-10T18:05:40.536289+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -23,13 +23,6 @@
           "id": "openrouter/owl-alpha",
           "name": "Owl Alpha",
           "context": 1048756,
-          "limits": "20 req/min · 50 req/day",
-          "params_b": null
-        },
-        {
-          "id": "moonshotai/kimi-k2.6:free",
-          "name": "MoonshotAI: Kimi K2.6 (free)",
-          "context": 262144,
           "limits": "20 req/min · 50 req/day",
           "params_b": null
         },
@@ -184,19 +177,6 @@
           "context": 32768,
           "limits": "free tier",
           "params_b": null
-        },
-        {
-          "id": "Llama-4-Maverick-17B-128E-Instruct",
-          "name": "Llama-4-Maverick-17B-128E-Instruct",
-          "context": 131072,
-          "limits": "free tier",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": 17.0
         },
         {
           "id": "gpt-oss-120b",
