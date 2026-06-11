@@ -2,16 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-15T19:29:49.848202+00:00",
-      "provider": "cerebras",
-      "provider_label": "Cerebras",
-      "added": [
-        "qwen-3-235b-a22b-instruct-2507",
-        "zai-glm-4.7"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-15T19:29:49.848202+00:00",
       "provider": "gemini",
       "provider_label": "Gemini",
       "added": [
@@ -8263,6 +8253,17 @@
       "removed": [
         "qwen/qwen3-coder-480b-a35b-instruct"
       ]
+    },
+    {
+      "timestamp": "2026-06-11T01:47:29.823627+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "openai/gpt-image-2",
+        "rime-labs/rime-mist-v3",
+        "rime-labs/rime-mist-v3-omni"
+      ],
+      "removed": []
     }
   ]
 }
