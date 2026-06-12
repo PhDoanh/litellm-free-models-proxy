@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T01:46:01.217810+00:00",
+  "updated": "2026-06-12T03:02:11.130499+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -132,19 +132,6 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
           "id": "llama-3.1-8b-instant",
           "name": "llama-3.1-8b-instant",
           "context": 131072,
@@ -169,17 +156,17 @@
           "params_b": 20.0
         },
         {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
             "tool_choice",
             "response_schema",
-            "vision"
+            "reasoning"
           ],
-          "params_b": 17.0
+          "params_b": 120.0
         },
         {
           "id": "allam-2-7b",
@@ -210,6 +197,19 @@
             "tool_choice"
           ],
           "params_b": 70.0
+        },
+        {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": 17.0
         }
       ],
       "error": null

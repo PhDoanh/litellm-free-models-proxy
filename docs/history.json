@@ -2,30 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-15T20:24:29.402572+00:00",
-      "provider": "cloudflare",
-      "provider_label": "Cloudflare AI",
-      "added": [],
-      "removed": [
-        "@cf/deepseek-ai/deepseek-math-7b-instruct",
-        "@cf/fblgit/una-cybertron-7b-v2-bf16",
-        "@cf/openchat/openchat-3.5-0106",
-        "@cf/qwen/qwen1.5-0.5b-chat",
-        "@cf/qwen/qwen1.5-1.8b-chat",
-        "@cf/qwen/qwen1.5-14b-chat-awq",
-        "@cf/qwen/qwen1.5-7b-chat-awq",
-        "@cf/thebloke/discolm-german-7b-v1-awq",
-        "@cf/tinyllama/tinyllama-1.1b-chat-v1.0",
-        "@hf/nexusflow/starling-lm-7b-beta",
-        "@hf/thebloke/deepseek-coder-6.7b-base-awq",
-        "@hf/thebloke/deepseek-coder-6.7b-instruct-awq",
-        "@hf/thebloke/llama-2-13b-chat-awq",
-        "@hf/thebloke/mistral-7b-instruct-v0.1-awq",
-        "@hf/thebloke/neural-chat-7b-v3-1-awq",
-        "@hf/thebloke/openhermes-2.5-mistral-7b-awq"
-      ]
-    },
-    {
-      "timestamp": "2026-05-15T20:24:29.402572+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
       "added": [
@@ -7987,6 +7963,15 @@
       "added": [],
       "removed": [
         "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+      ]
+    },
+    {
+      "timestamp": "2026-06-12T03:02:11.135811+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
       ]
     }
   ]

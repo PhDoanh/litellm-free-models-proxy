@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T01:46:01.217810+00:00",
+  "updated": "2026-06-12T03:02:11.130499+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -146,19 +146,6 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
           "id": "llama-3.1-8b-instant",
           "name": "llama-3.1-8b-instant",
           "context": 131072,
@@ -183,17 +170,24 @@
           "params_b": 20.0
         },
         {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
             "tool_choice",
             "response_schema",
-            "vision"
+            "reasoning"
           ],
-          "params_b": 17.0
+          "params_b": 120.0
+        },
+        {
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
         },
         {
           "id": "allam-2-7b",
@@ -226,11 +220,17 @@
           "params_b": 70.0
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
           "context": 131072,
           "limits": "varies per model",
-          "params_b": null
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": 17.0
         },
         {
           "id": "groq/compound",
@@ -568,13 +568,6 @@
       "name": "Together AI",
       "url": "https://api.together.ai",
       "models": [
-        {
-          "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
-          "name": "Nvidia Nemotron 3.5 ASR Streaming 0.6B",
-          "context": 448,
-          "limits": "free",
-          "params_b": 0.6
-        },
         {
           "id": "MiniMaxAI/MiniMax-M2.5-FP4",
           "name": "MiniMax M2.5 FP4",
