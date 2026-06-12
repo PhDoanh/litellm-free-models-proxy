@@ -2,27 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-15T20:24:29.402572+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "glm",
-        "kimi-k2.6",
-        "openai",
-        "openai-audio"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-15T20:24:29.402572+00:00",
-      "provider": "kluster",
-      "provider_label": "Kluster AI",
-      "added": [
-        "klusterai/verify-reliability"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-15T20:24:29.402572+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
       "added": [
@@ -7973,6 +7952,26 @@
       "removed": [
         "nvidia/nemotron-3.5-asr-streaming-0.6b"
       ]
+    },
+    {
+      "timestamp": "2026-06-12T07:30:45.545278+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [],
+      "removed": [
+        "google/gemma-3-12b-it",
+        "google/gemma-3-4b-it"
+      ]
+    },
+    {
+      "timestamp": "2026-06-12T07:30:45.545278+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "CohereLabs/c4ai-command-r7b-12-2024",
+        "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+      ],
+      "removed": []
     }
   ]
 }
