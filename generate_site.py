@@ -76,6 +76,16 @@ def _get(url, headers=None, timeout=20):
 # ── Provider fetchers (same logic as sync_models.py) ─────────────────────────
 
 
+def _is_free(p, key):
+    val = p.get(key)
+    if val is None:
+        return False
+    try:
+        return float(val) == 0
+    except (ValueError, TypeError):
+        return False
+
+
 def fetch_openrouter(key):
     data = _get(
         "https://openrouter.ai/api/v1/models",
@@ -89,8 +99,8 @@ def fetch_openrouter(key):
             "limits": "20 req/min · 50 req/day",
         }
         for m in data.get("data", [])
-        if float((m.get("pricing") or {}).get("prompt") if (m.get("pricing") or {}).get("prompt") is not None else 1) == 0
-        and float((m.get("pricing") or {}).get("completion") if (m.get("pricing") or {}).get("completion") is not None else 1) == 0
+        if _is_free(m.get("pricing") or {}, "prompt")
+        and _is_free(m.get("pricing") or {}, "completion")
     ]
 
 
@@ -153,7 +163,7 @@ def fetch_together(key):
         mid = m.get("id", "")
         p = m.get("pricing") or {}
         if (
-            (float(p.get("input") if p.get("input") is not None else 1) == 0 and float(p.get("output") if p.get("output") is not None else 1) == 0)
+            (_is_free(p, "input") and _is_free(p, "output"))
             or "-Free" in mid
             or "-free" in mid
         ):

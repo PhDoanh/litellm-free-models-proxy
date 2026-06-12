@@ -200,6 +200,16 @@ def fetch_community_free_models():
 # ── Provider fetchers ──────────────────────────────────────────────────────────
 
 
+def _is_free(p, key):
+    val = p.get(key)
+    if val is None:
+        return False
+    try:
+        return float(val) == 0
+    except (ValueError, TypeError):
+        return False
+
+
 def fetch_openrouter(api_key, community_ids=None):
     """Free models: pricing.prompt == '0' AND pricing.completion == '0'."""
     try:
@@ -210,8 +220,8 @@ def fetch_openrouter(api_key, community_ids=None):
         free = [
             m["id"]
             for m in data.get("data", [])
-            if float((m.get("pricing") or {}).get("prompt") if (m.get("pricing") or {}).get("prompt") is not None else 1) == 0
-            and float((m.get("pricing") or {}).get("completion") if (m.get("pricing") or {}).get("completion") is not None else 1) == 0
+            if _is_free(m.get("pricing") or {}, "prompt")
+            and _is_free(m.get("pricing") or {}, "completion")
         ]
         if community_ids:
             free = list(set(free) | set(community_ids))
@@ -291,7 +301,7 @@ def fetch_together(api_key):
             mid = m.get("id", "")
             p = m.get("pricing") or {}
             if (
-                (float(p.get("input") if p.get("input") is not None else 1) == 0 and float(p.get("output") if p.get("output") is not None else 1) == 0)
+                (_is_free(p, "input") and _is_free(p, "output"))
                 or "-Free" in mid
                 or "-free" in mid
             ):
