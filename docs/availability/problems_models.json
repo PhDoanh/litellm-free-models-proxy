@@ -1,17 +1,10 @@
 {
-  "updated": "2026-06-12T22:29:21.253615+00:00",
+  "updated": "2026-06-12T23:28:10.969124+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
       "url": "https://openrouter.ai",
       "models": [
-        {
-          "id": "openrouter/owl-alpha",
-          "name": "Owl Alpha",
-          "context": 1048756,
-          "limits": "20 req/min · 50 req/day",
-          "params_b": null
-        },
         {
           "id": "openai/gpt-oss-20b:free",
           "name": "OpenAI: gpt-oss-20b (free)",
@@ -312,6 +305,13 @@
         {
           "id": "minimaxai/minimax-m2.7",
           "name": "minimaxai/minimax-m2.7",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": null
+        },
+        {
+          "id": "minimaxai/minimax-m3",
+          "name": "minimaxai/minimax-m3",
           "context": null,
           "limits": "40 req/min",
           "params_b": null

@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-15T23:17:41.403971+00:00",
-      "provider": "kluster",
-      "provider_label": "Kluster AI",
-      "added": [],
-      "removed": [
-        "klusterai/verify-reliability"
-      ]
-    },
-    {
-      "timestamp": "2026-05-15T23:17:41.403971+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
       "added": [],
@@ -7745,6 +7736,15 @@
       "added": [
         "kimi-k2.7-code",
         "qwen-vision-pro"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-12T23:28:10.975073+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "gpt-5.4-mini"
       ],
       "removed": []
     }
