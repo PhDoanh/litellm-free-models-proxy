@@ -2,16 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-15T20:24:29.402572+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "GLM-4.6V-Flash",
-        "ministral-8b-2512"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-15T20:24:29.402572+00:00",
       "provider": "zai",
       "provider_label": "Z.ai (GLM)",
       "added": [
@@ -7972,6 +7962,15 @@
         "meta-llama/Llama-4-Scout-17B-16E-Instruct"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-12T09:19:17.897735+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "MiniMaxAI/MiniMax-M2.5-FP4"
+      ]
     }
   ]
 }
