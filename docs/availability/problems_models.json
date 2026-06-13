@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T09:00:08.444651+00:00",
+  "updated": "2026-06-13T10:05:40.999020+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -20,15 +20,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -447,6 +447,13 @@
       "name": "Cloudflare AI",
       "url": "https://developers.cloudflare.com/workers-ai/",
       "models": [
+        {
+          "id": "@cf/moonshotai/kimi-k2.7-code",
+          "name": "@cf/moonshotai/kimi-k2.7-code",
+          "context": null,
+          "limits": "10k neurons/day",
+          "params_b": null
+        },
         {
           "id": "@cf/moonshotai/kimi-k2.6",
           "name": "@cf/moonshotai/kimi-k2.6",
