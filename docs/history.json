@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-18T15:02:31.851603+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "CohereLabs/c4ai-command-r7b-arabic-02-2025"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-05-18T16:55:32.843233+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -8166,6 +8157,15 @@
       "removed": [
         "DeepSeek-V3.2"
       ]
+    },
+    {
+      "timestamp": "2026-06-14T21:25:50.504247+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen3-235B-A22B-Thinking-2507"
+      ],
+      "removed": []
     }
   ]
 }
