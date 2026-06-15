@@ -2,34 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-18T21:25:08.667707+00:00",
-      "provider": "sambanova",
-      "provider_label": "SambaNova",
-      "added": [
-        "DeepSeek-V3.1",
-        "DeepSeek-V3.2",
-        "Llama-4-Maverick-17B-128E-Instruct",
-        "Meta-Llama-3.3-70B-Instruct",
-        "gemma-3-12b-it",
-        "gpt-oss-120b"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-18T21:25:08.667707+00:00",
-      "provider": "cohere",
-      "provider_label": "Cohere",
-      "added": [],
-      "removed": [
-        "c4ai-aya-expanse-32b",
-        "command-a-vision-07-2025",
-        "command-r-08-2024",
-        "command-r-plus-08-2024",
-        "command-r7b-12-2024",
-        "command-r7b-arabic-02-2025"
-      ]
-    },
-    {
-      "timestamp": "2026-05-18T21:25:08.667707+00:00",
       "provider": "together",
       "provider_label": "Together AI",
       "added": [
@@ -8156,6 +8128,24 @@
         "devstral-small-2:24b"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-15T10:02:36.395461+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "MiniMaxAI/MiniMax-M2"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-15T10:02:36.395461+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "perplexity-fast"
+      ]
     }
   ]
 }
