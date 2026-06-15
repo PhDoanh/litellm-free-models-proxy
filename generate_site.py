@@ -737,7 +737,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     --border-strong: #2c3a5a;
     --text: #e7eaf2;
     --muted: #8b95ad;
-    --muted-2: #647084;
+    --muted-2: #7d8a9e;
     --accent: #38bdf8;
     --accent-2: #7c3aed;
     --accent-glow: rgba(56,189,248,.16);
