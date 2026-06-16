@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T15:37:05.608249+00:00",
+  "updated": "2026-06-16T17:39:21.953242+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -11,6 +11,13 @@
           "context": 1048756,
           "limits": "20 req/min · 50 req/day",
           "params_b": null
+        },
+        {
+          "id": "nvidia/nemotron-nano-12b-v2-vl:free",
+          "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
+          "context": 128000,
+          "limits": "20 req/min · 50 req/day",
+          "params_b": 12.0
         },
         {
           "id": "openai/gpt-oss-20b:free",
@@ -27,15 +34,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -426,13 +433,6 @@
         {
           "id": "nvidia/nemotron-content-safety-reasoning-4b",
           "name": "nvidia/nemotron-content-safety-reasoning-4b",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 4.0
-        },
-        {
-          "id": "nvidia/nemotron-mini-4b-instruct",
-          "name": "nvidia/nemotron-mini-4b-instruct",
           "context": null,
           "limits": "40 req/min",
           "params_b": 4.0
