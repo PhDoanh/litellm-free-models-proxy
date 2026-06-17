@@ -2,31 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-22T21:23:58.984837+00:00",
-      "provider": "groq",
-      "provider_label": "Groq",
-      "added": [
-        "canopylabs/orpheus-arabic-saudi",
-        "canopylabs/orpheus-v1-english"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-22T21:23:58.984837+00:00",
-      "provider": "gemini",
-      "provider_label": "Gemini",
-      "added": [
-        "gemini-2.0-flash",
-        "gemini-2.0-flash-001",
-        "gemini-2.0-flash-lite",
-        "gemini-2.0-flash-lite-001",
-        "gemini-2.5-flash-image",
-        "gemini-3.1-flash-image-preview",
-        "gemma-4-26b-a4b-it"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-22T21:23:58.984837+00:00",
       "provider": "sambanova",
       "provider_label": "SambaNova",
       "added": [
@@ -8265,6 +8240,25 @@
       "removed": [
         "zai-org/GLM-4.7-FP8"
       ]
+    },
+    {
+      "timestamp": "2026-06-17T00:31:27.877430+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-5.2"
+      ]
+    },
+    {
+      "timestamp": "2026-06-17T00:31:27.877430+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "deepseek-v3.1:671b-terminus",
+        "deepseek-v4-flash"
+      ],
+      "removed": []
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T23:29:05.971814+00:00",
+  "updated": "2026-06-17T00:31:27.871311+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -310,13 +310,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 70.0
-        },
-        {
-          "id": "meta/llama-3.2-11b-vision-instruct",
-          "name": "meta/llama-3.2-11b-vision-instruct",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 11.0
         },
         {
           "id": "meta/llama-3.2-1b-instruct",
