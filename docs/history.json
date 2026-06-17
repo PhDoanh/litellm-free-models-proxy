@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-22T21:23:58.984837+00:00",
-      "provider": "cloudflare",
-      "provider_label": "Cloudflare AI",
-      "added": [
-        "@cf/meta/llama-3.2-11b-vision-instruct"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-22T21:23:58.984837+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
       "added": [
@@ -8053,6 +8044,15 @@
       "removed": [
         "deepseek-v3.1:671b-terminus",
         "deepseek-v4-flash"
+      ]
+    },
+    {
+      "timestamp": "2026-06-17T11:31:25.272918+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4"
       ]
     }
   ]
