@@ -1,61 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-23T06:50:38.487553+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "Qwen/Qwen2.5-32B-Instruct",
-        "Qwen/Qwen3-14B",
-        "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
-        "Qwen/Qwen3-32B",
-        "allenai/Molmo-7B-D-0924",
-        "google/gemma-3-1b-pt",
-        "google/medgemma-27b-text-it"
-      ]
-    },
-    {
-      "timestamp": "2026-05-23T06:50:38.487553+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [
-        "nvidia/vila"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-23T06:50:38.487553+00:00",
-      "provider": "mistral",
-      "provider_label": "Mistral",
-      "added": [],
-      "removed": [
-        "labs-leanstral-2603",
-        "mistral-ocr-2505",
-        "mistral-ocr-2512",
-        "mistral-ocr-latest",
-        "voxtral-mini-2602",
-        "voxtral-mini-realtime-2602",
-        "voxtral-mini-realtime-latest",
-        "voxtral-mini-transcribe-2507",
-        "voxtral-mini-transcribe-realtime-2602",
-        "voxtral-mini-tts-2603",
-        "voxtral-mini-tts-latest"
-      ]
-    },
-    {
-      "timestamp": "2026-05-23T06:50:38.487553+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "openai-audio-large",
-        "openai-fast",
-        "openai-large",
-        "perplexity-reasoning"
-      ]
-    },
-    {
       "timestamp": "2026-05-23T07:46:54.993172+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7818,6 +7763,45 @@
       ],
       "removed": [
         "XiaomiMiMo/MiMo-V2.5-Pro"
+      ]
+    },
+    {
+      "timestamp": "2026-06-18T20:46:09.453947+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [
+        "gemini-3.1-flash-image"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-18T20:46:09.453947+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "alibaba/happyhorse-1.0-r2v"
+      ]
+    },
+    {
+      "timestamp": "2026-06-18T20:46:09.453947+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-18T20:46:09.453947+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "codestral-latest",
+        "devstral-small-2:24b",
+        "mistral-small-3.2",
+        "qwen3-235b"
       ]
     }
   ]
