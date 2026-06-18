@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T05:31:58.938813+00:00",
+  "updated": "2026-06-18T07:33:20.838258+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -360,13 +360,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": null
-        },
-        {
-          "id": "mistralai/mistral-large-3-675b-instruct-2512",
-          "name": "mistralai/mistral-large-3-675b-instruct-2512",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 675.0
         },
         {
           "id": "mistralai/mistral-medium-3.5-128b",
