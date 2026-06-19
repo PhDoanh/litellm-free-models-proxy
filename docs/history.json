@@ -1,29 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-24T23:19:44.491339+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "EssentialAI/rnj-1-instruct",
-        "Qwen/Qwen3-Next-80B-A3B-Thinking",
-        "baidu/ERNIE-4.5-300B-A47B-Base-PT",
-        "dicta-il/DictaLM-3.0-24B-Thinking"
-      ],
-      "removed": [
-        "Qwen/Qwen3-235B-A22B-Thinking-2507"
-      ]
-    },
-    {
-      "timestamp": "2026-05-25T00:25:00.565798+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "zai-org/GLM-4.7-Flash"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-05-25T01:39:31.654697+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7795,6 +7772,24 @@
       "provider_label": "HuggingFace",
       "added": [
         "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-19T01:54:16.814926+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [],
+      "removed": [
+        "gemini-3.1-flash-image"
+      ]
+    },
+    {
+      "timestamp": "2026-06-19T01:54:16.814926+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "MiniMaxAI/MiniMax-M2.5-FP4"
       ],
       "removed": []
     }

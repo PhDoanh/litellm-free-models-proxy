@@ -1,17 +1,10 @@
 {
-  "updated": "2026-06-19T00:36:19.521619+00:00",
+  "updated": "2026-06-19T01:54:16.808679+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
       "url": "https://openrouter.ai",
       "models": [
-        {
-          "id": "cohere/north-mini-code:free",
-          "name": "Cohere: North Mini Code (free)",
-          "context": 256000,
-          "limits": "20 req/min · 50 req/day",
-          "params_b": null
-        },
         {
           "id": "openrouter/owl-alpha",
           "name": "Owl Alpha",
