@@ -1,46 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-25T17:30:57.646807+00:00",
-      "provider": "cohere",
-      "provider_label": "Cohere",
-      "added": [
-        "c4ai-aya-expanse-32b",
-        "command-a-vision-07-2025",
-        "command-r-08-2024",
-        "command-r-plus-08-2024",
-        "command-r7b-12-2024",
-        "command-r7b-arabic-02-2025"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-25T17:30:57.646807+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "CohereLabs/tiny-aya-global",
-        "MiniMaxAI/MiniMax-M2.1",
-        "Qwen/Qwen2.5-Coder-32B-Instruct",
-        "Qwen/Qwen2.5-Coder-7B-Instruct",
-        "Qwen/Qwen3-235B-A22B-Instruct-2507",
-        "Qwen/Qwen3-30B-A3B",
-        "Qwen/Qwen3-4B-Thinking-2507",
-        "Qwen/Qwen3-Coder-480B-A35B-Instruct",
-        "Qwen/Qwen3-VL-235B-A22B-Instruct",
-        "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-        "deepseek-ai/DeepSeek-V3",
-        "deepseek-ai/DeepSeek-V3-0324",
-        "google/gemma-3-27b-it",
-        "meta-llama/Llama-Guard-4-12B",
-        "moonshotai/Kimi-K2-Instruct",
-        "zai-org/GLM-4.6V-FP8",
-        "zai-org/GLM-4.6V-Flash",
-        "zai-org/GLM-4.7"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-05-25T18:29:44.073083+00:00",
       "provider": "cohere",
       "provider_label": "Cohere",
@@ -7773,6 +7733,28 @@
         "kimi-k2.6"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-19T16:45:55.286881+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "CohereLabs/command-a-plus-05-2026-bf16",
+        "CohereLabs/command-a-plus-05-2026-fp8",
+        "CohereLabs/command-a-plus-05-2026-w4a4",
+        "MiniMaxAI/MiniMax-M3",
+        "moonshotai/Kimi-K2.7-Code"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-19T16:45:55.286881+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "kimi-k2.6"
+      ]
     }
   ]
 }
