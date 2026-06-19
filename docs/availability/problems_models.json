@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T21:22:53.978144+00:00",
+  "updated": "2026-06-19T22:17:36.220638+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -27,15 +27,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -355,13 +355,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": null
-        },
-        {
-          "id": "mistralai/mistral-large-3-675b-instruct-2512",
-          "name": "mistralai/mistral-large-3-675b-instruct-2512",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 675.0
         },
         {
           "id": "mistralai/mistral-medium-3.5-128b",
