@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-26T23:23:40.762885+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "deepseek-v3.1:671b-terminus",
-        "deepseek-v4-flash",
-        "devstral-small-2:24b-cloud"
-      ]
-    },
-    {
-      "timestamp": "2026-05-27T03:01:56.885570+00:00",
-      "provider": "cohere",
-      "provider_label": "Cohere",
-      "added": [
-        "command-a-plus-05-2026"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-05-27T03:01:56.885570+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7459,6 +7439,25 @@
         "minimax-m2.7"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-20T03:01:37.661138+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "perplexity",
+        "perplexity-deep"
+      ]
+    },
+    {
+      "timestamp": "2026-06-20T03:01:37.661138+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "minimax-m2.7"
+      ]
     }
   ]
 }
