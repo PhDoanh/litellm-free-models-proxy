@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T17:29:36.687869+00:00",
+  "updated": "2026-06-21T18:27:42.598521+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -441,20 +441,6 @@
       "url": "https://llm7.io",
       "models": [
         {
-          "id": "qwen3-235b",
-          "name": "qwen3-235b",
-          "context": 240000,
-          "limits": "anonymous · 30 req/min with token",
-          "params_b": 235.0
-        },
-        {
-          "id": "mistral-small-3.2",
-          "name": "mistral-small-3.2",
-          "context": null,
-          "limits": "anonymous · 30 req/min with token",
-          "params_b": null
-        },
-        {
           "id": "codestral-latest",
           "name": "codestral-latest",
           "context": 32000,
@@ -464,9 +450,16 @@
         {
           "id": "devstral-small-2:24b",
           "name": "devstral-small-2:24b",
-          "context": null,
+          "context": 384000,
           "limits": "anonymous · 30 req/min with token",
           "params_b": 24.0
+        },
+        {
+          "id": "qwen3-235b",
+          "name": "qwen3-235b",
+          "context": 240000,
+          "limits": "anonymous · 30 req/min with token",
+          "params_b": 235.0
         }
       ],
       "error": null

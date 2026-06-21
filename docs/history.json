@@ -2,17 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-29T22:29:36.450415+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "openai",
-        "openai-audio",
-        "step-3.5-flash"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-05-29T22:29:36.450415+00:00",
       "provider": "kluster",
       "provider_label": "Kluster AI",
       "added": [
@@ -7688,6 +7677,15 @@
         "DeepSeek-V3.2"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-21T18:27:42.605567+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "mistral-small-3.2"
+      ]
     }
   ]
 }
