@@ -2,37 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-05-30T05:05:10.917563+00:00",
-      "provider": "github",
-      "provider_label": "GitHub Models",
-      "added": [],
-      "removed": [
-        "azureml://registries/azure-openai/models/gpt-4o-mini/versions/1",
-        "azureml://registries/azure-openai/models/gpt-4o/versions/2",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-405B-Instruct/versions/1",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-8B-Instruct/versions/1"
-      ]
-    },
-    {
-      "timestamp": "2026-05-30T05:05:10.917563+00:00",
-      "provider": "cloudflare",
-      "provider_label": "Cloudflare AI",
-      "added": [],
-      "removed": [
-        "@cf/meta/llama-3.2-11b-vision-instruct"
-      ]
-    },
-    {
-      "timestamp": "2026-05-30T05:05:10.917563+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "openai",
-        "openai-audio"
-      ]
-    },
-    {
-      "timestamp": "2026-05-30T05:05:10.917563+00:00",
       "provider": "kluster",
       "provider_label": "Kluster AI",
       "added": [],
@@ -7488,6 +7457,49 @@
         "MiniMaxAI/MiniMax-M2"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-22T21:40:42.349020+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "cartesia/sonic-3.5"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-22T21:40:42.349020+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "CohereLabs/c4ai-command-a-03-2025",
+        "CohereLabs/tiny-aya-earth",
+        "EssentialAI/rnj-1-instruct",
+        "Qwen/Qwen3-Next-80B-A3B-Thinking",
+        "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+        "allenai/Olmo-3-7B-Instruct",
+        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+        "deepseek-ai/DeepSeek-V3.1",
+        "deepseek-ai/DeepSeek-V3.1-Terminus",
+        "deepseek-ai/DeepSeek-V3.2-Exp",
+        "google/gemma-3n-E4B-it",
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "moonshotai/Kimi-K2-Instruct-0905",
+        "moonshotai/Kimi-K2-Thinking",
+        "swiss-ai/Apertus-70B-Instruct-2509",
+        "zai-org/GLM-4.5",
+        "zai-org/GLM-4.7-Flash"
+      ]
+    },
+    {
+      "timestamp": "2026-06-22T21:40:42.349020+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "perplexity-fast"
+      ]
     }
   ]
 }
