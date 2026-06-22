@@ -1,17 +1,10 @@
 {
-  "updated": "2026-06-22T12:02:02.425808+00:00",
+  "updated": "2026-06-22T14:51:23.359114+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
       "url": "https://openrouter.ai",
       "models": [
-        {
-          "id": "nex-agi/nex-n2-pro:free",
-          "name": "Nex AGI: Nex-N2-Pro (free)",
-          "context": 262144,
-          "limits": "20 req/min · 50 req/day",
-          "params_b": null
-        },
         {
           "id": "nvidia/nemotron-nano-12b-v2-vl:free",
           "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
@@ -441,20 +434,6 @@
       "url": "https://llm7.io",
       "models": [
         {
-          "id": "qwen3-235b",
-          "name": "qwen3-235b",
-          "context": 240000,
-          "limits": "anonymous · 30 req/min with token",
-          "params_b": 235.0
-        },
-        {
-          "id": "mistral-small-3.2",
-          "name": "mistral-small-3.2",
-          "context": null,
-          "limits": "anonymous · 30 req/min with token",
-          "params_b": null
-        },
-        {
           "id": "codestral-latest",
           "name": "codestral-latest",
           "context": 32000,
@@ -464,9 +443,16 @@
         {
           "id": "devstral-small-2:24b",
           "name": "devstral-small-2:24b",
-          "context": null,
+          "context": 384000,
           "limits": "anonymous · 30 req/min with token",
           "params_b": 24.0
+        },
+        {
+          "id": "qwen3-235b",
+          "name": "qwen3-235b",
+          "context": 240000,
+          "limits": "anonymous · 30 req/min with token",
+          "params_b": 235.0
         }
       ],
       "error": null
