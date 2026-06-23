@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-02T00:31:31.635134+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "zai-org/GLM-4.6-FP8"
-      ],
-      "removed": [
-        "Qwen/Qwen2.5-72B-Instruct",
-        "Qwen/Qwen3-VL-235B-A22B-Thinking",
-        "Qwen/Qwen3-VL-30B-A3B-Instruct",
-        "Sao10K/L3-8B-Stheno-v3.2",
-        "aisingapore/Gemma-SEA-LION-v4-27B-IT",
-        "meta-llama/Llama-3.1-70B-Instruct",
-        "swiss-ai/Apertus-8B-Instruct-2509",
-        "utter-project/EuroLLM-22B-Instruct-2512",
-        "zai-org/AutoGLM-Phone-9B-Multilingual"
-      ]
-    },
-    {
       "timestamp": "2026-06-02T03:02:57.662369+00:00",
       "provider": "cohere",
       "provider_label": "Cohere",
@@ -7834,6 +7815,18 @@
       "removed": [
         "gemini-2.5-flash",
         "gemini-3.5-flash"
+      ]
+    },
+    {
+      "timestamp": "2026-06-23T23:22:21.959106+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "Qwen/Qwen3.6-27B",
+        "zai-org/GLM-4.7-FP8",
+        "zai-org/GLM-5.2",
+        "zai-org/GLM-5.2-FP8"
       ]
     }
   ]
