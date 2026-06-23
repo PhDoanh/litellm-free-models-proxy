@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T03:01:21.253748+00:00",
+  "updated": "2026-06-23T05:17:37.708042+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -20,15 +20,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -141,6 +141,13 @@
       "name": "SambaNova",
       "url": "https://cloud.sambanova.ai",
       "models": [
+        {
+          "id": "gemma-4-31B-it",
+          "name": "gemma-4-31B-it",
+          "context": 131072,
+          "limits": "free tier",
+          "params_b": 31.0
+        },
         {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
