@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T05:17:37.708042+00:00",
+  "updated": "2026-06-23T07:08:04.886165+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -20,15 +20,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -327,13 +327,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 20.0
-        },
-        {
-          "id": "qwen/qwen3-next-80b-a3b-instruct",
-          "name": "qwen/qwen3-next-80b-a3b-instruct",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 80.0
         },
         {
           "id": "qwen/qwen3.5-122b-a10b",
