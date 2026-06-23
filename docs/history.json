@@ -1,30 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-05-30T06:55:53.048599+00:00",
-      "provider": "sambanova",
-      "provider_label": "SambaNova",
-      "added": [],
-      "removed": [
-        "MiniMax-M2.7"
-      ]
-    },
-    {
-      "timestamp": "2026-05-30T08:46:04.152664+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "Qwen/Qwen2.5-32B-Instruct",
-        "Qwen/Qwen3-14B",
-        "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
-        "Qwen/Qwen3-32B",
-        "allenai/Molmo-7B-D-0924",
-        "google/gemma-3-1b-pt",
-        "google/medgemma-27b-text-it"
-      ]
-    },
-    {
       "timestamp": "2026-05-30T08:46:04.152664+00:00",
       "provider": "nvidia",
       "provider_label": "NVIDIA NIM",
@@ -7519,6 +7495,42 @@
         "utter-project/EuroLLM-22B-Instruct-2512",
         "zai-org/AutoGLM-Phone-9B-Multilingual"
       ]
+    },
+    {
+      "timestamp": "2026-06-23T00:28:30.125464+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "Qwen/Qwen3.5-0.8B-Lora",
+        "Qwen/Qwen3.5-122B-A10B-Lora",
+        "Qwen/Qwen3.5-27B-Lora",
+        "Qwen/Qwen3.5-2B-Lora",
+        "Qwen/Qwen3.5-35B-A3B-Base-Lora",
+        "Qwen/Qwen3.5-397B-A17B-Lora",
+        "Qwen/Qwen3.5-4B-Lora",
+        "Qwen/Qwen3.5-9B-Lora",
+        "Qwen/Qwen3.6-27B-Lora",
+        "Qwen/Qwen3.6-35B-A3B-Lora"
+      ]
+    },
+    {
+      "timestamp": "2026-06-23T00:28:30.125464+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen2.5-72B-Instruct",
+        "Qwen/Qwen3-4B-Thinking-2507",
+        "Qwen/Qwen3-VL-235B-A22B-Thinking",
+        "Qwen/Qwen3-VL-30B-A3B-Instruct",
+        "Sao10K/L3-8B-Stheno-v3.2",
+        "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+        "meta-llama/Llama-3.1-70B-Instruct",
+        "swiss-ai/Apertus-8B-Instruct-2509",
+        "utter-project/EuroLLM-22B-Instruct-2512",
+        "zai-org/AutoGLM-Phone-9B-Multilingual"
+      ],
+      "removed": []
     }
   ]
 }
