@@ -1,44 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-01T20:24:42.158075+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "Qwen/Qwen3-4B-Thinking-2507"
-      ],
-      "removed": [
-        "zai-org/GLM-4.6-FP8"
-      ]
-    },
-    {
-      "timestamp": "2026-06-01T20:24:42.158075+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "mistral-small-2506"
-      ]
-    },
-    {
-      "timestamp": "2026-06-01T22:00:00.087547+00:00",
-      "provider": "cohere",
-      "provider_label": "Cohere",
-      "added": [
-        "c4ai-aya-expanse-32b",
-        "c4ai-aya-vision-32b",
-        "command-a-03-2025",
-        "command-a-reasoning-08-2025",
-        "command-a-translate-08-2025",
-        "command-a-vision-07-2025",
-        "command-r-08-2024",
-        "command-r-plus-08-2024",
-        "command-r7b-12-2024",
-        "command-r7b-arabic-02-2025"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-01T22:00:00.087547+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7927,6 +7889,35 @@
       "removed": [
         "mistral-ocr-4",
         "mistral-ocr-4-0"
+      ]
+    },
+    {
+      "timestamp": "2026-06-23T20:39:56.506948+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.7-fp4"
+      ]
+    },
+    {
+      "timestamp": "2026-06-23T20:39:56.506948+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.7-FP8",
+        "zai-org/GLM-5.2"
+      ]
+    },
+    {
+      "timestamp": "2026-06-23T20:39:56.506948+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [],
+      "removed": [
+        "mistral-ocr-3",
+        "mistral-ocr-3-0"
       ]
     }
   ]
