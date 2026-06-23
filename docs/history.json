@@ -2,32 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-01T09:45:17.210099+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "MiniMaxAI/MiniMax-M2",
-        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
-        "deepseek-ai/DeepSeek-V3.1",
-        "deepseek-ai/DeepSeek-V3.2-Exp",
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-        "moonshotai/Kimi-K2-Instruct-0905",
-        "zai-org/GLM-4.5"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-01T09:45:17.210099+00:00",
-      "provider": "mistral",
-      "provider_label": "Mistral",
-      "added": [
-        "voxtral-mini-2507"
-      ],
-      "removed": [
-        "voxtral-mini-transcribe-2602"
-      ]
-    },
-    {
-      "timestamp": "2026-06-01T09:45:17.210099+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
       "added": [
@@ -7941,6 +7915,25 @@
         "gpt-5.3-codex-spark",
         "gpt-5.4",
         "gpt-5.5"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-23T17:33:00.539170+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.5V-FP8"
+      ]
+    },
+    {
+      "timestamp": "2026-06-23T17:33:00.539170+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "gemini-2.5-flash",
+        "gemini-3.5-flash"
       ],
       "removed": []
     }
