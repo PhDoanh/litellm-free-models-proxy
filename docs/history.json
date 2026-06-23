@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-01T09:45:17.210099+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "devstral-small-2:24b",
-        "mistral-small-2506"
-      ],
-      "removed": [
-        "ministral-8b-2512"
-      ]
-    },
-    {
-      "timestamp": "2026-06-01T11:55:46.703216+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "perplexity-fast"
-      ]
-    },
-    {
       "timestamp": "2026-06-01T13:58:02.518113+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7936,6 +7915,25 @@
         "gemini-3.5-flash"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-23T18:36:39.930647+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.7-fp4"
+      ]
+    },
+    {
+      "timestamp": "2026-06-23T18:36:39.930647+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [],
+      "removed": [
+        "mistral-ocr-3",
+        "mistral-ocr-3-0"
+      ]
     }
   ]
 }
