@@ -2,24 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-02T03:02:57.662369+00:00",
-      "provider": "cohere",
-      "provider_label": "Cohere",
-      "added": [],
-      "removed": [
-        "c4ai-aya-expanse-32b",
-        "c4ai-aya-vision-32b",
-        "command-a-03-2025",
-        "command-a-reasoning-08-2025",
-        "command-a-translate-08-2025",
-        "command-a-vision-07-2025",
-        "command-r-08-2024",
-        "command-r-plus-08-2024",
-        "command-r7b-12-2024",
-        "command-r7b-arabic-02-2025"
-      ]
-    },
-    {
-      "timestamp": "2026-06-02T03:02:57.662369+00:00",
       "provider": "together",
       "provider_label": "Together AI",
       "added": [
@@ -7828,6 +7810,17 @@
         "zai-org/GLM-5.2",
         "zai-org/GLM-5.2-FP8"
       ]
+    },
+    {
+      "timestamp": "2026-06-24T00:23:21.557016+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen3.6-27B",
+        "zai-org/GLM-5.2",
+        "zai-org/GLM-5.2-FP8"
+      ],
+      "removed": []
     }
   ]
 }

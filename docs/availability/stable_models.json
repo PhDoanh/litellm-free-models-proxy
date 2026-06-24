@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T23:22:21.953101+00:00",
+  "updated": "2026-06-24T00:23:21.550935+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -139,15 +139,42 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "llama-3.1-8b-instant",
-          "name": "llama-3.1-8b-instant",
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ],
+          "params_b": 120.0
+        },
+        {
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": 27.0
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
             "tool_choice"
           ],
-          "params_b": 8.0
+          "params_b": 70.0
+        },
+        {
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model",
+          "params_b": 7.0
         },
         {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
@@ -163,13 +190,6 @@
           "params_b": 17.0
         },
         {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
-        },
-        {
           "id": "openai/gpt-oss-20b",
           "name": "openai/gpt-oss-20b",
           "context": 131072,
@@ -181,30 +201,6 @@
             "reasoning"
           ],
           "params_b": 20.0
-        },
-        {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
         },
         {
           "id": "qwen/qwen3-32b",
@@ -219,11 +215,15 @@
           "params_b": 32.0
         },
         {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
+          "id": "llama-3.1-8b-instant",
+          "name": "llama-3.1-8b-instant",
           "context": 131072,
           "limits": "varies per model",
-          "params_b": 27.0
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 8.0
         }
       ],
       "error": null
@@ -232,18 +232,6 @@
       "name": "Cerebras",
       "url": "https://cloud.cerebras.ai",
       "models": [
-        {
-          "id": "zai-glm-4.7",
-          "name": "zai-glm-4.7",
-          "context": 128000,
-          "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": null
-        },
         {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
@@ -256,6 +244,18 @@
             "reasoning"
           ],
           "params_b": 120.0
+        },
+        {
+          "id": "zai-glm-4.7",
+          "name": "zai-glm-4.7",
+          "context": 128000,
+          "limits": "1M tokens/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": null
         }
       ],
       "error": null
@@ -1105,155 +1105,197 @@
         {
           "id": "@cf/openai/gpt-oss-120b",
           "name": "@cf/openai/gpt-oss-120b",
-          "context": null,
+          "context": 128000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
           "params_b": 120.0
         },
         {
           "id": "@cf/google/gemma-2b-it-lora",
           "name": "@cf/google/gemma-2b-it-lora",
-          "context": null,
+          "context": 8192,
           "limits": "10k neurons/day",
           "params_b": 2.0
         },
         {
           "id": "@cf/meta/llama-3.2-3b-instruct",
           "name": "@cf/meta/llama-3.2-3b-instruct",
-          "context": null,
+          "context": 80000,
           "limits": "10k neurons/day",
           "params_b": 3.0
         },
         {
           "id": "@cf/meta/llama-guard-3-8b",
           "name": "@cf/meta/llama-guard-3-8b",
-          "context": null,
+          "context": 131072,
           "limits": "10k neurons/day",
           "params_b": 8.0
         },
         {
           "id": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
           "name": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
-          "context": null,
+          "context": 15000,
           "limits": "10k neurons/day",
           "params_b": 7.0
         },
         {
           "id": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
           "name": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
-          "context": null,
+          "context": 80000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "reasoning"
+          ],
           "params_b": 32.0
         },
         {
           "id": "@cf/meta/llama-3.1-8b-instruct-fp8",
           "name": "@cf/meta/llama-3.1-8b-instruct-fp8",
-          "context": null,
+          "context": 32000,
           "limits": "10k neurons/day",
           "params_b": 8.0
         },
         {
           "id": "@cf/meta/llama-3.2-1b-instruct",
           "name": "@cf/meta/llama-3.2-1b-instruct",
-          "context": null,
+          "context": 60000,
           "limits": "10k neurons/day",
           "params_b": 1.0
         },
         {
           "id": "@cf/zai-org/glm-4.7-flash",
           "name": "@cf/zai-org/glm-4.7-flash",
-          "context": null,
+          "context": 131072,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
           "params_b": null
         },
         {
           "id": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
           "name": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
-          "context": null,
+          "context": 8192,
           "limits": "10k neurons/day",
           "params_b": 7.0
         },
         {
           "id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
           "name": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-          "context": null,
+          "context": 24000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling"
+          ],
           "params_b": 70.0
         },
         {
           "id": "@cf/ibm-granite/granite-4.0-h-micro",
           "name": "@cf/ibm-granite/granite-4.0-h-micro",
-          "context": null,
+          "context": 131000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling"
+          ],
           "params_b": null
         },
         {
           "id": "@cf/qwen/qwen2.5-coder-32b-instruct",
           "name": "@cf/qwen/qwen2.5-coder-32b-instruct",
-          "context": null,
+          "context": 32768,
           "limits": "10k neurons/day",
           "params_b": 32.0
         },
         {
           "id": "@cf/nvidia/nemotron-3-120b-a12b",
           "name": "@cf/nvidia/nemotron-3-120b-a12b",
-          "context": null,
+          "context": 256000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
           "params_b": 120.0
         },
         {
           "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
           "name": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
-          "context": null,
+          "context": 128000,
           "limits": "10k neurons/day",
           "params_b": 27.0
         },
         {
           "id": "@cf/qwen/qwen3-30b-a3b-fp8",
           "name": "@cf/qwen/qwen3-30b-a3b-fp8",
-          "context": null,
+          "context": 32768,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
           "params_b": 30.0
         },
         {
           "id": "@cf/google/gemma-7b-it-lora",
           "name": "@cf/google/gemma-7b-it-lora",
-          "context": null,
+          "context": 3500,
           "limits": "10k neurons/day",
           "params_b": 7.0
         },
         {
           "id": "@cf/google/gemma-4-26b-a4b-it",
           "name": "@cf/google/gemma-4-26b-a4b-it",
-          "context": null,
+          "context": 256000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
           "params_b": 26.0
         },
         {
           "id": "@cf/mistralai/mistral-small-3.1-24b-instruct",
           "name": "@cf/mistralai/mistral-small-3.1-24b-instruct",
-          "context": null,
+          "context": 128000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling"
+          ],
           "params_b": 24.0
         },
         {
           "id": "@cf/openai/gpt-oss-20b",
           "name": "@cf/openai/gpt-oss-20b",
-          "context": null,
+          "context": 128000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
           "params_b": 20.0
         },
         {
           "id": "@cf/meta/llama-4-scout-17b-16e-instruct",
           "name": "@cf/meta/llama-4-scout-17b-16e-instruct",
-          "context": null,
+          "context": 131000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling"
+          ],
           "params_b": 17.0
         },
         {
           "id": "@cf/qwen/qwq-32b",
           "name": "@cf/qwen/qwq-32b",
-          "context": null,
+          "context": 24000,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "reasoning"
+          ],
           "params_b": 32.0
         }
       ],

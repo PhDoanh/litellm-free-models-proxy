@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T23:22:21.953101+00:00",
+  "updated": "2026-06-24T00:23:21.550935+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -359,22 +359,34 @@
         {
           "id": "@cf/moonshotai/kimi-k2.7-code",
           "name": "@cf/moonshotai/kimi-k2.7-code",
-          "context": null,
+          "context": 262144,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
           "params_b": null
         },
         {
           "id": "@cf/moonshotai/kimi-k2.6",
           "name": "@cf/moonshotai/kimi-k2.6",
-          "context": null,
+          "context": 262144,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
           "params_b": null
         },
         {
           "id": "@cf/zai-org/glm-5.2",
           "name": "@cf/zai-org/glm-5.2",
-          "context": null,
+          "context": 262144,
           "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
           "params_b": null
         }
       ],
