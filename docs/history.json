@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-03T03:03:09.725000+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "deepseek-v3.1:671b-terminus",
-        "deepseek-v4-flash"
-      ]
-    },
-    {
-      "timestamp": "2026-06-03T05:35:16.051898+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4"
-      ]
-    },
-    {
       "timestamp": "2026-06-03T05:35:16.051898+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7694,6 +7675,24 @@
         "claude-sonnet-4-6",
         "gpt-5.4-mini"
       ]
+    },
+    {
+      "timestamp": "2026-06-24T17:34:53.371328+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "midijourney-large"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-24T17:34:53.371328+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "gpt-5.4-mini"
+      ],
+      "removed": []
     }
   ]
 }
