@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-02T19:08:05.109760+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "claude-fast",
-        "qwen-coder-large"
-      ]
-    },
-    {
-      "timestamp": "2026-06-02T20:59:43.572070+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "Qwen/Qwen3.6-27B"
-      ]
-    },
-    {
       "timestamp": "2026-06-02T20:59:43.572070+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
@@ -7730,6 +7711,24 @@
       "removed": [
         "gpt-5.4-mini"
       ]
+    },
+    {
+      "timestamp": "2026-06-24T14:54:06.822410+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "midijourney"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-24T14:54:06.822410+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "gpt-5.4-mini"
+      ],
+      "removed": []
     }
   ]
 }
