@@ -2,24 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-02T13:07:27.813646+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "zai-org/GLM-4.7-fp4"
-      ]
-    },
-    {
-      "timestamp": "2026-06-02T13:07:27.813646+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "Qwen/Qwen3.6-27B"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-02T13:07:27.813646+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
       "added": [
@@ -7729,6 +7711,25 @@
       "removed": [
         "deepseek-v4-flash"
       ]
+    },
+    {
+      "timestamp": "2026-06-24T11:59:15.198483+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "midijourney"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-24T11:59:15.198483+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "claude-sonnet-4-6",
+        "gpt-5.4-mini"
+      ],
+      "removed": []
     }
   ]
 }
