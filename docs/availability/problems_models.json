@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T17:34:53.365313+00:00",
+  "updated": "2026-06-24T18:31:58.101482+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -334,6 +334,13 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 20.0
+        },
+        {
+          "id": "qwen/qwen3-next-80b-a3b-instruct",
+          "name": "qwen/qwen3-next-80b-a3b-instruct",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 80.0
         },
         {
           "id": "qwen/qwen3.5-122b-a10b",
