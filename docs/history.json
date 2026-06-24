@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-03T09:31:34.353800+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "midijourney"
-      ]
-    },
-    {
       "timestamp": "2026-06-03T11:34:22.587981+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7661,6 +7652,15 @@
       "removed": [
         "voxtral-mini-tts-mellon-greek-2606-solutions"
       ]
+    },
+    {
+      "timestamp": "2026-06-24T22:26:33.108113+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "midijourney-large"
+      ],
+      "removed": []
     }
   ]
 }
