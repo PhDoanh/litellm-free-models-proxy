@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-02T13:07:27.813646+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "minimax-m3"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-02T15:19:06.406487+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "zai-org/GLM-OCR"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-02T19:08:05.109760+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
@@ -7730,6 +7712,24 @@
         "gpt-5.4-mini"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-24T13:48:27.284093+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "midijourney"
+      ]
+    },
+    {
+      "timestamp": "2026-06-24T13:48:27.284093+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "gpt-5.4-mini"
+      ]
     }
   ]
 }
