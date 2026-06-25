@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-04T16:06:33.811526+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "alibaba/happyhorse-1.0-r2v"
-      ]
-    },
-    {
-      "timestamp": "2026-06-04T17:51:25.430869+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-04T19:40:36.689927+00:00",
       "provider": "gemini",
       "provider_label": "Gemini",
@@ -7594,6 +7576,28 @@
         "XiaomiMiMo/MiMo-V2.5-Pro"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T12:42:13.723105+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "google/gemma-3-27b-it",
+        "openai/gpt-image-2",
+        "rime-labs/rime-mist-v3",
+        "rime-labs/rime-mist-v3-omni"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T12:42:13.723105+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "XiaomiMiMo/MiMo-V2.5-Pro",
+        "stepfun-ai/Step-3.7-Flash"
+      ]
     }
   ]
 }
