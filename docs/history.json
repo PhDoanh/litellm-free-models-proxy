@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-05T03:02:13.381899+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [],
-      "removed": [
-        "google/gemma-3-12b-it",
-        "google/gemma-3-4b-it"
-      ]
-    },
-    {
-      "timestamp": "2026-06-05T03:02:13.381899+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "XiaomiMiMo/MiMo-V2-Flash"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-05T05:27:53.061526+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7597,6 +7578,25 @@
       "added": [
         "google/gemma-3-12b-it",
         "google/gemma-3-4b-it"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T20:37:26.759384+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "XiaomiMiMo/MiMo-V2.5-Pro",
+        "stepfun-ai/Step-3.7-Flash"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T20:37:26.759384+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "grok-420-fast"
       ],
       "removed": []
     }

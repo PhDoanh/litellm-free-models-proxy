@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T19:32:55.911411+00:00",
+  "updated": "2026-06-25T20:37:26.752330+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -20,15 +20,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -151,7 +151,7 @@
         {
           "id": "gemma-4-31B-it",
           "name": "gemma-4-31B-it",
-          "context": 131072,
+          "context": 262144,
           "limits": "free tier",
           "params_b": 31.0
         },
