@@ -1,44 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-03T21:00:11.457671+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "gpt-5.5",
-        "midijourney-large"
-      ]
-    },
-    {
-      "timestamp": "2026-06-03T22:03:29.236207+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "google/gemma-3-27b-it"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-03T23:30:32.258234+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "rime-labs/rime-mist-v3",
-        "rime-labs/rime-mist-v3-omni"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-04T05:32:45.250185+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "google/gemma-3-27b-it"
-      ]
-    },
-    {
       "timestamp": "2026-06-04T07:31:09.582549+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7589,6 +7551,47 @@
       "provider_label": "Together AI",
       "added": [
         "google/gemma-3-27b-it"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T09:01:10.495939+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "openai/gpt-image-2",
+        "rime-labs/rime-mist-v3",
+        "rime-labs/rime-mist-v3-omni"
+      ],
+      "removed": [
+        "Qwen/Qwen3.5-35B-A3B-Lora",
+        "google/gemma-3-27b-it"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T09:01:10.495939+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [],
+      "removed": [
+        "mistralai/mistral-7b-instruct-v0.3"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T09:01:10.495939+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "gpt-5.4"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T09:01:10.495939+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "claude-opus-4-6"
       ],
       "removed": []
     }
