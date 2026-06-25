@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-05T09:03:17.850802+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "XiaomiMiMo/MiMo-V2-Flash"
-      ]
-    },
-    {
-      "timestamp": "2026-06-05T11:02:52.454033+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "ideogram/ideogram-4.0"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-05T11:02:52.454033+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7598,6 +7580,24 @@
       "removed": [
         "qwen3-235b"
       ]
+    },
+    {
+      "timestamp": "2026-06-25T23:27:04.996917+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "alibaba/happyhorse-1.0-r2v"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T23:27:04.996917+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+      ],
+      "removed": []
     }
   ]
 }
