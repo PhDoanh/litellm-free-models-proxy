@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-04T23:23:47.642085+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-        "zai-org/GLM-4.7-Flash"
-      ]
-    },
-    {
-      "timestamp": "2026-06-05T00:28:33.422180+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "nvidia/nemotron-3.5-asr-streaming-0.6b"
-      ]
-    },
-    {
       "timestamp": "2026-06-05T00:28:33.422180+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7598,6 +7579,25 @@
       "removed": [
         "XiaomiMiMo/MiMo-V2.5-Pro"
       ]
+    },
+    {
+      "timestamp": "2026-06-25T17:51:04.660888+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "alibaba/happyhorse-1.0-r2v"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T17:51:04.660888+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "XiaomiMiMo/MiMo-V2.5-Pro",
+        "stepfun-ai/Step-3.7-Flash"
+      ],
+      "removed": []
     }
   ]
 }
