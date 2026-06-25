@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-04T07:31:09.582549+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "rime-labs/rime-mist-v3",
-        "rime-labs/rime-mist-v3-omni"
-      ]
-    },
-    {
-      "timestamp": "2026-06-04T09:15:31.413450+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "alibaba/happyhorse-1.0-r2v"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-04T12:56:15.333375+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [
-        "nvidia/nemotron-3-ultra-550b-a55b"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-04T14:01:57.469541+00:00",
       "provider": "openrouter",
       "provider_label": "OpenRouter",
@@ -7592,6 +7564,34 @@
       "provider_label": "LLM7",
       "added": [
         "claude-opus-4-6"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T10:54:19.726405+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "Qwen/Qwen3.5-35B-A3B-Lora",
+        "google/gemma-3-27b-it"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T10:54:19.726405+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [
+        "mistralai/mistral-7b-instruct-v0.3"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T10:54:19.726405+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "stepfun-ai/Step-3.7-Flash"
       ],
       "removed": []
     }
