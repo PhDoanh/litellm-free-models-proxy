@@ -1,72 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-04T20:39:26.117759+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "CohereLabs/c4ai-command-a-03-2025",
-        "CohereLabs/tiny-aya-earth",
-        "EssentialAI/rnj-1-instruct",
-        "MiniMaxAI/MiniMax-M2",
-        "Qwen/Qwen3-235B-A22B-Thinking-2507",
-        "Qwen/Qwen3-Next-80B-A3B-Thinking",
-        "aisingapore/Qwen-SEA-LION-v4-32B-IT",
-        "allenai/Olmo-3-7B-Instruct",
-        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
-        "deepseek-ai/DeepSeek-V3.1",
-        "deepseek-ai/DeepSeek-V3.1-Terminus",
-        "deepseek-ai/DeepSeek-V3.2-Exp",
-        "google/gemma-3n-E4B-it",
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-        "moonshotai/Kimi-K2-Instruct-0905",
-        "moonshotai/Kimi-K2-Thinking",
-        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-        "swiss-ai/Apertus-70B-Instruct-2509",
-        "zai-org/GLM-4.5",
-        "zai-org/GLM-4.7-Flash"
-      ]
-    },
-    {
-      "timestamp": "2026-06-04T21:30:24.420300+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [
-        "google/gemma-3-12b-it",
-        "google/gemma-3-4b-it"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-04T21:30:24.420300+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "CohereLabs/c4ai-command-a-03-2025",
-        "CohereLabs/tiny-aya-earth",
-        "EssentialAI/rnj-1-instruct",
-        "MiniMaxAI/MiniMax-M2",
-        "Qwen/Qwen3-235B-A22B-Thinking-2507",
-        "Qwen/Qwen3-Next-80B-A3B-Thinking",
-        "aisingapore/Qwen-SEA-LION-v4-32B-IT",
-        "allenai/Olmo-3-7B-Instruct",
-        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
-        "deepseek-ai/DeepSeek-V3.1",
-        "deepseek-ai/DeepSeek-V3.1-Terminus",
-        "deepseek-ai/DeepSeek-V3.2-Exp",
-        "google/gemma-3n-E4B-it",
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-        "moonshotai/Kimi-K2-Instruct-0905",
-        "moonshotai/Kimi-K2-Thinking",
-        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-        "swiss-ai/Apertus-70B-Instruct-2509",
-        "zai-org/GLM-4.5",
-        "zai-org/GLM-4.7-Flash"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-04T22:28:14.012082+00:00",
       "provider": "gemini",
       "provider_label": "Gemini",
@@ -7617,6 +7551,51 @@
         "glm-5.2"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T14:55:48.078463+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [],
+      "removed": [
+        "deepseek/deepseek-chat",
+        "deepseek/deepseek-r1-0528",
+        "deepseek/deepseek-v3.1-terminus",
+        "deepseek/deepseek-v3.2",
+        "deepseek/deepseek-v4-flash",
+        "deepseek/deepseek-v4-pro",
+        "kwaipilot/kat-coder-pro-v2",
+        "minimax/minimax-m2.5",
+        "moonshotai/kimi-k2.5",
+        "moonshotai/kimi-k2.6",
+        "qwen/qwen3-30b-a3b-instruct-2507",
+        "qwen/qwen3-coder-next",
+        "qwen/qwen3.5-397b-a17b",
+        "z-ai/glm-4.7",
+        "z-ai/glm-5",
+        "z-ai/glm-5.1",
+        "z-ai/glm-5.2",
+        "~moonshotai/kimi-latest"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T14:55:48.078463+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "stepfun-ai/Step-3.7-Flash"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T14:55:48.078463+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "claude-opus-4-6",
+        "glm-5.2"
+      ]
     }
   ]
 }
