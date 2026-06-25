@@ -1,43 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-04T19:40:36.689927+00:00",
-      "provider": "gemini",
-      "provider_label": "Gemini",
-      "added": [],
-      "removed": [
-        "gemini-3.1-flash-image"
-      ]
-    },
-    {
-      "timestamp": "2026-06-04T19:40:36.689927+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "nvidia/nemotron-3-asr-streaming-0.6b",
-        "nvidia/nemotron-3.5-asr-streaming-0.6b"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-04T20:39:26.117759+00:00",
-      "provider": "gemini",
-      "provider_label": "Gemini",
-      "added": [
-        "gemini-3.1-flash-image"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-04T20:39:26.117759+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "nvidia/nemotron-3-asr-streaming-0.6b"
-      ]
-    },
-    {
       "timestamp": "2026-06-04T20:39:26.117759+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7598,6 +7561,62 @@
         "XiaomiMiMo/MiMo-V2.5-Pro",
         "stepfun-ai/Step-3.7-Flash"
       ]
+    },
+    {
+      "timestamp": "2026-06-25T13:40:33.282342+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [
+        "deepseek/deepseek-chat",
+        "deepseek/deepseek-r1-0528",
+        "deepseek/deepseek-v3.1-terminus",
+        "deepseek/deepseek-v3.2",
+        "deepseek/deepseek-v4-flash",
+        "deepseek/deepseek-v4-pro",
+        "kwaipilot/kat-coder-pro-v2",
+        "minimax/minimax-m2.5",
+        "moonshotai/kimi-k2.5",
+        "moonshotai/kimi-k2.6",
+        "qwen/qwen3-30b-a3b-instruct-2507",
+        "qwen/qwen3-coder-next",
+        "qwen/qwen3.5-397b-a17b",
+        "z-ai/glm-4.7",
+        "z-ai/glm-5",
+        "z-ai/glm-5.1",
+        "z-ai/glm-5.2",
+        "~moonshotai/kimi-latest"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T13:40:33.282342+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "openai/gpt-image-2",
+        "rime-labs/rime-mist-v3",
+        "rime-labs/rime-mist-v3-omni"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T13:40:33.282342+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "XiaomiMiMo/MiMo-V2.5-Pro",
+        "stepfun-ai/Step-3.7-Flash"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T13:40:33.282342+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "glm-5.2"
+      ],
+      "removed": []
     }
   ]
 }
