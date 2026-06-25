@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T23:23:01.141234+00:00",
+  "updated": "2026-06-25T00:28:15.941017+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -229,13 +229,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 90.0
-        },
-        {
-          "id": "meta/llama-3.3-70b-instruct",
-          "name": "meta/llama-3.3-70b-instruct",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 70.0
         },
         {
           "id": "microsoft/phi-4-mini-instruct",

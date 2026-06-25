@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-03T11:34:22.587981+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "gpt-5.5",
-        "midijourney-large"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-03T13:28:19.888159+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7646,6 +7636,15 @@
         "zai-org/GLM-4.7-FP8",
         "zai-org/GLM-5-FP4"
       ]
+    },
+    {
+      "timestamp": "2026-06-25T00:28:15.946579+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "gpt-5.4"
+      ],
+      "removed": []
     }
   ]
 }
