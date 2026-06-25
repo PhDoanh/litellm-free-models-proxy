@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T21:30:23.253703+00:00",
+  "updated": "2026-06-25T22:28:03.629883+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -522,13 +522,6 @@
           "context": 384000,
           "limits": "anonymous · 30 req/min with token",
           "params_b": 24.0
-        },
-        {
-          "id": "qwen3-235b",
-          "name": "qwen3-235b",
-          "context": 240000,
-          "limits": "anonymous · 30 req/min with token",
-          "params_b": 235.0
         }
       ],
       "error": null

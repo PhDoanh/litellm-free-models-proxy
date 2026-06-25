@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-05T05:27:53.061526+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "MiniMaxAI/MiniMax-M2.5-FP4"
-      ]
-    },
-    {
-      "timestamp": "2026-06-05T05:27:53.061526+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "CohereLabs/c4ai-command-r7b-12-2024",
-        "meta-llama/Llama-4-Scout-17B-16E-Instruct"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-05T09:03:17.850802+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7599,6 +7580,24 @@
         "grok-420-fast"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T22:28:03.636953+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [
+        "gemini-3.1-flash-image"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-25T22:28:03.636953+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "qwen3-235b"
+      ]
     }
   ]
 }
