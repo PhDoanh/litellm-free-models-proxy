@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-04T22:28:14.012082+00:00",
-      "provider": "gemini",
-      "provider_label": "Gemini",
-      "added": [],
-      "removed": [
-        "gemini-3.1-flash-image"
-      ]
-    },
-    {
-      "timestamp": "2026-06-04T22:28:14.012082+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "MiniMaxAI/MiniMax-M2.5-FP4"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-04T23:23:47.642085+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7595,6 +7577,26 @@
       "removed": [
         "claude-opus-4-6",
         "glm-5.2"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T15:51:06.522455+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "openai/gpt-image-2",
+        "rime-labs/rime-mist-v3",
+        "rime-labs/rime-mist-v3-omni"
+      ]
+    },
+    {
+      "timestamp": "2026-06-25T15:51:06.522455+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "XiaomiMiMo/MiMo-V2.5-Pro"
       ]
     }
   ]
