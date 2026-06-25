@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T20:37:26.752330+00:00",
+  "updated": "2026-06-25T21:30:23.253703+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -146,11 +146,11 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
+          "context": 131072,
           "limits": "varies per model",
-          "params_b": 7.0
+          "params_b": 27.0
         },
         {
           "id": "llama-3.1-8b-instant",
@@ -177,16 +177,11 @@
           "params_b": 17.0
         },
         {
-          "id": "qwen/qwen3-32b",
-          "name": "qwen/qwen3-32b",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": 32.0
+          "params_b": null
         },
         {
           "id": "openai/gpt-oss-20b",
@@ -202,6 +197,20 @@
           "params_b": 20.0
         },
         {
+          "id": "groq/compound",
+          "name": "groq/compound",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model",
+          "params_b": 7.0
+        },
+        {
           "id": "openai/gpt-oss-120b",
           "name": "openai/gpt-oss-120b",
           "context": 131072,
@@ -215,27 +224,6 @@
           "params_b": 120.0
         },
         {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": 27.0
-        },
-        {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
-        },
-        {
-          "id": "groq/compound",
-          "name": "groq/compound",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
-        },
-        {
           "id": "llama-3.3-70b-versatile",
           "name": "llama-3.3-70b-versatile",
           "context": 131072,
@@ -245,6 +233,18 @@
             "tool_choice"
           ],
           "params_b": 70.0
+        },
+        {
+          "id": "qwen/qwen3-32b",
+          "name": "qwen/qwen3-32b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": 32.0
         }
       ],
       "error": null
@@ -468,7 +468,7 @@
         {
           "id": "gemma-4-31B-it",
           "name": "gemma-4-31B-it",
-          "context": 262144,
+          "context": 131072,
           "limits": "free tier",
           "params_b": 31.0
         },

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T20:37:26.752330+00:00",
+  "updated": "2026-06-25T21:30:23.253703+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -142,6 +142,18 @@
       "url": "https://cloud.sambanova.ai",
       "models": [
         {
+          "id": "DeepSeek-V3.1",
+          "name": "DeepSeek-V3.1",
+          "context": 131072,
+          "limits": "free tier",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": null
+        },
+        {
           "id": "DeepSeek-V3.2",
           "name": "DeepSeek-V3.2",
           "context": 32768,
@@ -151,7 +163,7 @@
         {
           "id": "gemma-4-31B-it",
           "name": "gemma-4-31B-it",
-          "context": 262144,
+          "context": 131072,
           "limits": "free tier",
           "params_b": 31.0
         },
