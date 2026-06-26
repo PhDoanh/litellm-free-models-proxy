@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T01:40:10.440492+00:00",
+  "updated": "2026-06-26T03:01:37.576601+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -462,6 +462,17 @@
           "params_b": null
         },
         {
+          "id": "@cf/zai-org/glm-4.7-flash",
+          "name": "@cf/zai-org/glm-4.7-flash",
+          "context": 131072,
+          "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling",
+            "reasoning"
+          ],
+          "params_b": null
+        },
+        {
           "id": "@cf/zai-org/glm-5.2",
           "name": "@cf/zai-org/glm-5.2",
           "context": 262144,
@@ -497,13 +508,6 @@
           "id": "grok-large",
           "name": "grok-large",
           "context": 1048576,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "qwen-vision",
-          "name": "qwen-vision",
-          "context": 131072,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         },
