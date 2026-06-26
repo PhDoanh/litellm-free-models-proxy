@@ -2,27 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-06T00:26:51.911485+00:00",
-      "provider": "github",
-      "provider_label": "GitHub Models",
-      "added": [
-        "azureml://registries/azure-openai/models/gpt-4o-mini/versions/1",
-        "azureml://registries/azure-openai/models/gpt-4o/versions/2",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-405B-Instruct/versions/1",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-8B-Instruct/versions/1"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-06T00:26:51.911485+00:00",
-      "provider": "cloudflare",
-      "provider_label": "Cloudflare AI",
-      "added": [
-        "@cf/meta/llama-3.2-11b-vision-instruct"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-06T00:26:51.911485+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
       "added": [
@@ -7355,6 +7334,25 @@
         "meta-llama/Llama-4-Scout-17B-16E-Instruct",
         "moonshotai/Kimi-K2.7-Code"
       ]
+    },
+    {
+      "timestamp": "2026-06-26T19:30:48.915590+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "ideogram/ideogram-4.0"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-26T19:30:48.915590+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "MiniMaxAI/MiniMax-M3",
+        "moonshotai/Kimi-K2.7-Code"
+      ],
+      "removed": []
     }
   ]
 }

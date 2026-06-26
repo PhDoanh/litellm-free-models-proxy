@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T18:31:42.423837+00:00",
+  "updated": "2026-06-26T19:30:48.908317+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -146,8 +146,8 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
+          "id": "openai/gpt-oss-20b",
+          "name": "openai/gpt-oss-20b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
@@ -156,7 +156,7 @@
             "response_schema",
             "reasoning"
           ],
-          "params_b": 120.0
+          "params_b": 20.0
         },
         {
           "id": "allam-2-7b",
@@ -164,20 +164,6 @@
           "context": 4096,
           "limits": "varies per model",
           "params_b": 7.0
-        },
-        {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
-        },
-        {
-          "id": "groq/compound",
-          "name": "groq/compound",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
         },
         {
           "id": "llama-3.1-8b-instant",
@@ -204,8 +190,8 @@
           "params_b": 17.0
         },
         {
-          "id": "openai/gpt-oss-20b",
-          "name": "openai/gpt-oss-20b",
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
@@ -214,7 +200,7 @@
             "response_schema",
             "reasoning"
           ],
-          "params_b": 20.0
+          "params_b": 120.0
         },
         {
           "id": "llama-3.3-70b-versatile",
@@ -233,6 +219,20 @@
           "context": 131072,
           "limits": "varies per model",
           "params_b": 27.0
+        },
+        {
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "groq/compound",
+          "name": "groq/compound",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
         },
         {
           "id": "qwen/qwen3-32b",
@@ -254,6 +254,18 @@
       "url": "https://cloud.cerebras.ai",
       "models": [
         {
+          "id": "zai-glm-4.7",
+          "name": "zai-glm-4.7",
+          "context": 128000,
+          "limits": "1M tokens/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": null
+        },
+        {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
           "context": 131072,
@@ -265,18 +277,6 @@
             "reasoning"
           ],
           "params_b": 120.0
-        },
-        {
-          "id": "zai-glm-4.7",
-          "name": "zai-glm-4.7",
-          "context": 128000,
-          "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": null
         }
       ],
       "error": null
@@ -504,6 +504,13 @@
       "name": "Together AI",
       "url": "https://api.together.ai",
       "models": [
+        {
+          "id": "ideogram/ideogram-4.0",
+          "name": "Ideogram 4.0",
+          "context": null,
+          "limits": "free",
+          "params_b": null
+        },
         {
           "id": "alibaba/happyhorse-1.1-t2v",
           "name": "HappyHorse 1.1 T2V",
@@ -951,7 +958,22 @@
     "huggingface": {
       "name": "HuggingFace",
       "url": "https://huggingface.co",
-      "models": [],
+      "models": [
+        {
+          "id": "MiniMaxAI/MiniMax-M3",
+          "name": "MiniMaxAI/MiniMax-M3",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        },
+        {
+          "id": "moonshotai/Kimi-K2.7-Code",
+          "name": "moonshotai/Kimi-K2.7-Code",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        }
+      ],
       "error": null
     },
     "mistral": {
