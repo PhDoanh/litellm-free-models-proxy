@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-06T01:36:21.474303+00:00",
-      "provider": "sambanova",
-      "provider_label": "SambaNova",
-      "added": [
-        "MiniMax-M2.7"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-06T01:36:21.474303+00:00",
       "provider": "nvidia",
       "provider_label": "NVIDIA NIM",
       "added": [
@@ -7356,6 +7347,15 @@
         "perplexity-deep"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-26T22:23:47.780242+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "ideogram/ideogram-4.0"
+      ]
     }
   ]
 }
