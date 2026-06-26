@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-05T16:46:10.343132+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "kimi-k2.6"
-      ]
-    },
-    {
-      "timestamp": "2026-06-05T17:34:43.979146+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "ideogram/ideogram-4.0"
-      ]
-    },
-    {
       "timestamp": "2026-06-05T17:34:43.979146+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7598,6 +7580,24 @@
       "removed": [
         "google/gemma-3-12b-it",
         "google/gemma-3-4b-it"
+      ]
+    },
+    {
+      "timestamp": "2026-06-26T01:40:10.447283+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+      ]
+    },
+    {
+      "timestamp": "2026-06-26T01:40:10.447283+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "grok-420-fast"
       ]
     }
   ]

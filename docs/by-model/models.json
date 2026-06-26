@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T00:29:20.539730+00:00",
+  "updated": "2026-06-26T01:40:10.440492+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -176,19 +176,6 @@
           "params_b": 32.0
         },
         {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
           "id": "llama-3.1-8b-instant",
           "name": "llama-3.1-8b-instant",
           "context": 131072,
@@ -213,11 +200,18 @@
           "params_b": 20.0
         },
         {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
           "limits": "varies per model",
-          "params_b": 7.0
+          "params_b": null
+        },
+        {
+          "id": "groq/compound",
+          "name": "groq/compound",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
         },
         {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
@@ -233,18 +227,24 @@
           "params_b": 17.0
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
           "context": 131072,
           "limits": "varies per model",
-          "params_b": null
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ],
+          "params_b": 120.0
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
           "limits": "varies per model",
-          "params_b": null
+          "params_b": 7.0
         }
       ],
       "error": null
@@ -941,13 +941,6 @@
         {
           "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 550.0
-        },
-        {
-          "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-          "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
           "context": null,
           "limits": "free credits/month",
           "params_b": 550.0
@@ -1923,13 +1916,6 @@
           "context": 384000,
           "limits": "anonymous · 30 req/min with token",
           "params_b": 24.0
-        },
-        {
-          "id": "grok-420-fast",
-          "name": "grok-420-fast",
-          "context": 1000000,
-          "limits": "anonymous · 30 req/min with token",
-          "params_b": null
         }
       ],
       "error": null
