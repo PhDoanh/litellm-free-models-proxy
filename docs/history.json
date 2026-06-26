@@ -2,16 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-05T23:24:37.533705+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "perplexity",
-        "perplexity-deep"
-      ]
-    },
-    {
-      "timestamp": "2026-06-05T23:24:37.533705+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
       "added": [],
@@ -7565,6 +7555,15 @@
         "microsoft/phi-4"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-26T13:37:27.724266+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "MiniMaxAI/MiniMax-M2.5-FP4"
+      ]
     }
   ]
 }
