@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T13:37:27.717155+00:00",
+  "updated": "2026-06-26T14:50:43.790019+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -253,13 +253,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 70.0
-        },
-        {
-          "id": "meta/llama-3.2-11b-vision-instruct",
-          "name": "meta/llama-3.2-11b-vision-instruct",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 11.0
         },
         {
           "id": "meta/llama-3.2-1b-instruct",
@@ -522,13 +515,6 @@
           "id": "grok-large",
           "name": "grok-large",
           "context": 1048576,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "kimi",
-          "name": "kimi",
-          "context": 262000,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         },

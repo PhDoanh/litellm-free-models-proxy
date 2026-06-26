@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-05T23:24:37.533705+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "minimax-m2.7"
-      ]
-    },
-    {
       "timestamp": "2026-06-06T00:26:51.911485+00:00",
       "provider": "openrouter",
       "provider_label": "OpenRouter",
@@ -7563,6 +7554,16 @@
       "added": [],
       "removed": [
         "MiniMaxAI/MiniMax-M2.5-FP4"
+      ]
+    },
+    {
+      "timestamp": "2026-06-26T14:50:43.796696+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "CohereLabs/c4ai-command-r7b-12-2024",
+        "meta-llama/Llama-4-Scout-17B-16E-Instruct"
       ]
     }
   ]
