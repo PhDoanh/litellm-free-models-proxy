@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-05T11:02:52.454033+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "XiaomiMiMo/MiMo-V2-Flash"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-05T12:54:09.007092+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "CohereLabs/c4ai-command-r7b-12-2024",
-        "XiaomiMiMo/MiMo-V2-Flash",
-        "meta-llama/Llama-4-Scout-17B-16E-Instruct"
-      ]
-    },
-    {
       "timestamp": "2026-06-05T16:46:10.343132+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
@@ -7598,6 +7578,27 @@
         "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-26T00:29:20.546287+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-26T00:29:20.546287+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+      ],
+      "removed": [
+        "google/gemma-3-12b-it",
+        "google/gemma-3-4b-it"
+      ]
     }
   ]
 }
