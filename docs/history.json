@@ -2,25 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-06T00:26:51.911485+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "openai",
-        "openai-audio"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-06T00:26:51.911485+00:00",
-      "provider": "kluster",
-      "provider_label": "Kluster AI",
-      "added": [
-        "klusterai/verify-reliability"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-06T00:26:51.911485+00:00",
       "provider": "zai",
       "provider_label": "Z.ai (GLM)",
       "added": [
@@ -7351,6 +7332,27 @@
       "added": [
         "MiniMaxAI/MiniMax-M3",
         "moonshotai/Kimi-K2.7-Code"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-26T20:31:21.893916+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "alibaba/happyhorse-1.1-i2v",
+        "alibaba/happyhorse-1.1-r2v",
+        "alibaba/happyhorse-1.1-t2v"
+      ]
+    },
+    {
+      "timestamp": "2026-06-26T20:31:21.893916+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "gemma3:27b",
+        "ministral-3:8b"
       ],
       "removed": []
     }
