@@ -2,32 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-06T00:26:51.911485+00:00",
-      "provider": "openrouter",
-      "provider_label": "OpenRouter",
-      "added": [
-        "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-        "google/lyria-3-clip-preview",
-        "google/lyria-3-pro-preview",
-        "meta-llama/llama-3.2-3b-instruct:free",
-        "meta-llama/llama-3.3-70b-instruct:free",
-        "nousresearch/hermes-3-llama-3.1-405b:free",
-        "qwen/qwen3-coder:free",
-        "qwen/qwen3-next-80b-a3b-instruct:free"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-06T00:26:51.911485+00:00",
-      "provider": "groq",
-      "provider_label": "Groq",
-      "added": [
-        "canopylabs/orpheus-arabic-saudi",
-        "canopylabs/orpheus-v1-english"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-06T00:26:51.911485+00:00",
       "provider": "gemini",
       "provider_label": "Gemini",
       "added": [
@@ -7565,6 +7539,27 @@
         "CohereLabs/c4ai-command-r7b-12-2024",
         "meta-llama/Llama-4-Scout-17B-16E-Instruct"
       ]
+    },
+    {
+      "timestamp": "2026-06-26T15:43:09.583156+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "alibaba/happyhorse-1.1-i2v",
+        "alibaba/happyhorse-1.1-r2v",
+        "alibaba/happyhorse-1.1-t2v"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-26T15:43:09.583156+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "CohereLabs/c4ai-command-r7b-12-2024",
+        "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+      ],
+      "removed": []
     }
   ]
 }
