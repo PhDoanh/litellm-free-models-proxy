@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-05T19:32:03.932283+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "perplexity",
-        "perplexity-deep"
-      ]
-    },
-    {
-      "timestamp": "2026-06-05T19:32:03.932283+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "minimax-m2.7"
-      ]
-    },
-    {
       "timestamp": "2026-06-05T20:34:28.237854+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
@@ -7563,6 +7544,25 @@
         "MiniMaxAI/MiniMax-M2.5-FP4"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-26T09:00:54.679433+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ]
+    },
+    {
+      "timestamp": "2026-06-26T09:00:54.679433+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+      ]
     }
   ]
 }
