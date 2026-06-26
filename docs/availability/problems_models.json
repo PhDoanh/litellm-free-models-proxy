@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T09:00:54.672358+00:00",
+  "updated": "2026-06-26T10:58:12.497800+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -215,6 +215,13 @@
         {
           "id": "deepseek-ai/deepseek-v4-pro",
           "name": "deepseek-ai/deepseek-v4-pro",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": null
+        },
+        {
+          "id": "google/gemma-3n-e4b-it",
+          "name": "google/gemma-3n-e4b-it",
           "context": null,
           "limits": "40 req/min",
           "params_b": null
