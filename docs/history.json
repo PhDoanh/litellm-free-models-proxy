@@ -2,23 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-06T03:01:19.222955+00:00",
-      "provider": "mistral",
-      "provider_label": "Mistral",
-      "added": [
-        "labs-leanstral-2603",
-        "mistral-ocr-2512",
-        "mistral-ocr-latest",
-        "voxtral-mini-2602",
-        "voxtral-mini-realtime-2602",
-        "voxtral-mini-realtime-latest",
-        "voxtral-mini-transcribe-realtime-2602",
-        "voxtral-mini-tts-2603",
-        "voxtral-mini-tts-latest"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-06T03:01:19.222955+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
       "added": [
@@ -7315,6 +7298,16 @@
       "removed": [
         "gemma3:27b",
         "ministral-3:8b"
+      ]
+    },
+    {
+      "timestamp": "2026-06-27T03:00:59.515578+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "perplexity",
+        "perplexity-deep"
       ]
     }
   ]
