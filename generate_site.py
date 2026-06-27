@@ -687,6 +687,7 @@ PROVIDERS = [
         "color": "#ec4899",
         "url": "https://pollinations.ai",
         "key_url": "https://enter.pollinations.ai",
+        "anonymous_ok": True,
     },
     {
         "key": "kluster",
