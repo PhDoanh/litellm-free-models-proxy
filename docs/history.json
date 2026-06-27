@@ -1,20 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-06T03:01:19.222955+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "openai-audio-large",
-        "openai-fast",
-        "openai-large",
-        "perplexity-reasoning"
-      ],
-      "removed": [
-        "qwen-vision-pro"
-      ]
-    },
-    {
       "timestamp": "2026-06-06T05:14:52.299188+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7309,6 +7295,17 @@
         "perplexity",
         "perplexity-deep"
       ]
+    },
+    {
+      "timestamp": "2026-06-27T05:14:21.522333+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "gpt-5.4-mini",
+        "perplexity",
+        "perplexity-deep"
+      ],
+      "removed": []
     }
   ]
 }
