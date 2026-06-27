@@ -2,16 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-09T09:03:06.777565+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "google/gemma-4-31B-it-lora",
-        "minimax/speech-2.8-turbo"
-      ]
-    },
-    {
-      "timestamp": "2026-06-09T09:03:06.777565+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
       "added": [],
@@ -7571,6 +7561,15 @@
       "added": [],
       "removed": [
         "pearl-ai/Gemma-4-31B-it-pearl"
+      ]
+    },
+    {
+      "timestamp": "2026-06-27T17:22:23.945341+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [],
+      "removed": [
+        "nvidia/vila"
       ]
     }
   ]
