@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T23:23:33.408151+00:00",
+  "updated": "2026-06-27T00:27:02.593316+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -125,54 +125,6 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
-        },
-        {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": 17.0
-        },
-        {
-          "id": "llama-3.1-8b-instant",
-          "name": "llama-3.1-8b-instant",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 8.0
-        },
-        {
           "id": "qwen/qwen3-32b",
           "name": "qwen/qwen3-32b",
           "context": 131072,
@@ -183,6 +135,13 @@
             "reasoning"
           ],
           "params_b": 32.0
+        },
+        {
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": 27.0
         },
         {
           "id": "openai/gpt-oss-20b",
@@ -198,11 +157,39 @@
           "params_b": 20.0
         },
         {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
           "context": 131072,
           "limits": "varies per model",
-          "params_b": 27.0
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
+        },
+        {
+          "id": "llama-3.1-8b-instant",
+          "name": "llama-3.1-8b-instant",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 8.0
+        },
+        {
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ],
+          "params_b": 120.0
         },
         {
           "id": "allam-2-7b",
@@ -210,6 +197,19 @@
           "context": 4096,
           "limits": "varies per model",
           "params_b": 7.0
+        },
+        {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": 17.0
         }
       ],
       "error": null
@@ -374,13 +374,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 14.0
-        },
-        {
-          "id": "mistralai/mistral-large-3-675b-instruct-2512",
-          "name": "mistralai/mistral-large-3-675b-instruct-2512",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 675.0
         },
         {
           "id": "mistralai/mistral-small-4-119b-2603",
@@ -1257,13 +1250,6 @@
           "params_b": null
         },
         {
-          "id": "deepseek",
-          "name": "deepseek",
-          "context": 1048576,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
           "id": "gemma",
           "name": "gemma",
           "context": 262144,
@@ -1281,13 +1267,6 @@
           "id": "grok-4-20-reasoning",
           "name": "grok-4-20-reasoning",
           "context": 262144,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "kimi",
-          "name": "kimi",
-          "context": 262000,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         },
@@ -1394,20 +1373,6 @@
           "name": "qwen-safety",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        }
-      ],
-      "error": null
-    },
-    "llm7": {
-      "name": "LLM7",
-      "url": "https://llm7.io",
-      "models": [
-        {
-          "id": "codestral-latest",
-          "name": "codestral-latest",
-          "context": 32000,
-          "limits": "anonymous · 30 req/min with token",
           "params_b": null
         }
       ],
