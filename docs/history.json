@@ -2,34 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-06T03:01:19.222955+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "CohereLabs/c4ai-command-a-03-2025",
-        "CohereLabs/tiny-aya-earth",
-        "EssentialAI/rnj-1-instruct",
-        "MiniMaxAI/MiniMax-M2",
-        "Qwen/Qwen3-235B-A22B-Thinking-2507",
-        "Qwen/Qwen3-Next-80B-A3B-Thinking",
-        "Qwen/Qwen3-VL-8B-Instruct",
-        "aisingapore/Qwen-SEA-LION-v4-32B-IT",
-        "allenai/Olmo-3-7B-Instruct",
-        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
-        "deepseek-ai/DeepSeek-V3.1",
-        "deepseek-ai/DeepSeek-V3.1-Terminus",
-        "deepseek-ai/DeepSeek-V3.2-Exp",
-        "google/gemma-3n-E4B-it",
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-        "moonshotai/Kimi-K2-Instruct-0905",
-        "moonshotai/Kimi-K2-Thinking",
-        "swiss-ai/Apertus-70B-Instruct-2509",
-        "zai-org/GLM-4.5",
-        "zai-org/GLM-4.7-Flash"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-06T03:01:19.222955+00:00",
       "provider": "mistral",
       "provider_label": "Mistral",
       "added": [
@@ -7334,6 +7306,16 @@
         "perplexity-deep"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-27T01:36:10.256112+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "gemma3:27b",
+        "ministral-3:8b"
+      ]
     }
   ]
 }
