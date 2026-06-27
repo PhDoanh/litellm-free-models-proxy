@@ -699,6 +699,7 @@ PROVIDERS = [
         "name_fmt": lambda mid: f"pol/{slug(mid)}",
         "rpm": 15,
         "api_base": "https://gen.pollinations.ai/v1",
+        "anonymous_ok": True,
     },
     {
         "name": "Kluster",
