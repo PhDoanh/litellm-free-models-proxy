@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T09:40:39.375618+00:00",
+  "updated": "2026-06-27T10:36:58.655245+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -304,13 +304,6 @@
           "params_b": null
         },
         {
-          "id": "mistralai/mistral-large-3-675b-instruct-2512",
-          "name": "mistralai/mistral-large-3-675b-instruct-2512",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 675.0
-        },
-        {
           "id": "mistralai/mistral-medium-3.5-128b",
           "name": "mistralai/mistral-medium-3.5-128b",
           "context": null,
@@ -505,13 +498,6 @@
       "url": "https://pollinations.ai",
       "models": [
         {
-          "id": "deepseek",
-          "name": "deepseek",
-          "context": 1048576,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
           "id": "deepseek-pro",
           "name": "deepseek-pro",
           "context": 1048576,
@@ -539,13 +525,6 @@
       "name": "LLM7",
       "url": "https://llm7.io",
       "models": [
-        {
-          "id": "codestral-latest",
-          "name": "codestral-latest",
-          "context": 32000,
-          "limits": "anonymous · 30 req/min with token",
-          "params_b": null
-        },
         {
           "id": "devstral-small-2:24b",
           "name": "devstral-small-2:24b",
