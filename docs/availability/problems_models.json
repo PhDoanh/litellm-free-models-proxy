@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T10:36:58.655245+00:00",
+  "updated": "2026-06-27T11:29:00.275527+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -232,6 +232,13 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 36.0
+        },
+        {
+          "id": "deepseek-ai/deepseek-v4-flash",
+          "name": "deepseek-ai/deepseek-v4-flash",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": null
         },
         {
           "id": "deepseek-ai/deepseek-v4-pro",
