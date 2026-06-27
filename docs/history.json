@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-06T06:59:26.963850+00:00",
-      "provider": "cloudflare",
-      "provider_label": "Cloudflare AI",
-      "added": [],
-      "removed": [
-        "@cf/meta/llama-3.2-11b-vision-instruct"
-      ]
-    },
-    {
-      "timestamp": "2026-06-06T06:59:26.963850+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
       "added": [],
@@ -7301,6 +7292,15 @@
       "provider_label": "Z.ai (GLM)",
       "added": [
         "cogvideox-flash"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-27T08:02:23.958053+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "kimi-k2.6"
       ],
       "removed": []
     }
