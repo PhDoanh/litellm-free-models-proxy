@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T10:05:23.125960+00:00",
+  "updated": "2026-06-28T11:31:39.644073+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -364,6 +364,13 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 49.0
+        },
+        {
+          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+          "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 30.0
         },
         {
           "id": "nvidia/nemotron-3-ultra-550b-a55b",
