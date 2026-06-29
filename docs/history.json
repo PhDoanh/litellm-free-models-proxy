@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-10T09:08:55.049781+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4"
-      ]
-    },
-    {
-      "timestamp": "2026-06-10T09:08:55.049781+00:00",
       "provider": "mistral",
       "provider_label": "Mistral",
       "added": [],
@@ -7580,6 +7571,15 @@
       "provider_label": "Pollinations",
       "added": [
         "perplexity-fast"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-29T17:52:27.013274+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "community/voodoohop/anyvm-deepseek-chat"
       ],
       "removed": []
     }
