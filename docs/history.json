@@ -2,16 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-10T01:40:24.374059+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4",
-        "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora"
-      ]
-    },
-    {
-      "timestamp": "2026-06-10T01:40:24.374059+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
       "added": [],
@@ -7555,6 +7545,15 @@
         "deepreinforce-ai/Ornith-1.0-35B-FP8"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-29T11:36:49.031333+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "Qwen/Qwen3-235B-A22B-Thinking-2507"
+      ]
     }
   ]
 }
