@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-10T09:08:55.049781+00:00",
-      "provider": "mistral",
-      "provider_label": "Mistral",
-      "added": [],
-      "removed": [
-        "mistral-medium-c21211-r0-75"
-      ]
-    },
-    {
       "timestamp": "2026-06-10T11:12:18.290019+00:00",
       "provider": "cohere",
       "provider_label": "Cohere",
@@ -7582,6 +7573,15 @@
         "community/voodoohop/anyvm-deepseek-chat"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-29T18:36:47.188216+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "perplexity-fast"
+      ]
     }
   ]
 }
