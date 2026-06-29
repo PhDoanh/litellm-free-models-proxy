@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T07:33:30.199279+00:00",
+  "updated": "2026-06-29T09:30:28.356975+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -146,20 +146,6 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
-        },
-        {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
-        },
-        {
           "id": "openai/gpt-oss-20b",
           "name": "openai/gpt-oss-20b",
           "context": 131072,
@@ -171,6 +157,56 @@
             "reasoning"
           ],
           "params_b": 20.0
+        },
+        {
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": 27.0
+        },
+        {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": 17.0
+        },
+        {
+          "id": "qwen/qwen3-32b",
+          "name": "qwen/qwen3-32b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": 32.0
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
         },
         {
           "id": "openai/gpt-oss-120b",
@@ -186,16 +222,11 @@
           "params_b": 120.0
         },
         {
-          "id": "qwen/qwen3-32b",
-          "name": "qwen/qwen3-32b",
-          "context": 131072,
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
           "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": 32.0
+          "params_b": 7.0
         },
         {
           "id": "groq/compound",
@@ -203,13 +234,6 @@
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
-        },
-        {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": 27.0
         },
         {
           "id": "llama-3.1-8b-instant",
@@ -221,30 +245,6 @@
             "tool_choice"
           ],
           "params_b": 8.0
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
-        },
-        {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": 17.0
         }
       ],
       "error": null
@@ -929,7 +929,29 @@
     "huggingface": {
       "name": "HuggingFace",
       "url": "https://huggingface.co",
-      "models": [],
+      "models": [
+        {
+          "id": "deepreinforce-ai/Ornith-1.0-35B",
+          "name": "deepreinforce-ai/Ornith-1.0-35B",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 35.0
+        },
+        {
+          "id": "deepreinforce-ai/Ornith-1.0-35B-FP8",
+          "name": "deepreinforce-ai/Ornith-1.0-35B-FP8",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 35.0
+        },
+        {
+          "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+          "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 235.0
+        }
+      ],
       "error": null
     },
     "mistral": {
