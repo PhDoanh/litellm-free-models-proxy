@@ -1,35 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-10T15:01:53.856233+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "gpt-5.5",
-        "midijourney-large"
-      ]
-    },
-    {
-      "timestamp": "2026-06-10T16:59:44.492593+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "gpt-5.5",
-        "midijourney-large"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-10T18:05:40.542197+00:00",
-      "provider": "openrouter",
-      "provider_label": "OpenRouter",
-      "added": [],
-      "removed": [
-        "moonshotai/kimi-k2.6:free"
-      ]
-    },
-    {
       "timestamp": "2026-06-10T18:05:40.542197+00:00",
       "provider": "sambanova",
       "provider_label": "SambaNova",
@@ -7617,6 +7588,48 @@
       "removed": [
         "perplexity-fast"
       ]
+    },
+    {
+      "timestamp": "2026-06-29T21:28:59.233702+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "Qwen/Qwen3.5-2B-Lora",
+        "Qwen/Qwen3.6-35B-A3B-Lora"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-29T21:28:59.233702+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "CohereLabs/c4ai-command-a-03-2025",
+        "CohereLabs/tiny-aya-earth",
+        "Qwen/Qwen3-Next-80B-A3B-Thinking",
+        "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+        "allenai/Olmo-3-7B-Instruct",
+        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+        "deepseek-ai/DeepSeek-V3.1",
+        "deepseek-ai/DeepSeek-V3.1-Terminus",
+        "deepseek-ai/DeepSeek-V3.2-Exp",
+        "google/gemma-3n-E4B-it",
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "moonshotai/Kimi-K2-Instruct-0905",
+        "swiss-ai/Apertus-70B-Instruct-2509",
+        "zai-org/GLM-4.5",
+        "zai-org/GLM-4.7-Flash"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-29T21:28:59.233702+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "perplexity-fast"
+      ],
+      "removed": []
     }
   ]
 }
