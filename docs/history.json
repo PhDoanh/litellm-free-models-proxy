@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-09T22:28:55.000743+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "deepseek-v3.1:671b-terminus",
-        "deepseek-v4-flash"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-09T23:26:41.638260+00:00",
       "provider": "openrouter",
       "provider_label": "OpenRouter",
@@ -7553,6 +7543,15 @@
       "added": [],
       "removed": [
         "gemini-3-flash"
+      ]
+    },
+    {
+      "timestamp": "2026-06-29T00:27:27.653020+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "Qwen/Qwen3-235B-A22B-Thinking-2507"
       ]
     }
   ]
