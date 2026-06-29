@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T03:02:26.691907+00:00",
+  "updated": "2026-06-29T05:31:18.772644+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -357,13 +357,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 8.0
-        },
-        {
-          "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "name": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 49.0
         },
         {
           "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
