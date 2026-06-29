@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-10T18:05:40.542197+00:00",
-      "provider": "sambanova",
-      "provider_label": "SambaNova",
-      "added": [],
-      "removed": [
-        "Llama-4-Maverick-17B-128E-Instruct",
-        "gemma-3-12b-it"
-      ]
-    },
-    {
       "timestamp": "2026-06-10T19:46:46.562438+00:00",
       "provider": "nvidia",
       "provider_label": "NVIDIA NIM",
@@ -7628,6 +7618,15 @@
       "provider_label": "Pollinations",
       "added": [
         "perplexity-fast"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-29T22:21:40.626479+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "MiniMaxAI/MiniMax-M2"
       ],
       "removed": []
     }
