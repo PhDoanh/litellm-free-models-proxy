@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-10T01:40:24.374059+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "deepseek-v3.1:671b-terminus",
-        "deepseek-v4-flash"
-      ]
-    },
-    {
       "timestamp": "2026-06-10T03:01:52.896874+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7554,6 +7544,15 @@
       "removed": [
         "Qwen/Qwen3-235B-A22B-Thinking-2507"
       ]
+    },
+    {
+      "timestamp": "2026-06-29T13:21:07.814386+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "perplexity-fast"
+      ],
+      "removed": []
     }
   ]
 }
