@@ -2,24 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-10T11:12:18.290019+00:00",
-      "provider": "cohere",
-      "provider_label": "Cohere",
-      "added": [
-        "command-a-plus-05-2026"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-10T11:12:18.290019+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora"
-      ]
-    },
-    {
-      "timestamp": "2026-06-10T11:12:18.290019+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
       "added": [],
@@ -7582,6 +7564,46 @@
       "removed": [
         "perplexity-fast"
       ]
+    },
+    {
+      "timestamp": "2026-06-29T19:31:40.486792+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "CohereLabs/c4ai-command-a-03-2025",
+        "CohereLabs/tiny-aya-earth",
+        "Qwen/Qwen3-Next-80B-A3B-Thinking",
+        "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+        "allenai/Olmo-3-7B-Instruct",
+        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+        "deepseek-ai/DeepSeek-V3.1",
+        "deepseek-ai/DeepSeek-V3.1-Terminus",
+        "deepseek-ai/DeepSeek-V3.2-Exp",
+        "google/gemma-3n-E4B-it",
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "moonshotai/Kimi-K2-Instruct-0905",
+        "swiss-ai/Apertus-70B-Instruct-2509",
+        "zai-org/GLM-4.5",
+        "zai-org/GLM-4.7-Flash"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-29T19:31:40.486792+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "community/voodoohop/airforce-deepseek-v3.2",
+        "community/voodoohop/airforce-doubao-pro",
+        "community/voodoohop/airforce-glm-5.2",
+        "community/voodoohop/airforce-grok-4-fast",
+        "community/voodoohop/airforce-mimo",
+        "community/voodoohop/airforce-mimo-pro",
+        "community/voodoohop/airforce-minimax-m2.7",
+        "community/voodoohop/airforce-qwen3-max",
+        "perplexity-fast"
+      ],
+      "removed": []
     }
   ]
 }
