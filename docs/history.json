@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-11T05:30:49.981079+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "Qwen/Qwen3.5-35B-A3B-Lora"
-      ]
-    },
-    {
-      "timestamp": "2026-06-11T07:32:39.296662+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [],
-      "removed": [
-        "mistralai/mistral-7b-instruct-v0.3"
-      ]
-    },
-    {
       "timestamp": "2026-06-11T09:24:22.722575+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7656,6 +7638,26 @@
         "community/CloudCompile/gemma-4-e2b"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T01:38:16.849226+00:00",
+      "provider": "cerebras",
+      "provider_label": "Cerebras",
+      "added": [
+        "gemma-4-31b"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T01:38:16.849226+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen3-4B-Thinking-2507"
+      ],
+      "removed": [
+        "MiniMaxAI/MiniMax-M2"
+      ]
     }
   ]
 }
