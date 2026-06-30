@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-11T18:55:38.325641+00:00",
-      "provider": "gemini",
-      "provider_label": "Gemini",
-      "added": [
-        "gemini-3.1-flash-image"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-11T18:55:38.325641+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "alibaba/happyhorse-1.0-r2v"
-      ]
-    },
-    {
-      "timestamp": "2026-06-11T18:55:38.325641+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-11T21:38:50.155512+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7664,6 +7637,35 @@
         "utter-project/EuroLLM-22B-Instruct-2512",
         "zai-org/AutoGLM-Phone-9B-Multilingual"
       ]
+    },
+    {
+      "timestamp": "2026-06-30T05:19:39.319469+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "cartesia/sonic-3.5"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T05:19:39.319469+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "Qwen/Qwen2.5-VL-72B-Instruct",
+        "zai-org/GLM-4.6-FP8"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T05:19:39.319469+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "community/sharktide/inferenceport.ai/gpt-5-chat-latest",
+        "community/sharktide/inferenceport.ai/gpt-oss-20b"
+      ],
+      "removed": []
     }
   ]
 }
