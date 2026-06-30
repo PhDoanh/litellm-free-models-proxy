@@ -1,62 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-13T05:27:50.770579+00:00",
-      "provider": "mistral",
-      "provider_label": "Mistral",
-      "added": [
-        "labs-leanstral-2603",
-        "mistral-ocr-2512",
-        "mistral-ocr-latest",
-        "voxtral-mini-2602",
-        "voxtral-mini-realtime-2602",
-        "voxtral-mini-realtime-latest",
-        "voxtral-mini-transcribe-realtime-2602",
-        "voxtral-mini-tts-2603",
-        "voxtral-mini-tts-latest"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T05:27:50.770579+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "openai-audio-large",
-        "openai-fast",
-        "openai-large",
-        "perplexity-reasoning"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T07:13:29.228483+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "google/gemma-3-27b-it-lora"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T07:13:29.228483+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "pearl-ai/Gemma-4-31B-it-pearl"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T07:13:29.228483+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "gpt-5.4-mini"
-      ]
-    },
-    {
       "timestamp": "2026-06-13T09:00:08.453596+00:00",
       "provider": "nvidia",
       "provider_label": "NVIDIA NIM",
@@ -7881,6 +7825,59 @@
         "MarcosFRG/step-3.7-flash"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T22:24:44.362189+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "google/flash-image-3.1-lite"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T22:24:44.362189+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen3.6-27B",
+        "zai-org/GLM-4.7-FP8",
+        "zai-org/GLM-5.2",
+        "zai-org/GLM-5.2-FP8"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T22:24:44.362189+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [
+        "mistral-ocr-3",
+        "mistral-ocr-3-0"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T22:24:44.362189+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/deepseek-v4-pro",
+        "MarcosFRG/minimax-m3",
+        "MarcosFRG/mistral-large-3"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T22:24:44.362189+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "gpt-5.3-codex-spark",
+        "gpt-5.4",
+        "gpt-5.5"
+      ]
     }
   ]
 }
