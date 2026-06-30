@@ -1,46 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-13T01:41:04.442117+00:00",
-      "provider": "github",
-      "provider_label": "GitHub Models",
-      "added": [
-        "azureml://registries/azure-openai/models/gpt-4o-mini/versions/1",
-        "azureml://registries/azure-openai/models/gpt-4o/versions/2",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-405B-Instruct/versions/1",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-8B-Instruct/versions/1"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T01:41:04.442117+00:00",
-      "provider": "cloudflare",
-      "provider_label": "Cloudflare AI",
-      "added": [
-        "@cf/meta/llama-3.2-11b-vision-instruct"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T01:41:04.442117+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "openai",
-        "openai-audio"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T01:41:04.442117+00:00",
-      "provider": "zai",
-      "provider_label": "Z.ai (GLM)",
-      "added": [
-        "cogvideox-flash"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-13T05:27:50.770579+00:00",
       "provider": "sambanova",
       "provider_label": "SambaNova",
@@ -7877,6 +7837,48 @@
         "MarcosFRG/gemini-2.5-flash-lite",
         "MarcosFRG/llama-4-scout",
         "Spit-fires/Supra-1.5-50M-instruct"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T20:34:54.565401+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "zai-org/GLM-4.7-fp4"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T20:34:54.565401+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "zai-org/GLM-5.2"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T20:34:54.565401+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [
+        "mistral-ocr-3",
+        "mistral-ocr-3-0"
+      ],
+      "removed": [
+        "mistral-ocr-4",
+        "mistral-ocr-4-0"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T20:34:54.565401+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/cosmosrp-2.1",
+        "MarcosFRG/grok-4.20-non-reasoning",
+        "MarcosFRG/qwen3-coder-30b-a3b"
       ],
       "removed": []
     }
