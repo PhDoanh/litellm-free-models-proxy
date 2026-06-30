@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-12T07:30:45.545278+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "CohereLabs/c4ai-command-r7b-12-2024",
-        "meta-llama/Llama-4-Scout-17B-16E-Instruct"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-12T09:19:17.897735+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "MiniMaxAI/MiniMax-M2.5-FP4"
-      ]
-    },
-    {
-      "timestamp": "2026-06-12T13:01:19.745048+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "ideogram/ideogram-4.0"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-12T13:01:19.745048+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
@@ -7875,6 +7847,54 @@
         "community/voodoohop/airforce-qwen3-max",
         "community/voodoohop/anyvm-deepseek-chat"
       ]
+    },
+    {
+      "timestamp": "2026-06-30T12:35:34.325621+00:00",
+      "provider": "openrouter",
+      "provider_label": "OpenRouter",
+      "added": [],
+      "removed": [
+        "openrouter/owl-alpha"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T12:35:34.325621+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "alibaba/happyhorse-1.0-i2v",
+        "google/veo-3.1",
+        "google/veo-3.1-lite"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T12:35:34.325621+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "CohereLabs/tiny-aya-global",
+        "Qwen/Qwen2.5-Coder-32B-Instruct",
+        "Qwen/Qwen2.5-Coder-3B-Instruct",
+        "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "Qwen/Qwen3-14B",
+        "Qwen/Qwen3-235B-A22B-Instruct-2507",
+        "Qwen/Qwen3.5-27B",
+        "deepseek-ai/DeepSeek-R1-0528",
+        "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+        "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "deepseek-ai/DeepSeek-V3",
+        "deepseek-ai/DeepSeek-V3-0324",
+        "google/gemma-3-27b-it",
+        "meta-llama/Llama-Guard-4-12B",
+        "moonshotai/Kimi-K2-Instruct",
+        "zai-org/GLM-4.6",
+        "zai-org/GLM-4.6V-FP8",
+        "zai-org/GLM-4.6V-Flash",
+        "zai-org/GLM-4.7",
+        "zai-org/GLM-5.1-FP8"
+      ],
+      "removed": []
     }
   ]
 }
