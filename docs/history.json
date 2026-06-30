@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-11T09:24:22.722575+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "google/gemma-3-27b-it"
-      ]
-    },
-    {
-      "timestamp": "2026-06-11T11:28:50.675658+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "alibaba/happyhorse-1.0-r2v"
-      ],
-      "removed": [
-        "openai/gpt-image-2",
-        "rime-labs/rime-mist-v3",
-        "rime-labs/rime-mist-v3-omni"
-      ]
-    },
-    {
       "timestamp": "2026-06-11T18:55:38.325641+00:00",
       "provider": "gemini",
       "provider_label": "Gemini",
@@ -7657,6 +7635,34 @@
       ],
       "removed": [
         "MiniMaxAI/MiniMax-M2"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T03:01:38.100438+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "Qwen/Qwen3.5-2B-Lora",
+        "Qwen/Qwen3.6-35B-A3B-Lora"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T03:01:38.100438+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "Qwen/Qwen2.5-72B-Instruct",
+        "Qwen/Qwen3-4B-Thinking-2507",
+        "Qwen/Qwen3-VL-235B-A22B-Thinking",
+        "Qwen/Qwen3-VL-30B-A3B-Instruct",
+        "Sao10K/L3-8B-Stheno-v3.2",
+        "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+        "meta-llama/Llama-3.1-70B-Instruct",
+        "swiss-ai/Apertus-8B-Instruct-2509",
+        "utter-project/EuroLLM-22B-Instruct-2512",
+        "zai-org/AutoGLM-Phone-9B-Multilingual"
       ]
     }
   ]
