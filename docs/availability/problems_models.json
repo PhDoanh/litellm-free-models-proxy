@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T18:32:22.335211+00:00",
+  "updated": "2026-06-30T19:31:52.576518+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -707,6 +707,20 @@
         {
           "id": "voodoohop/anyvm-deepseek-chat",
           "name": "voodoohop/anyvm-deepseek-chat",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "voodoohop/airforce-mimo-pro",
+          "name": "voodoohop/airforce-mimo-pro",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "voodoohop/airforce-mimo",
+          "name": "voodoohop/airforce-mimo",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
