@@ -2,48 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-13T05:27:50.770579+00:00",
-      "provider": "sambanova",
-      "provider_label": "SambaNova",
-      "added": [
-        "MiniMax-M2.7"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T05:27:50.770579+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "Qwen/Qwen2.5-32B-Instruct",
-        "Qwen/Qwen3-14B",
-        "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
-        "Qwen/Qwen3-32B",
-        "allenai/Molmo-7B-D-0924",
-        "google/gemma-3-1b-pt",
-        "google/medgemma-27b-text-it"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T05:27:50.770579+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [
-        "nvidia/vila"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T05:27:50.770579+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "Qwen/Qwen3-VL-8B-Instruct"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-13T05:27:50.770579+00:00",
       "provider": "mistral",
       "provider_label": "Mistral",
       "added": [
@@ -7879,6 +7837,48 @@
         "MarcosFRG/cosmosrp-2.1",
         "MarcosFRG/grok-4.20-non-reasoning",
         "MarcosFRG/qwen3-coder-30b-a3b"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T21:29:28.414722+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.7-fp4"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T21:29:28.414722+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.7-FP8",
+        "zai-org/GLM-5.2"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T21:29:28.414722+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [],
+      "removed": [
+        "mistral-ocr-3",
+        "mistral-ocr-3-0"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T21:29:28.414722+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/gpt-5-nano",
+        "MarcosFRG/grok-4.20-reasoning",
+        "MarcosFRG/grok-4.3",
+        "MarcosFRG/step-3.5-flash",
+        "MarcosFRG/step-3.7-flash"
       ],
       "removed": []
     }
