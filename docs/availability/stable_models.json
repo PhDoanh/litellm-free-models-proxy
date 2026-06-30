@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T12:35:34.319172+00:00",
+  "updated": "2026-06-30T13:32:58.827425+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -118,17 +118,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "openai/gpt-oss-20b",
-          "name": "openai/gpt-oss-20b",
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
+            "tool_choice"
           ],
-          "params_b": 20.0
+          "params_b": 70.0
         },
         {
           "id": "qwen/qwen3-32b",
@@ -143,17 +141,11 @@
           "params_b": 32.0
         },
         {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
           "context": 131072,
           "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
+          "params_b": 27.0
         },
         {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
@@ -169,22 +161,17 @@
           "params_b": 17.0
         },
         {
-          "id": "llama-3.1-8b-instant",
-          "name": "llama-3.1-8b-instant",
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
-            "tool_choice"
+            "tool_choice",
+            "response_schema",
+            "reasoning"
           ],
-          "params_b": 8.0
-        },
-        {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": 27.0
+          "params_b": 120.0
         },
         {
           "id": "allam-2-7b",
@@ -194,15 +181,28 @@
           "params_b": 7.0
         },
         {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
+          "id": "openai/gpt-oss-20b",
+          "name": "openai/gpt-oss-20b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ],
+          "params_b": 20.0
+        },
+        {
+          "id": "llama-3.1-8b-instant",
+          "name": "llama-3.1-8b-instant",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
             "tool_choice"
           ],
-          "params_b": 70.0
+          "params_b": 8.0
         }
       ],
       "error": null
@@ -211,13 +211,6 @@
       "name": "Cerebras",
       "url": "https://cloud.cerebras.ai",
       "models": [
-        {
-          "id": "gemma-4-31b",
-          "name": "gemma-4-31b",
-          "context": null,
-          "limits": "1M tokens/day",
-          "params_b": 31.0
-        },
         {
           "id": "zai-glm-4.7",
           "name": "zai-glm-4.7",
@@ -229,6 +222,13 @@
             "reasoning"
           ],
           "params_b": null
+        },
+        {
+          "id": "gemma-4-31b",
+          "name": "gemma-4-31b",
+          "context": null,
+          "limits": "1M tokens/day",
+          "params_b": 31.0
         }
       ],
       "error": null
@@ -319,6 +319,13 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 3.0
+        },
+        {
+          "id": "meta/llama-3.2-90b-vision-instruct",
+          "name": "meta/llama-3.2-90b-vision-instruct",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 90.0
         },
         {
           "id": "meta/llama-4-maverick-17b-128e-instruct",
@@ -759,33 +766,7 @@
           "params_b": null
         },
         {
-          "id": "mistral-large-2512",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
           "id": "mistral-large-latest",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
-          "id": "mistral-large-2512",
           "name": "mistral-large-2512",
           "context": 262144,
           "limits": "1 req/s · 1B tok/month",
