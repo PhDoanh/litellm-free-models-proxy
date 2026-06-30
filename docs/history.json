@@ -1,41 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-13T09:00:08.453596+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [],
-      "removed": [
-        "nvidia/vila"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T10:05:41.005360+00:00",
-      "provider": "openrouter",
-      "provider_label": "OpenRouter",
-      "added": [],
-      "removed": [
-        "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-        "google/lyria-3-clip-preview",
-        "google/lyria-3-pro-preview",
-        "meta-llama/llama-3.2-3b-instruct:free",
-        "meta-llama/llama-3.3-70b-instruct:free",
-        "nousresearch/hermes-3-llama-3.1-405b:free",
-        "qwen/qwen3-coder:free",
-        "qwen/qwen3-next-80b-a3b-instruct:free"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T10:05:41.005360+00:00",
-      "provider": "groq",
-      "provider_label": "Groq",
-      "added": [],
-      "removed": [
-        "canopylabs/orpheus-arabic-saudi",
-        "canopylabs/orpheus-v1-english"
-      ]
-    },
-    {
       "timestamp": "2026-06-13T10:05:41.005360+00:00",
       "provider": "gemini",
       "provider_label": "Gemini",
@@ -7877,6 +7842,35 @@
         "gpt-5.3-codex-spark",
         "gpt-5.4",
         "gpt-5.5"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T23:25:31.780733+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [],
+      "removed": [
+        "mistral-ocr-3",
+        "mistral-ocr-3-0"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T23:25:31.780733+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "MarcosFRG/deepseek-v4-flash",
+        "MarcosFRG/gemma-4-31b"
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T23:25:31.780733+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "gemini-2.5-flash"
       ]
     }
   ]
