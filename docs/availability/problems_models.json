@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T16:40:53.396422+00:00",
+  "updated": "2026-06-30T17:32:49.772612+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -34,15 +34,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -401,6 +401,13 @@
           "params_b": 397.0
         },
         {
+          "id": "sarvamai/sarvam-m",
+          "name": "sarvamai/sarvam-m",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": null
+        },
+        {
           "id": "z-ai/glm-5.1",
           "name": "z-ai/glm-5.1",
           "context": null,
@@ -694,6 +701,55 @@
           "id": "qwen-vision-pro",
           "name": "qwen-vision-pro",
           "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "voodoohop/anyvm-deepseek-chat",
+          "name": "voodoohop/anyvm-deepseek-chat",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "voodoohop/airforce-qwen3-max",
+          "name": "voodoohop/airforce-qwen3-max",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "voodoohop/airforce-doubao-pro",
+          "name": "voodoohop/airforce-doubao-pro",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "voodoohop/airforce-minimax-m2.7",
+          "name": "voodoohop/airforce-minimax-m2.7",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "voodoohop/airforce-grok-4-fast",
+          "name": "voodoohop/airforce-grok-4-fast",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sharktide/inferenceport.ai-gpt-5-chat-latest",
+          "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "tomdacatto/ezra",
+          "name": "tomdacatto/ezra",
+          "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         }

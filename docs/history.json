@@ -1,46 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-12T21:30:56.127219+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "perplexity",
-        "perplexity-deep"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-12T21:30:56.127219+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "minimax-m2.7"
-      ],
-      "removed": [
-        "kimi-k2.6"
-      ]
-    },
-    {
-      "timestamp": "2026-06-12T22:29:21.259663+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "kimi-k2.7-code",
-        "qwen-vision-pro"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-12T23:28:10.975073+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "gpt-5.4-mini"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-13T00:32:20.973132+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
@@ -8092,6 +8052,45 @@
       "removed": [
         "grok-3"
       ]
+    },
+    {
+      "timestamp": "2026-06-30T17:32:49.780191+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "zai-org/GLM-4.7-fp4"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T17:32:49.780191+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "zai-org/GLM-4.5V-FP8"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T17:32:49.780191+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [
+        "mistral-ocr-3",
+        "mistral-ocr-3-0"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-06-30T17:32:49.780191+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "gpt-5.3-codex-spark",
+        "gpt-5.4",
+        "gpt-5.5"
+      ],
+      "removed": []
     }
   ]
 }
