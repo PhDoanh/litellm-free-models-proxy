@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T07:23:16.212958+00:00",
+  "updated": "2026-07-01T09:03:24.112763+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -34,15 +34,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -726,6 +726,13 @@
       "url": "https://pollinations.ai",
       "models": [
         {
+          "id": "deepseek",
+          "name": "deepseek",
+          "context": 1048576,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "grok-large",
           "name": "grok-large",
           "context": 1048576,
@@ -789,6 +796,20 @@
           "params_b": null
         },
         {
+          "id": "Spit-fires/LFM2.5-230M",
+          "name": "Spit-fires/LFM2.5-230M",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "smplstuff/qwen3-0.6b",
+          "name": "smplstuff/qwen3-0.6b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 0.6
+        },
+        {
           "id": "tomdacatto/ezra",
           "name": "tomdacatto/ezra",
           "context": null,
@@ -831,6 +852,13 @@
           "params_b": null
         },
         {
+          "id": "MarcosFRG/cosmosrp-2.1",
+          "name": "MarcosFRG/cosmosrp-2.1",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "MarcosFRG/qwen3-coder-30b-a3b",
           "name": "MarcosFRG/qwen3-coder-30b-a3b",
           "context": null,
@@ -868,6 +896,13 @@
         {
           "id": "MarcosFRG/deepseek-v4-pro",
           "name": "MarcosFRG/deepseek-v4-pro",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/minimax-m3",
+          "name": "MarcosFRG/minimax-m3",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
