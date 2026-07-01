@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T13:45:16.975265+00:00",
+  "updated": "2026-07-01T14:56:13.988272+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -177,17 +177,6 @@
             "function_calling",
             "tool_choice",
             "reasoning"
-          ],
-          "params_b": null
-        },
-        {
-          "id": "DeepSeek-V3.2",
-          "name": "DeepSeek-V3.2",
-          "context": 32768,
-          "limits": "free tier",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
           ],
           "params_b": null
         },
@@ -463,33 +452,7 @@
           "params_b": null
         },
         {
-          "id": "mistral-large-latest",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
           "id": "mistral-large-2512",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
-          "id": "mistral-large-latest",
           "name": "mistral-large-2512",
           "context": 262144,
           "limits": "1 req/s · 1B tok/month",
