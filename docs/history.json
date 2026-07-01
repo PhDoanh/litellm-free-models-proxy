@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-15T17:41:35.333839+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "zai-org/GLM-OCR"
-      ]
-    },
-    {
       "timestamp": "2026-06-15T19:15:10.601136+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7699,6 +7690,16 @@
       "added": [
         "sharktide/inferenceport-ai-kimi-k2.6",
         "sharktide/inferenceport.ai-gpt-oss-20b"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-01T23:26:38.960741+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "midijourney-large",
+        "morriszdweck/qwen-3.7-plus-cheap"
       ],
       "removed": []
     }

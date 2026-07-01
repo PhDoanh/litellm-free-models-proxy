@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T22:26:04.551694+00:00",
+  "updated": "2026-07-01T23:26:38.953370+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -34,15 +34,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -710,6 +710,20 @@
           "params_b": null
         },
         {
+          "id": "kimi",
+          "name": "kimi",
+          "context": 262000,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "kimi-code",
+          "name": "kimi-code",
+          "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "glm",
           "name": "glm",
           "context": 1048576,
@@ -775,6 +789,13 @@
         {
           "id": "tomdacatto/ezra",
           "name": "tomdacatto/ezra",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/cosmosrp-2.1",
+          "name": "MarcosFRG/cosmosrp-2.1",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
