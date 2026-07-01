@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T14:56:13.988272+00:00",
+  "updated": "2026-07-01T15:52:32.766877+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -429,39 +429,6 @@
           "name": "zai-org/GLM-5.2-FP8",
           "context": null,
           "limits": "free credits/month",
-          "params_b": null
-        }
-      ],
-      "error": null
-    },
-    "mistral": {
-      "name": "Mistral",
-      "url": "https://console.mistral.ai",
-      "models": [
-        {
-          "id": "mistral-large-2512",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
-          "id": "mistral-large-2512",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
           "params_b": null
         }
       ],
