@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T21:30:04.928236+00:00",
+  "updated": "2026-07-01T22:26:04.551694+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -139,11 +139,22 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "llama-3.1-8b-instant",
+          "name": "llama-3.1-8b-instant",
           "context": 131072,
           "limits": "varies per model",
-          "params_b": null
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 8.0
+        },
+        {
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": 27.0
         },
         {
           "id": "groq/compound",
@@ -160,6 +171,30 @@
           "params_b": 7.0
         },
         {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": 17.0
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
+        },
+        {
           "id": "qwen/qwen3-32b",
           "name": "qwen/qwen3-32b",
           "context": 131072,
@@ -170,6 +205,13 @@
             "reasoning"
           ],
           "params_b": 32.0
+        },
+        {
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
         },
         {
           "id": "openai/gpt-oss-20b",
@@ -196,48 +238,6 @@
             "reasoning"
           ],
           "params_b": 120.0
-        },
-        {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": 17.0
-        },
-        {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": 27.0
-        },
-        {
-          "id": "llama-3.1-8b-instant",
-          "name": "llama-3.1-8b-instant",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 8.0
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
         }
       ],
       "error": null
@@ -499,6 +499,34 @@
           "context": null,
           "limits": "free",
           "params_b": null
+        },
+        {
+          "id": "zai-org/GLM-5-FP4",
+          "name": "GLM 5 Fp4",
+          "context": 202752,
+          "limits": "free",
+          "params_b": null
+        },
+        {
+          "id": "zai-org/GLM-4.7-FP8",
+          "name": "Glm 4.7 Fp8",
+          "context": 202752,
+          "limits": "free",
+          "params_b": null
+        },
+        {
+          "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora",
+          "name": "Llama 4 Scout 17B 16E Instruct Fp8 Lora",
+          "context": 10485760,
+          "limits": "free",
+          "params_b": 17.0
+        },
+        {
+          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4",
+          "name": "Llama 4 Maverick 17B 128E Instruct Nvfp4",
+          "context": 1048576,
+          "limits": "free",
+          "params_b": 17.0
         }
       ],
       "error": null
@@ -1960,6 +1988,13 @@
           "params_b": null
         },
         {
+          "id": "sharktide/inferenceport.ai-gpt-oss-20b",
+          "name": "sharktide/inferenceport.ai-gpt-oss-20b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 20.0
+        },
+        {
           "id": "sharktide/inferenceport.ai-gpt-5-chat-latest",
           "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
           "context": null,
@@ -2004,6 +2039,13 @@
         {
           "id": "sharktide/inferenceport-ai-mimo-v2.5",
           "name": "sharktide/inferenceport-ai-mimo-v2.5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sharktide/inferenceport-ai-kimi-k2.6",
+          "name": "sharktide/inferenceport-ai-kimi-k2.6",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null

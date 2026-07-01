@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-15T13:01:10.161842+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "GLM-4.6V-Flash"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-15T15:56:11.099047+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "MiniMaxAI/MiniMax-M2"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-15T17:41:35.333839+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7697,6 +7679,28 @@
         "morriszdweck/sakana-fugu-ultra-cheap",
         "sharktide/inferenceport-ai-kimi-k2.6"
       ]
+    },
+    {
+      "timestamp": "2026-07-01T22:26:04.559020+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4",
+        "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora",
+        "zai-org/GLM-4.7-FP8",
+        "zai-org/GLM-5-FP4"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-01T22:26:04.559020+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "sharktide/inferenceport-ai-kimi-k2.6",
+        "sharktide/inferenceport.ai-gpt-oss-20b"
+      ],
+      "removed": []
     }
   ]
 }
