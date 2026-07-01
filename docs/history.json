@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-13T13:31:05.914792+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "google/gemma-3-27b-it-lora"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T13:31:05.914792+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
       "added": [],
@@ -7657,6 +7648,31 @@
       "added": [],
       "removed": [
         "claude-sonnet-5"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T16:45:18.078606+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "midijourney-large"
+      ],
+      "removed": [
+        "MarcosFRG/deepseek-v3.2",
+        "MarcosFRG/deepseek-v4-pro",
+        "MarcosFRG/gemini-2.5-flash-lite",
+        "MarcosFRG/gemini-3-flash-preview",
+        "MarcosFRG/gpt-5.4-nano",
+        "MarcosFRG/grok-4.20-non-reasoning",
+        "MarcosFRG/grok-4.20-reasoning",
+        "MarcosFRG/grok-4.3",
+        "MarcosFRG/kimi-k2.6",
+        "MarcosFRG/llama-4-scout",
+        "MarcosFRG/mimo-v2.5",
+        "MarcosFRG/mistral-large-3",
+        "MarcosFRG/qwen3-coder-30b-a3b",
+        "MarcosFRG/step-3.7-flash",
+        "midijourney"
       ]
     }
   ]
