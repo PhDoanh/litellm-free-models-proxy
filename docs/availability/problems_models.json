@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T00:28:09.846153+00:00",
+  "updated": "2026-07-01T01:42:51.333189+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -34,15 +34,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -89,13 +89,6 @@
             "prompt_caching"
           ],
           "params_b": null
-        },
-        {
-          "id": "gemma-4-26b-a4b-it",
-          "name": "Gemma 4 26B A4B IT",
-          "context": 262144,
-          "limits": "varies — see AI Studio",
-          "params_b": 26.0
         },
         {
           "id": "gemma-4-31b-it",
@@ -712,20 +705,6 @@
           "params_b": null
         },
         {
-          "id": "voodoohop/airforce-mimo-pro",
-          "name": "voodoohop/airforce-mimo-pro",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "voodoohop/airforce-mimo",
-          "name": "voodoohop/airforce-mimo",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
           "id": "voodoohop/airforce-qwen3-max",
           "name": "voodoohop/airforce-qwen3-max",
           "context": null,
@@ -794,6 +773,13 @@
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
+        },
+        {
+          "id": "MarcosFRG/qwen3-coder-30b-a3b",
+          "name": "MarcosFRG/qwen3-coder-30b-a3b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 30.0
         }
       ],
       "error": null
