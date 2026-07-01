@@ -2,20 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-13T10:05:41.005360+00:00",
-      "provider": "gemini",
-      "provider_label": "Gemini",
-      "added": [],
-      "removed": [
-        "gemini-2.0-flash",
-        "gemini-2.0-flash-001",
-        "gemini-2.0-flash-lite",
-        "gemini-2.0-flash-lite-001",
-        "gemini-2.5-flash-image",
-        "gemini-3.1-flash-image-preview"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T10:05:41.005360+00:00",
       "provider": "together",
       "provider_label": "Together AI",
       "added": [],
@@ -7871,6 +7857,18 @@
       "added": [],
       "removed": [
         "gemini-2.5-flash"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T00:28:09.853484+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "Qwen/Qwen3.6-27B",
+        "zai-org/GLM-4.7-FP8",
+        "zai-org/GLM-5.2",
+        "zai-org/GLM-5.2-FP8"
       ]
     }
   ]
