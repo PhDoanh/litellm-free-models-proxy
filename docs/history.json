@@ -2,18 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-13T10:05:41.005360+00:00",
-      "provider": "github",
-      "provider_label": "GitHub Models",
-      "added": [],
-      "removed": [
-        "azureml://registries/azure-openai/models/gpt-4o-mini/versions/1",
-        "azureml://registries/azure-openai/models/gpt-4o/versions/2",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-405B-Instruct/versions/1",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-8B-Instruct/versions/1"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T10:05:41.005360+00:00",
       "provider": "cloudflare",
       "provider_label": "Cloudflare AI",
       "added": [],
@@ -7668,6 +7656,18 @@
       "removed": [
         "voodoohop/airforce-mimo",
         "voodoohop/airforce-mimo-pro"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T03:02:12.704790+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/mimo-v2.5"
+      ],
+      "removed": [
+        "MarcosFRG/gpt-5-nano",
+        "MarcosFRG/step-3.5-flash"
       ]
     }
   ]
