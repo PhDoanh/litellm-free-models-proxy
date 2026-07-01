@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-15T07:48:49.083802+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "devstral-small-2:24b"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-15T10:02:36.395461+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "MiniMaxAI/MiniMax-M2"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-15T10:02:36.395461+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "perplexity-fast"
-      ]
-    },
-    {
       "timestamp": "2026-06-15T13:01:10.161842+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7679,6 +7652,43 @@
       "added": [],
       "removed": [
         "gpt-5.4-mini"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T20:32:21.294209+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.7-fp4"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T20:32:21.294209+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [],
+      "removed": [
+        "voxtral-mini-tts-mellon-greek-2606-solutions"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T20:32:21.294209+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "morriszdweck/opus-4.8-but-expensive",
+        "morriszdweck/sakana-fugu-ultra-cheap"
+      ],
+      "removed": [
+        "MarcosFRG/deepseek-v3.2",
+        "MarcosFRG/deepseek-v4-pro",
+        "MarcosFRG/gemini-2.5-flash-lite",
+        "MarcosFRG/grok-4.20-reasoning",
+        "MarcosFRG/grok-4.3",
+        "MarcosFRG/kimi-k2.6",
+        "MarcosFRG/mistral-large-3",
+        "morriszdweck/sakana-fugu-ultra-free"
       ]
     }
   ]
