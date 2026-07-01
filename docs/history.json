@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-14T20:26:09.498019+00:00",
-      "provider": "sambanova",
-      "provider_label": "SambaNova",
-      "added": [],
-      "removed": [
-        "DeepSeek-V3.2"
-      ]
-    },
-    {
-      "timestamp": "2026-06-14T21:25:50.504247+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "Qwen/Qwen3-235B-A22B-Thinking-2507"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-14T23:25:30.667840+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "Qwen/Qwen3-235B-A22B-Thinking-2507"
-      ]
-    },
-    {
       "timestamp": "2026-06-15T00:30:21.250384+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7678,6 +7651,44 @@
       "removed": [
         "gpt-5.4-mini"
       ]
+    },
+    {
+      "timestamp": "2026-07-01T18:35:09.308503+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "speakleash/Bielik-11B-v3.0-Instruct"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-01T18:35:09.308503+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/deepseek-v3.2",
+        "MarcosFRG/deepseek-v4-pro",
+        "MarcosFRG/gemini-2.5-flash-lite",
+        "MarcosFRG/grok-4.20-reasoning",
+        "MarcosFRG/grok-4.3",
+        "MarcosFRG/kimi-k2.6",
+        "MarcosFRG/mistral-large-3",
+        "midijourney-large"
+      ],
+      "removed": [
+        "MarcosFRG/gemma-3-27b",
+        "MarcosFRG/minimax-m3",
+        "sharktide/inferenceport.ai-gpt-oss-20b"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T18:35:09.308503+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "gpt-5.4-mini"
+      ],
+      "removed": []
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T17:34:22.535079+00:00",
+  "updated": "2026-07-01T18:35:09.301100+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -738,6 +738,20 @@
           "params_b": null
         },
         {
+          "id": "MarcosFRG/deepseek-v3.2",
+          "name": "MarcosFRG/deepseek-v3.2",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/gemini-2.5-flash-lite",
+          "name": "MarcosFRG/gemini-2.5-flash-lite",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "Spit-fires/Supra-1.5-50M-instruct",
           "name": "Spit-fires/Supra-1.5-50M-instruct",
           "context": null,
@@ -752,18 +766,39 @@
           "params_b": null
         },
         {
-          "id": "MarcosFRG/minimax-m3",
-          "name": "MarcosFRG/minimax-m3",
+          "id": "MarcosFRG/grok-4.20-reasoning",
+          "name": "MarcosFRG/grok-4.20-reasoning",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         },
         {
-          "id": "MarcosFRG/gemma-3-27b",
-          "name": "MarcosFRG/gemma-3-27b",
+          "id": "MarcosFRG/grok-4.3",
+          "name": "MarcosFRG/grok-4.3",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": 27.0
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/deepseek-v4-pro",
+          "name": "MarcosFRG/deepseek-v4-pro",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/mistral-large-3",
+          "name": "MarcosFRG/mistral-large-3",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/kimi-k2.6",
+          "name": "MarcosFRG/kimi-k2.6",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
         },
         {
           "id": "sharktide/inferenceport-ai-command-r-plus",
