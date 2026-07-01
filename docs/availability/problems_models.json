@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T09:03:24.112763+00:00",
+  "updated": "2026-07-01T11:01:56.779350+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -357,13 +357,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 8.0
-        },
-        {
-          "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "name": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 49.0
         },
         {
           "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
@@ -768,13 +761,6 @@
           "params_b": null
         },
         {
-          "id": "voodoohop/airforce-minimax-m2.7",
-          "name": "voodoohop/airforce-minimax-m2.7",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
           "id": "voodoohop/airforce-grok-4-fast",
           "name": "voodoohop/airforce-grok-4-fast",
           "context": null,
@@ -908,8 +894,22 @@
           "params_b": null
         },
         {
+          "id": "MarcosFRG/gpt-5.4-nano",
+          "name": "MarcosFRG/gpt-5.4-nano",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "MarcosFRG/mistral-large-3",
           "name": "MarcosFRG/mistral-large-3",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/mimo-v2.5",
+          "name": "MarcosFRG/mimo-v2.5",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null

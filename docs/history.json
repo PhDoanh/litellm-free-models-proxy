@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-13T12:30:36.713023+00:00",
-      "provider": "sambanova",
-      "provider_label": "SambaNova",
-      "added": [],
-      "removed": [
-        "MiniMax-M2.7"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T12:30:36.713023+00:00",
       "provider": "together",
       "provider_label": "Together AI",
       "added": [],
@@ -7673,6 +7664,17 @@
         "claude-sonnet-5"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-07-01T11:01:56.785072+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "midijourney"
+      ],
+      "removed": [
+        "voodoohop/airforce-minimax-m2.7"
+      ]
     }
   ]
 }
