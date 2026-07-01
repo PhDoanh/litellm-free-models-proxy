@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T20:32:21.286966+00:00",
+  "updated": "2026-07-01T21:30:04.928236+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -355,6 +355,13 @@
           "params_b": 8.0
         },
         {
+          "id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "name": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 49.0
+        },
+        {
           "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
           "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
           "context": null,
@@ -689,8 +696,22 @@
           "params_b": null
         },
         {
+          "id": "deepseek-pro",
+          "name": "deepseek-pro",
+          "context": 1048576,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "grok-large",
           "name": "grok-large",
+          "context": 1048576,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "glm",
+          "name": "glm",
           "context": 1048576,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
@@ -699,6 +720,13 @@
           "id": "minimax",
           "name": "minimax",
           "context": 524288,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "qwen-large",
+          "name": "qwen-large",
+          "context": 262000,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         },
@@ -747,13 +775,6 @@
         {
           "id": "sharktide/inferenceport-ai-command-r-plus",
           "name": "sharktide/inferenceport-ai-command-r-plus",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "sharktide/inferenceport-ai-kimi-k2.6",
-          "name": "sharktide/inferenceport-ai-kimi-k2.6",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
