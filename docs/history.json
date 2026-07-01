@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-13T10:05:41.005360+00:00",
-      "provider": "cloudflare",
-      "provider_label": "Cloudflare AI",
-      "added": [],
-      "removed": [
-        "@cf/meta/llama-3.2-11b-vision-instruct"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T10:05:41.005360+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "openai",
-        "openai-audio"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T10:05:41.005360+00:00",
-      "provider": "zai",
-      "provider_label": "Z.ai (GLM)",
-      "added": [],
-      "removed": [
-        "cogvideox-flash"
-      ]
-    },
-    {
       "timestamp": "2026-06-13T11:34:37.355074+00:00",
       "provider": "nvidia",
       "provider_label": "NVIDIA NIM",
@@ -7669,6 +7641,38 @@
         "MarcosFRG/gpt-5-nano",
         "MarcosFRG/step-3.5-flash"
       ]
+    },
+    {
+      "timestamp": "2026-07-01T05:29:27.808082+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "google/flash-image-3.1-lite"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T05:29:27.808082+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/gemini-3-flash-preview",
+        "MarcosFRG/gemma-3-27b",
+        "MarcosFRG/kimi-k2.6",
+        "sharktide/inferenceport-ai-command-r-plus",
+        "sharktide/inferenceport-ai-kimi-k2.6",
+        "sharktide/inferenceport-ai-mimo-v2.5"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-01T05:29:27.808082+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "deepseek-v4-flash"
+      ],
+      "removed": []
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T03:02:12.695888+00:00",
+  "updated": "2026-07-01T05:29:27.800289+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -34,15 +34,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -417,6 +417,20 @@
       ],
       "error": null
     },
+    "huggingface": {
+      "name": "HuggingFace",
+      "url": "https://huggingface.co",
+      "models": [
+        {
+          "id": "zai-org/GLM-5.2",
+          "name": "zai-org/GLM-5.2",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        }
+      ],
+      "error": null
+    },
     "mistral": {
       "name": "Mistral",
       "url": "https://console.mistral.ai",
@@ -761,6 +775,13 @@
           "params_b": null
         },
         {
+          "id": "skullcrushercmd/gemini-3.1-pro-preview",
+          "name": "skullcrushercmd/gemini-3.1-pro-preview",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "MarcosFRG/deepseek-v3.2",
           "name": "MarcosFRG/deepseek-v3.2",
           "context": null,
@@ -782,11 +803,25 @@
           "params_b": null
         },
         {
+          "id": "Spit-fires/Supra-1.5-50M-instruct",
+          "name": "Spit-fires/Supra-1.5-50M-instruct",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "MarcosFRG/qwen3-coder-30b-a3b",
           "name": "MarcosFRG/qwen3-coder-30b-a3b",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": 30.0
+        },
+        {
+          "id": "MarcosFRG/grok-4.20-non-reasoning",
+          "name": "MarcosFRG/grok-4.20-non-reasoning",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
         },
         {
           "id": "MarcosFRG/grok-4.20-reasoning",
@@ -805,6 +840,20 @@
         {
           "id": "MarcosFRG/step-3.7-flash",
           "name": "MarcosFRG/step-3.7-flash",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/deepseek-v4-pro",
+          "name": "MarcosFRG/deepseek-v4-pro",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/mistral-large-3",
+          "name": "MarcosFRG/mistral-large-3",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
