@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-13T13:31:05.914792+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "pearl-ai/Gemma-4-31B-it-pearl"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T14:41:32.882677+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [],
-      "removed": [
-        "nvidia/vila"
-      ]
-    },
-    {
-      "timestamp": "2026-06-13T20:26:07.055029+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "devstral-small-2:24b"
-      ]
-    },
-    {
       "timestamp": "2026-06-14T20:26:09.498019+00:00",
       "provider": "sambanova",
       "provider_label": "SambaNova",
@@ -7673,6 +7646,37 @@
         "MarcosFRG/qwen3-coder-30b-a3b",
         "MarcosFRG/step-3.7-flash",
         "midijourney"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T17:34:22.542314+00:00",
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "added": [
+        "voxtral-mini-tts-mellon-greek-2606-solutions"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-01T17:34:22.542314+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "Spit-fires/diffusiongemma-26b-a4b-it"
+      ],
+      "removed": [
+        "midijourney-large",
+        "skullcrushercmd/gemini-3.1-pro-preview",
+        "smplstuff/qwen3-0.6b"
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T17:34:22.542314+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "gpt-5.4-mini"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T16:45:18.071619+00:00",
+  "updated": "2026-07-01T17:34:22.535079+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -139,37 +139,6 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": 17.0
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
-        },
-        {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
-        },
-        {
           "id": "qwen/qwen3-32b",
           "name": "qwen/qwen3-32b",
           "context": 131072,
@@ -182,11 +151,54 @@
           "params_b": 32.0
         },
         {
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model",
+          "params_b": 7.0
+        },
+        {
+          "id": "llama-3.1-8b-instant",
+          "name": "llama-3.1-8b-instant",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 8.0
+        },
+        {
           "id": "qwen/qwen3.6-27b",
           "name": "qwen/qwen3.6-27b",
           "context": 131072,
           "limits": "varies per model",
           "params_b": 27.0
+        },
+        {
+          "id": "groq/compound",
+          "name": "groq/compound",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
         },
         {
           "id": "openai/gpt-oss-20b",
@@ -202,11 +214,17 @@
           "params_b": 20.0
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
           "context": 131072,
           "limits": "varies per model",
-          "params_b": null
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": 17.0
         },
         {
           "id": "openai/gpt-oss-120b",
@@ -220,24 +238,6 @@
             "reasoning"
           ],
           "params_b": 120.0
-        },
-        {
-          "id": "llama-3.1-8b-instant",
-          "name": "llama-3.1-8b-instant",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 8.0
-        },
-        {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
         }
       ],
       "error": null
@@ -246,6 +246,19 @@
       "name": "Cerebras",
       "url": "https://cloud.cerebras.ai",
       "models": [
+        {
+          "id": "gpt-oss-120b",
+          "name": "gpt-oss-120b",
+          "context": 131072,
+          "limits": "1M tokens/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ],
+          "params_b": 120.0
+        },
         {
           "id": "gemma-4-31b",
           "name": "gemma-4-31b",
@@ -264,19 +277,6 @@
             "reasoning"
           ],
           "params_b": null
-        },
-        {
-          "id": "gpt-oss-120b",
-          "name": "gpt-oss-120b",
-          "context": 131072,
-          "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
         }
       ],
       "error": null
@@ -1470,6 +1470,20 @@
           "context": null,
           "limits": "1 req/s · 1B tok/month",
           "params_b": null
+        },
+        {
+          "id": "voxtral-mini-tts-mellon-greek-2606-solutions",
+          "name": "voxtral-mini-tts-mellon-greek-2606-solutions",
+          "context": null,
+          "limits": "1 req/s · 1B tok/month",
+          "params_b": null
+        },
+        {
+          "id": "voxtral-mini-tts-mellon-greek-2606-solutions",
+          "name": "voxtral-mini-tts-mellon-greek-2606-solutions",
+          "context": null,
+          "limits": "1 req/s · 1B tok/month",
+          "params_b": null
         }
       ],
       "error": null
@@ -1784,13 +1798,6 @@
           "params_b": null
         },
         {
-          "id": "midijourney-large",
-          "name": "midijourney-large",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
           "id": "kimi",
           "name": "kimi",
           "context": 262000,
@@ -1966,22 +1973,8 @@
           "params_b": null
         },
         {
-          "id": "smplstuff/qwen3-0.6b",
-          "name": "smplstuff/qwen3-0.6b",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": 0.6
-        },
-        {
           "id": "tomdacatto/ezra",
           "name": "tomdacatto/ezra",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "skullcrushercmd/gemini-3.1-pro-preview",
-          "name": "skullcrushercmd/gemini-3.1-pro-preview",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
@@ -2034,6 +2027,13 @@
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
+        },
+        {
+          "id": "Spit-fires/diffusiongemma-26b-a4b-it",
+          "name": "Spit-fires/diffusiongemma-26b-a4b-it",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 26.0
         }
       ],
       "error": null
@@ -2061,13 +2061,6 @@
           "context": 384000,
           "limits": "anonymous · 30 req/min with token",
           "params_b": 24.0
-        },
-        {
-          "id": "gpt-5.4-mini",
-          "name": "gpt-5.4-mini",
-          "context": 400000,
-          "limits": "anonymous · 30 req/min with token",
-          "params_b": null
         }
       ],
       "error": null
