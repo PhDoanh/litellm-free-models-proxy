@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T11:01:56.779350+00:00",
+  "updated": "2026-07-01T12:52:02.882488+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -34,15 +34,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -733,6 +733,13 @@
           "params_b": null
         },
         {
+          "id": "minimax",
+          "name": "minimax",
+          "context": 524288,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "qwen-vision-pro",
           "name": "qwen-vision-pro",
           "context": 262144,
@@ -761,29 +768,8 @@
           "params_b": null
         },
         {
-          "id": "voodoohop/airforce-grok-4-fast",
-          "name": "voodoohop/airforce-grok-4-fast",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
           "id": "CloudCompile/gemma-4-e2b",
           "name": "CloudCompile/gemma-4-e2b",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "sharktide/inferenceport.ai-gpt-5-chat-latest",
-          "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "Spit-fires/LFM2.5-230M",
-          "name": "Spit-fires/LFM2.5-230M",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
@@ -910,6 +896,34 @@
         {
           "id": "MarcosFRG/mimo-v2.5",
           "name": "MarcosFRG/mimo-v2.5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/kimi-k2.6",
+          "name": "MarcosFRG/kimi-k2.6",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sharktide/inferenceport-ai-command-r-plus",
+          "name": "sharktide/inferenceport-ai-command-r-plus",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sharktide/inferenceport-ai-kimi-k2.6",
+          "name": "sharktide/inferenceport-ai-kimi-k2.6",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/gemini-3-flash-preview",
+          "name": "MarcosFRG/gemini-3-flash-preview",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
