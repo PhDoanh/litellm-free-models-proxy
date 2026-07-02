@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T05:47:44.529643+00:00",
+  "updated": "2026-07-02T08:39:46.949548+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -782,6 +782,13 @@
         {
           "id": "tomdacatto/ezra",
           "name": "tomdacatto/ezra",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/gemini-2.5-flash-lite",
+          "name": "MarcosFRG/gemini-2.5-flash-lite",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
