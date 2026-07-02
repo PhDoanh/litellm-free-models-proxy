@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T15:58:52.594731+00:00",
+  "updated": "2026-07-02T17:46:19.452740+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -146,6 +146,17 @@
       "url": "https://console.groq.com",
       "models": [
         {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
+        },
+        {
           "id": "qwen/qwen3-32b",
           "name": "qwen/qwen3-32b",
           "context": 131072,
@@ -156,20 +167,6 @@
             "reasoning"
           ],
           "params_b": 32.0
-        },
-        {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
-        },
-        {
-          "id": "groq/compound",
-          "name": "groq/compound",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
         },
         {
           "id": "openai/gpt-oss-120b",
@@ -203,17 +200,6 @@
           "params_b": 27.0
         },
         {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
-        },
-        {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
           "name": "meta-llama/llama-4-scout-17b-16e-instruct",
           "context": 131072,
@@ -238,6 +224,20 @@
             "reasoning"
           ],
           "params_b": 20.0
+        },
+        {
+          "id": "groq/compound",
+          "name": "groq/compound",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model",
+          "params_b": 7.0
         },
         {
           "id": "groq/compound-mini",
@@ -984,13 +984,6 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": null
-        },
-        {
-          "id": "speakleash/Bielik-11B-v3.0-Instruct",
-          "name": "speakleash/Bielik-11B-v3.0-Instruct",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 11.0
         }
       ],
       "error": null
@@ -2244,6 +2237,34 @@
         {
           "id": "Catniti/glm-4.7-flash",
           "name": "Catniti/glm-4.7-flash",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "vendouple/gpt-5.5",
+          "name": "vendouple/gpt-5.5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "morriszdweck/mincapi-instant-free",
+          "name": "morriszdweck/mincapi-instant-free",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "morriszdweck/mincapi-agent-swarm-free",
+          "name": "morriszdweck/mincapi-agent-swarm-free",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "vendouple/deepseek-v4-flash",
+          "name": "vendouple/deepseek-v4-flash",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null

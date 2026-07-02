@@ -1,26 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-16T11:44:11.191086+00:00",
-      "provider": "mistral",
-      "provider_label": "Mistral",
-      "added": [
-        "mistral-ocr-3",
-        "mistral-ocr-3-0"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-16T13:32:50.940913+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "google/gemma-4-31B-it-lora",
-        "minimax/speech-2.8-turbo"
-      ]
-    },
-    {
       "timestamp": "2026-06-16T13:32:50.940913+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7538,6 +7518,27 @@
       "provider_label": "LLM7",
       "added": [
         "glm-5.2"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-02T17:46:19.460021+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "speakleash/Bielik-11B-v3.0-Instruct"
+      ]
+    },
+    {
+      "timestamp": "2026-07-02T17:46:19.460021+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "morriszdweck/mincapi-agent-swarm-free",
+        "morriszdweck/mincapi-instant-free",
+        "vendouple/deepseek-v4-flash",
+        "vendouple/gpt-5.5"
       ],
       "removed": []
     }
