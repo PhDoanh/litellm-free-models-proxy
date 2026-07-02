@@ -1,53 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-16T20:59:47.308189+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "zai-org/GLM-4.7-fp4"
-      ]
-    },
-    {
-      "timestamp": "2026-06-16T20:59:47.308189+00:00",
-      "provider": "mistral",
-      "provider_label": "Mistral",
-      "added": [],
-      "removed": [
-        "mistral-ocr-3",
-        "mistral-ocr-3-0"
-      ]
-    },
-    {
-      "timestamp": "2026-06-16T21:57:11.884512+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "zai-org/GLM-4.7-FP8"
-      ]
-    },
-    {
-      "timestamp": "2026-06-17T00:31:27.877430+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "zai-org/GLM-5.2"
-      ]
-    },
-    {
-      "timestamp": "2026-06-17T00:31:27.877430+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "deepseek-v3.1:671b-terminus",
-        "deepseek-v4-flash"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-17T01:47:45.583589+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7491,6 +7444,56 @@
         "gpt-oss:20b"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-07-02T20:52:28.111692+00:00",
+      "provider": "sambanova",
+      "provider_label": "SambaNova",
+      "added": [],
+      "removed": [
+        "gemma-4-31B-it"
+      ]
+    },
+    {
+      "timestamp": "2026-07-02T20:52:28.111692+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "alibaba/happyhorse-1.0-r2v"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-02T20:52:28.111692+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "google/gemma-3-12b-it",
+        "google/gemma-3-4b-it"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-02T20:52:28.111692+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "Bakhshi7889/gemma-4-31b-it",
+        "MarcosFRG/glm-4.6v-flash",
+        "smplstuff/falcon-h1-tiny"
+      ],
+      "removed": [
+        "Catniti/glm-4.7-flash"
+      ]
+    },
+    {
+      "timestamp": "2026-07-02T20:52:28.111692+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "claude-fable-5"
+      ]
     }
   ]
 }

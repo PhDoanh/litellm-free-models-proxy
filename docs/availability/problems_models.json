@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T19:06:58.368035+00:00",
+  "updated": "2026-07-02T20:52:28.104520+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -167,23 +167,6 @@
             "prompt_caching"
           ],
           "params_b": null
-        }
-      ],
-      "error": null
-    },
-    "sambanova": {
-      "name": "SambaNova",
-      "url": "https://cloud.sambanova.ai",
-      "models": [
-        {
-          "id": "gemma-4-31B-it",
-          "name": "gemma-4-31B-it",
-          "context": 131072,
-          "limits": "free tier",
-          "capabilities": [
-            "vision"
-          ],
-          "params_b": 31.0
         }
       ],
       "error": null
@@ -405,13 +388,6 @@
         {
           "id": "zai-org/GLM-5.2-FP8",
           "name": "zai-org/GLM-5.2-FP8",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": null
-        },
-        {
-          "id": "stepfun-ai/Step-3.7-Flash",
-          "name": "stepfun-ai/Step-3.7-Flash",
           "context": null,
           "limits": "free credits/month",
           "params_b": null
@@ -795,6 +771,27 @@
         {
           "id": "morriszdweck/qwen-3.7-plus-cheap",
           "name": "morriszdweck/qwen-3.7-plus-cheap",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Minor-fun/LongCat-2.0",
+          "name": "Minor-fun/LongCat-2.0",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Minor-fun/gemma-4-31B-it",
+          "name": "Minor-fun/gemma-4-31B-it",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 31.0
+        },
+        {
+          "id": "Minor-fun/deepseek-v3.2",
+          "name": "Minor-fun/deepseek-v3.2",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
