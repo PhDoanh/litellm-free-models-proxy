@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-17T05:34:39.694266+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-17T05:34:39.694266+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
       "added": [
@@ -7491,6 +7482,15 @@
       "added": [],
       "removed": [
         "morriszdweck/mincapi-agent-swarm-free"
+      ]
+    },
+    {
+      "timestamp": "2026-07-02T23:01:10.503601+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "morriszdweck/mincapi-instant-free"
       ]
     }
   ]
