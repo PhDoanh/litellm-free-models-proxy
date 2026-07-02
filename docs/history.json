@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-15T20:59:35.366715+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "GLM-4.6V-Flash"
-      ]
-    },
-    {
-      "timestamp": "2026-06-15T22:46:39.215418+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "MiniMaxAI/MiniMax-M2",
-        "Qwen/Qwen2.5-72B-Instruct",
-        "Qwen/Qwen3-VL-235B-A22B-Thinking",
-        "Qwen/Qwen3-VL-30B-A3B-Instruct",
-        "Sao10K/L3-8B-Stheno-v3.2",
-        "aisingapore/Gemma-SEA-LION-v4-27B-IT",
-        "meta-llama/Llama-3.1-70B-Instruct",
-        "swiss-ai/Apertus-8B-Instruct-2509",
-        "utter-project/EuroLLM-22B-Instruct-2512",
-        "zai-org/AutoGLM-Phone-9B-Multilingual"
-      ]
-    },
-    {
       "timestamp": "2026-06-15T23:31:11.378394+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -7674,6 +7647,27 @@
       "provider_label": "Pollinations",
       "added": [
         "Minor-fun/LongCat-2.0"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-02T01:38:22.070447+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4",
+        "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora",
+        "zai-org/GLM-4.7-FP8",
+        "zai-org/GLM-5-FP4"
+      ]
+    },
+    {
+      "timestamp": "2026-07-02T01:38:22.070447+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "Minor-fun/gemma-4-31B-it"
       ],
       "removed": []
     }
