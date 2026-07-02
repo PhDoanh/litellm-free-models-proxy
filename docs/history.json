@@ -1,53 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-15T23:31:11.378394+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "Qwen/Qwen2.5-72B-Instruct",
-        "Qwen/Qwen3-4B-Thinking-2507",
-        "Qwen/Qwen3-VL-235B-A22B-Thinking",
-        "Qwen/Qwen3-VL-30B-A3B-Instruct",
-        "Sao10K/L3-8B-Stheno-v3.2",
-        "aisingapore/Gemma-SEA-LION-v4-27B-IT",
-        "meta-llama/Llama-3.1-70B-Instruct",
-        "swiss-ai/Apertus-8B-Instruct-2509",
-        "utter-project/EuroLLM-22B-Instruct-2512",
-        "zai-org/AutoGLM-Phone-9B-Multilingual"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-16T00:37:01.631153+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "cartesia/sonic-3.5"
-      ]
-    },
-    {
-      "timestamp": "2026-06-16T00:37:01.631153+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "Qwen/Qwen2.5-72B-Instruct",
-        "Qwen/Qwen2.5-VL-72B-Instruct",
-        "Qwen/Qwen3-4B-Thinking-2507",
-        "Qwen/Qwen3-VL-235B-A22B-Thinking",
-        "Qwen/Qwen3-VL-30B-A3B-Instruct",
-        "Sao10K/L3-8B-Stheno-v3.2",
-        "aisingapore/Gemma-SEA-LION-v4-27B-IT",
-        "meta-llama/Llama-3.1-70B-Instruct",
-        "swiss-ai/Apertus-8B-Instruct-2509",
-        "utter-project/EuroLLM-22B-Instruct-2512",
-        "zai-org/AutoGLM-Phone-9B-Multilingual",
-        "zai-org/GLM-4.6-FP8"
-      ]
-    },
-    {
       "timestamp": "2026-06-16T01:51:16.259242+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7670,6 +7623,40 @@
         "Minor-fun/gemma-4-31B-it"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-07-02T05:47:44.536902+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "Qwen/Qwen3.5-35B-A3B-Lora",
+        "google/gemma-3-27b-it"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-02T05:47:44.536902+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [
+        "mistralai/mistral-7b-instruct-v0.3"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-02T05:47:44.536902+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "Minor-fun/deepseek-v3.2",
+        "Minor-fun/deepseek-v4-flash",
+        "gpt-5.4",
+        "sharktide/inferenceport-ai-gpt-4.1"
+      ],
+      "removed": [
+        "midijourney-large",
+        "sharktide/inferenceport-ai-kimi-k2.6"
+      ]
     }
   ]
 }
