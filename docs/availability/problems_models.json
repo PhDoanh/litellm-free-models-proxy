@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T08:39:46.949548+00:00",
+  "updated": "2026-07-02T11:25:13.822504+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -201,18 +201,6 @@
             "vision"
           ],
           "params_b": 31.0
-        },
-        {
-          "id": "gpt-oss-120b",
-          "name": "gpt-oss-120b",
-          "context": 131072,
-          "limits": "free tier",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": 120.0
         }
       ],
       "error": null
@@ -796,13 +784,6 @@
         {
           "id": "MarcosFRG/cosmosrp-2.1",
           "name": "MarcosFRG/cosmosrp-2.1",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "sharktide/inferenceport-ai-command-r-plus",
-          "name": "sharktide/inferenceport-ai-command-r-plus",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
