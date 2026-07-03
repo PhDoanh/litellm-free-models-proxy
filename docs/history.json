@@ -1,68 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-17T05:34:39.694266+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "midijourney"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-17T09:31:42.326375+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "glm-5.2",
-        "gpt-5.4-mini"
-      ],
-      "removed": [
-        "deepseek-v3.1:671b-terminus",
-        "deepseek-v4-flash"
-      ]
-    },
-    {
-      "timestamp": "2026-06-17T11:31:25.272918+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4"
-      ]
-    },
-    {
-      "timestamp": "2026-06-17T15:02:02.194939+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora"
-      ]
-    },
-    {
-      "timestamp": "2026-06-17T15:02:02.194939+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "gpt-5.5",
-        "midijourney-large"
-      ],
-      "removed": [
-        "midijourney"
-      ]
-    },
-    {
-      "timestamp": "2026-06-17T16:59:51.815496+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "gpt-5.5",
-        "midijourney-large"
-      ]
-    },
-    {
       "timestamp": "2026-06-17T16:59:51.815496+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
@@ -7491,6 +7429,65 @@
       "added": [],
       "removed": [
         "morriszdweck/mincapi-instant-free"
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T01:50:50.865714+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [
+        "gemini-3.1-flash-image"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-03T01:50:50.865714+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-03T01:50:50.865714+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [],
+      "removed": [
+        "google/gemma-3n-e4b-it"
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T01:50:50.865714+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-03T01:50:50.865714+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/deepseek-v3.2",
+        "MarcosFRG/deepseek-v4-pro",
+        "MarcosFRG/gemini-3-flash-preview",
+        "MarcosFRG/gemma-3-27b",
+        "morriszdweck/mimo-v2.5-free"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-03T01:50:50.865714+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "glm-5.2"
       ]
     }
   ]

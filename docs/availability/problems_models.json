@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T23:01:10.496140+00:00",
+  "updated": "2026-07-03T01:50:50.857860+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -34,15 +34,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -54,6 +54,18 @@
       "name": "Cerebras",
       "url": "https://cloud.cerebras.ai",
       "models": [
+        {
+          "id": "zai-glm-4.7",
+          "name": "zai-glm-4.7",
+          "context": 128000,
+          "limits": "1M tokens/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": null
+        },
         {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
@@ -211,13 +223,6 @@
           "params_b": 26.0
         },
         {
-          "id": "google/gemma-3n-e4b-it",
-          "name": "google/gemma-3n-e4b-it",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": null
-        },
-        {
           "id": "google/gemma-4-31b-it",
           "name": "google/gemma-4-31b-it",
           "context": null,
@@ -330,6 +335,13 @@
           "params_b": 550.0
         },
         {
+          "id": "nvidia/nemotron-nano-12b-v2-vl",
+          "name": "nvidia/nemotron-nano-12b-v2-vl",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 12.0
+        },
+        {
           "id": "openai/gpt-oss-120b",
           "name": "openai/gpt-oss-120b",
           "context": null,
@@ -388,6 +400,13 @@
         {
           "id": "zai-org/GLM-5.2-FP8",
           "name": "zai-org/GLM-5.2-FP8",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        },
+        {
+          "id": "XiaomiMiMo/MiMo-V2.5-Pro",
+          "name": "XiaomiMiMo/MiMo-V2.5-Pro",
           "context": null,
           "limits": "free credits/month",
           "params_b": null
@@ -657,6 +676,13 @@
           "params_b": null
         },
         {
+          "id": "grok-4-20-reasoning",
+          "name": "grok-4-20-reasoning",
+          "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "grok-large",
           "name": "grok-large",
           "context": 1048576,
@@ -713,6 +739,13 @@
           "params_b": null
         },
         {
+          "id": "step-3.5-flash",
+          "name": "step-3.5-flash",
+          "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "voodoohop/anyvm-deepseek-chat",
           "name": "voodoohop/anyvm-deepseek-chat",
           "context": null,
@@ -741,8 +774,22 @@
           "params_b": null
         },
         {
+          "id": "sharktide/inferenceport.ai-gpt-oss-20b",
+          "name": "sharktide/inferenceport.ai-gpt-oss-20b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 20.0
+        },
+        {
           "id": "tomdacatto/ezra",
           "name": "tomdacatto/ezra",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/deepseek-v3.2",
+          "name": "MarcosFRG/deepseek-v3.2",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
@@ -769,6 +816,48 @@
           "params_b": null
         },
         {
+          "id": "MarcosFRG/deepseek-v4-pro",
+          "name": "MarcosFRG/deepseek-v4-pro",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/gemma-3-27b",
+          "name": "MarcosFRG/gemma-3-27b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 27.0
+        },
+        {
+          "id": "sharktide/inferenceport-ai-command-r-plus",
+          "name": "sharktide/inferenceport-ai-command-r-plus",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/gemini-3-flash-preview",
+          "name": "MarcosFRG/gemini-3-flash-preview",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Spit-fires/diffusiongemma-26b-a4b-it",
+          "name": "Spit-fires/diffusiongemma-26b-a4b-it",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 26.0
+        },
+        {
+          "id": "morriszdweck/nova-cheap",
+          "name": "morriszdweck/nova-cheap",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "morriszdweck/qwen-3.7-plus-cheap",
           "name": "morriszdweck/qwen-3.7-plus-cheap",
           "context": null,
@@ -788,6 +877,13 @@
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": 31.0
+        },
+        {
+          "id": "sharktide/inferenceport-ai-gpt-4.1",
+          "name": "sharktide/inferenceport-ai-gpt-4.1",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
         },
         {
           "id": "Minor-fun/deepseek-v3.2",
@@ -820,6 +916,13 @@
         {
           "id": "sixfingerdev/claude-sonnet-4-5",
           "name": "sixfingerdev/claude-sonnet-4-5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sixfingerdev/kimi-k2.7-code",
+          "name": "sixfingerdev/kimi-k2.7-code",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
@@ -867,8 +970,43 @@
           "params_b": null
         },
         {
+          "id": "sixfingerdev/glm-5",
+          "name": "sixfingerdev/glm-5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sixfingerdev/deepseek-v4-flash",
+          "name": "sixfingerdev/deepseek-v4-flash",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "Minor-fun/deepseek-v4-flash",
           "name": "Minor-fun/deepseek-v4-flash",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Spit-fires/gpt-oss-20b-free",
+          "name": "Spit-fires/gpt-oss-20b-free",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 20.0
+        },
+        {
+          "id": "vendouple/gpt-5.5",
+          "name": "vendouple/gpt-5.5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "vendouple/deepseek-v4-flash",
+          "name": "vendouple/deepseek-v4-flash",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
