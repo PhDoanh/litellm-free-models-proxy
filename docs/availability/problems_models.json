@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T18:59:22.042343+00:00",
+  "updated": "2026-07-03T20:13:56.885407+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -62,6 +62,18 @@
       "url": "https://cloud.cerebras.ai",
       "models": [
         {
+          "id": "zai-glm-4.7",
+          "name": "zai-glm-4.7",
+          "context": 128000,
+          "limits": "1M tokens/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": null
+        },
+        {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
           "context": 131072,
@@ -73,18 +85,6 @@
             "reasoning"
           ],
           "params_b": 120.0
-        },
-        {
-          "id": "zai-glm-4.7",
-          "name": "zai-glm-4.7",
-          "context": 128000,
-          "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": null
         }
       ],
       "error": null
@@ -412,13 +412,6 @@
           "params_b": 27.0
         },
         {
-          "id": "zai-org/GLM-5.2-FP8",
-          "name": "zai-org/GLM-5.2-FP8",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": null
-        },
-        {
           "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
           "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
           "context": null,
@@ -431,6 +424,13 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": null
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 550.0
         }
       ],
       "error": null
@@ -758,6 +758,13 @@
           "params_b": null
         },
         {
+          "id": "llama",
+          "name": "llama",
+          "context": 131072,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "minimax-m2.7",
           "name": "minimax-m2.7",
           "context": 200000,
@@ -821,8 +828,36 @@
           "params_b": null
         },
         {
+          "id": "voodoohop/airforce-grok-4-fast",
+          "name": "voodoohop/airforce-grok-4-fast",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "CloudCompile/gemma-4-e2b",
           "name": "CloudCompile/gemma-4-e2b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sharktide/inferenceport.ai-gpt-oss-20b",
+          "name": "sharktide/inferenceport.ai-gpt-oss-20b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 20.0
+        },
+        {
+          "id": "sharktide/inferenceport.ai-gpt-5-chat-latest",
+          "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Spit-fires/LFM2.5-230M",
+          "name": "Spit-fires/LFM2.5-230M",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
@@ -844,13 +879,6 @@
         {
           "id": "MarcosFRG/gemini-2.5-flash-lite",
           "name": "MarcosFRG/gemini-2.5-flash-lite",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "MarcosFRG/cosmosrp-2.1",
-          "name": "MarcosFRG/cosmosrp-2.1",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
@@ -935,13 +963,6 @@
         {
           "id": "sixfingerdev/claude-sonnet-4-6",
           "name": "sixfingerdev/claude-sonnet-4-6",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "sixfingerdev/claude-opus-4-8-fast",
-          "name": "sixfingerdev/claude-opus-4-8-fast",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
@@ -1052,8 +1073,8 @@
           "params_b": null
         },
         {
-          "id": "MarcosFRG/glm-4.6v-flash",
-          "name": "MarcosFRG/glm-4.6v-flash",
+          "id": "smplstuff/falcon-h1-tiny",
+          "name": "smplstuff/falcon-h1-tiny",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null

@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-18T09:26:41.241288+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "XiaomiMiMo/MiMo-V2.5-Pro"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-18T11:20:24.800842+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "google/gemma-3-27b-it"
-      ]
-    },
-    {
       "timestamp": "2026-06-18T15:00:49.939284+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -7780,6 +7762,30 @@
       "removed": [
         "Catniti/gemini-2.5-flash-lite",
         "Catniti/gemini-3.5-flash"
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T20:13:56.893423+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "MiniMaxAI/MiniMax-M3",
+        "moonshotai/Kimi-K2.7-Code"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-03T20:13:56.893423+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "Catniti/Laguna-xs-2.1",
+        "Catniti/nemotron-3-ultra-550b-a55b"
+      ],
+      "removed": [
+        "MarcosFRG/cosmosrp-2.1",
+        "MarcosFRG/glm-4.6v-flash",
+        "sixfingerdev/claude-opus-4-8-fast"
       ]
     }
   ]
