@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Probes each (provider, model) listed in docs/models.json with a minimal
-chat-completions request and records the result to docs/probes.jsonl.
+chat-completions request and records the result to data/probes.jsonl.
 Regenerates docs/availability.json (rolling 7d/30d aggregates).
 
 Every cron run probes every model. Models that failed their last 3
@@ -28,10 +28,12 @@ from common import _opener
 
 ROOT = Path(__file__).parent
 DOCS = ROOT / "docs"
+# Raw probe logs live outside docs/ so they don't ship with every Pages deploy.
+DATA = ROOT / "data"
 MODELS_JSON = DOCS / "models.json"
-PROBES_JSONL = DOCS / "probes.jsonl"
+PROBES_JSONL = DATA / "probes.jsonl"
 AVAIL_JSON = DOCS / "availability.json"
-ARCHIVE_DIR = DOCS / "probes-archive"
+ARCHIVE_DIR = DATA / "probes-archive"
 
 PROBE_TIMEOUT = 15
 PER_PROVIDER_CONCURRENCY = 2

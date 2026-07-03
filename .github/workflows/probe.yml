@@ -51,7 +51,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # Stage paths only if they exist — `git add` aborts entirely if any
           # pathspec is missing, leaving everything unstaged.
-          for p in docs/probes.jsonl docs/availability.json docs/probes-archive; do
+          for p in data/probes.jsonl docs/availability.json data/probes-archive; do
             [ -e "$p" ] && git add "$p"
           done
           git diff --cached --quiet || git commit -m "chore: probe results $(date -u '+%Y-%m-%d %H:%M')"
