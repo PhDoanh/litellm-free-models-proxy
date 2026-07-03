@@ -2,24 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-18T09:26:41.241288+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "Qwen/Qwen3.5-35B-A3B-Lora"
-      ]
-    },
-    {
-      "timestamp": "2026-06-18T09:26:41.241288+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [],
-      "removed": [
-        "mistralai/mistral-7b-instruct-v0.3"
-      ]
-    },
-    {
-      "timestamp": "2026-06-18T09:26:41.241288+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
       "added": [
@@ -7773,6 +7755,32 @@
         "voodoohop/anyvm-deepseek-chat"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-07-03T18:59:22.050325+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "alibaba/happyhorse-1.1-i2v",
+        "alibaba/happyhorse-1.1-r2v",
+        "alibaba/happyhorse-1.1-t2v",
+        "ideogram/ideogram-4.0"
+      ],
+      "removed": [
+        "MiniMaxAI/MiniMax-M2.5-FP4"
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T18:59:22.050325+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "Catniti/mistral-small-latest"
+      ],
+      "removed": [
+        "Catniti/gemini-2.5-flash-lite",
+        "Catniti/gemini-3.5-flash"
+      ]
     }
   ]
 }
