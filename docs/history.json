@@ -1,28 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-18T15:00:49.939284+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "alibaba/happyhorse-1.0-r2v"
-      ],
-      "removed": [
-        "openai/gpt-image-2",
-        "rime-labs/rime-mist-v3",
-        "rime-labs/rime-mist-v3-omni"
-      ]
-    },
-    {
-      "timestamp": "2026-06-18T17:00:00.093238+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [],
-      "removed": [
-        "stepfun-ai/Step-3.7-Flash"
-      ]
-    },
-    {
       "timestamp": "2026-06-18T18:06:28.841935+00:00",
       "provider": "cerebras",
       "provider_label": "Cerebras",
@@ -7786,6 +7764,25 @@
         "MarcosFRG/cosmosrp-2.1",
         "MarcosFRG/glm-4.6v-flash",
         "sixfingerdev/claude-opus-4-8-fast"
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T21:54:57.562070+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/minimax-m2.7",
+        "MarcosFRG/minimax-m3"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-03T21:54:57.562070+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "claude-opus-4-8"
       ]
     }
   ]
