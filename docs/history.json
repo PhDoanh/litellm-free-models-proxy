@@ -1,47 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-17T16:59:51.815496+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "glm-5.2",
-        "gpt-5.4-mini"
-      ]
-    },
-    {
-      "timestamp": "2026-06-17T20:40:22.623919+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "gpt-5.5",
-        "midijourney-large"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-17T21:36:49.205156+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "gpt-5.4",
-        "grok-4-20-reasoning",
-        "kimi-code",
-        "kimi-k2.5",
-        "minimax-m2.7",
-        "mistral-small-3.2"
-      ],
-      "removed": [
-        "gpt-5.5",
-        "grok-4.3",
-        "kimi-k2.6",
-        "kimi-k2.7-code",
-        "minimax-m3",
-        "mistral-4"
-      ]
-    },
-    {
       "timestamp": "2026-06-17T22:31:43.806647+00:00",
       "provider": "openrouter",
       "provider_label": "OpenRouter",
@@ -7488,6 +7447,37 @@
       "added": [],
       "removed": [
         "glm-5.2"
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T05:42:07.207341+00:00",
+      "provider": "nvidia",
+      "provider_label": "NVIDIA NIM",
+      "added": [
+        "google/gemma-3-12b-it",
+        "google/gemma-3-4b-it"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-03T05:42:07.207341+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "vendouple/deepseek-v3.2",
+        "vendouple/kimi-k2.6"
+      ],
+      "removed": [
+        "morriszdweck/nova-cheap"
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T05:42:07.207341+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "gpt-oss:20b"
       ]
     }
   ]

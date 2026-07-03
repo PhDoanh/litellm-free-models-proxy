@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T01:50:50.857860+00:00",
+  "updated": "2026-07-03T05:42:07.199748+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -36,13 +36,6 @@
         {
           "id": "poolside/laguna-xs.2:free",
           "name": "Poolside: Laguna XS.2 (free)",
-          "context": 262144,
-          "limits": "20 req/min · 50 req/day",
-          "params_b": null
-        },
-        {
-          "id": "poolside/laguna-m.1:free",
-          "name": "Poolside: Laguna M.1 (free)",
           "context": 262144,
           "limits": "20 req/min · 50 req/day",
           "params_b": null
@@ -125,15 +118,11 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
           "context": 131072,
           "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
+          "params_b": 27.0
         },
         {
           "id": "allam-2-7b",
@@ -169,13 +158,6 @@
           "params_b": 120.0
         },
         {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": 27.0
-        },
-        {
           "id": "llama-3.1-8b-instant",
           "name": "llama-3.1-8b-instant",
           "context": 131072,
@@ -185,6 +167,17 @@
             "tool_choice"
           ],
           "params_b": 8.0
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
         },
         {
           "id": "qwen/qwen3-32b",
@@ -400,13 +393,6 @@
           "params_b": 8.0
         },
         {
-          "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "name": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 49.0
-        },
-        {
           "id": "nvidia/nemotron-3-content-safety",
           "name": "nvidia/nemotron-3-content-safety",
           "context": null,
@@ -496,6 +482,13 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 10.7
+        },
+        {
+          "id": "z-ai/glm-5.2",
+          "name": "z-ai/glm-5.2",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": null
         }
       ],
       "error": null
@@ -753,33 +746,7 @@
           "params_b": null
         },
         {
-          "id": "mistral-large-latest",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
           "id": "mistral-large-2512",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
-          "id": "mistral-large-latest",
           "name": "mistral-large-2512",
           "context": 262144,
           "limits": "1 req/s · 1B tok/month",
@@ -1155,6 +1122,13 @@
           "params_b": null
         },
         {
+          "id": "sharktide/inferenceport.ai-gpt-oss-20b",
+          "name": "sharktide/inferenceport.ai-gpt-oss-20b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 20.0
+        },
+        {
           "id": "sharktide/inferenceport.ai-gpt-5-chat-latest",
           "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
           "context": null,
@@ -1178,13 +1152,6 @@
         {
           "id": "mikl-shortcuts/command-a-plus",
           "name": "mikl-shortcuts/command-a-plus",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "Spit-fires/step-3.5-flash-free",
-          "name": "Spit-fires/step-3.5-flash-free",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
