@@ -1,35 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-18T01:48:13.362090+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "google/gemma-3-27b-it"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-18T01:48:13.362090+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "kimi-k2.5"
-      ]
-    },
-    {
-      "timestamp": "2026-06-18T05:31:58.944918+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "openai/gpt-image-2",
-        "rime-labs/rime-mist-v3",
-        "rime-labs/rime-mist-v3-omni"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-18T05:31:58.944918+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
@@ -7693,6 +7664,36 @@
       "provider_label": "LLM7",
       "added": [
         "claude-opus-4-8"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-03T15:47:28.080512+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [],
+      "removed": [
+        "gemini-3.1-flash-image"
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T15:47:28.080512+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "nvidia/nemotron-3.5-asr-streaming-0.6b"
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T15:47:28.080512+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "CohereLabs/c4ai-command-r7b-12-2024",
+        "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "microsoft/phi-4",
+        "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
       ],
       "removed": []
     }

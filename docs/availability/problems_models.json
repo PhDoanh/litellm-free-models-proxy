@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T13:39:34.856038+00:00",
+  "updated": "2026-07-03T15:47:28.073043+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -417,6 +417,13 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": null
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 550.0
         },
         {
           "id": "XiaomiMiMo/MiMo-V2.5-Pro",
