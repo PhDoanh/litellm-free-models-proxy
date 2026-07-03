@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T21:54:57.554593+00:00",
+  "updated": "2026-07-03T22:53:47.425567+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -62,18 +62,6 @@
       "url": "https://cloud.cerebras.ai",
       "models": [
         {
-          "id": "zai-glm-4.7",
-          "name": "zai-glm-4.7",
-          "context": 128000,
-          "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": null
-        },
-        {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
           "context": 131072,
@@ -85,6 +73,18 @@
             "reasoning"
           ],
           "params_b": 120.0
+        },
+        {
+          "id": "zai-glm-4.7",
+          "name": "zai-glm-4.7",
+          "context": 128000,
+          "limits": "1M tokens/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": null
         }
       ],
       "error": null
@@ -431,39 +431,6 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": 550.0
-        }
-      ],
-      "error": null
-    },
-    "mistral": {
-      "name": "Mistral",
-      "url": "https://console.mistral.ai",
-      "models": [
-        {
-          "id": "mistral-large-latest",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
-          "id": "mistral-large-latest",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
         }
       ],
       "error": null
@@ -1082,6 +1049,27 @@
         {
           "id": "vendouple/kimi-k2.6",
           "name": "vendouple/kimi-k2.6",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Spit-fires/bonsai-image-512x512-4",
+          "name": "Spit-fires/bonsai-image-512x512-4",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "morriszdweck/kimi-k2.6-cheap",
+          "name": "morriszdweck/kimi-k2.6-cheap",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "vendouple/deepseek-v3.2",
+          "name": "vendouple/deepseek-v3.2",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null

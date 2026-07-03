@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-18T18:06:28.841935+00:00",
-      "provider": "cerebras",
-      "provider_label": "Cerebras",
-      "added": [
-        "llama3.1-8b-rollout-test"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-18T18:06:28.841935+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
       "added": [
@@ -7784,6 +7775,16 @@
       "removed": [
         "claude-opus-4-8"
       ]
+    },
+    {
+      "timestamp": "2026-07-03T22:53:47.433239+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "perplexity",
+        "perplexity-deep"
+      ],
+      "removed": []
     }
   ]
 }
