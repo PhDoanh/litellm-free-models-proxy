@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T17:54:52.073736+00:00",
+  "updated": "2026-07-04T18:54:26.192214+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -48,15 +48,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -347,13 +347,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 550.0
-        },
-        {
-          "id": "nvidia/nemotron-nano-12b-v2-vl",
-          "name": "nvidia/nemotron-nano-12b-v2-vl",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 12.0
         },
         {
           "id": "openai/gpt-oss-120b",
@@ -668,6 +661,13 @@
       "name": "Pollinations",
       "url": "https://pollinations.ai",
       "models": [
+        {
+          "id": "mistral",
+          "name": "mistral",
+          "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
         {
           "id": "deepseek",
           "name": "deepseek",
@@ -1003,13 +1003,6 @@
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": 20.0
-        },
-        {
-          "id": "vendouple/deepseek-v4-flash",
-          "name": "vendouple/deepseek-v4-flash",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
         },
         {
           "id": "smplstuff/falcon-h1-tiny",
