@@ -1,36 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-19T23:19:48.498290+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "minimax-m2.7"
-      ],
-      "removed": [
-        "kimi-k2.6"
-      ]
-    },
-    {
-      "timestamp": "2026-06-20T00:27:50.369905+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "perplexity",
-        "perplexity-deep"
-      ]
-    },
-    {
-      "timestamp": "2026-06-20T00:27:50.369905+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "minimax-m2.7"
-      ]
-    },
-    {
       "timestamp": "2026-06-20T01:39:36.480592+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
@@ -8373,6 +8343,42 @@
         "openai-large",
         "perplexity-reasoning"
       ]
+    },
+    {
+      "timestamp": "2026-07-04T21:46:04.491513+00:00",
+      "provider": "cohere",
+      "provider_label": "Cohere",
+      "added": [
+        "command-a-03-2025",
+        "command-a-plus-05-2026",
+        "command-a-reasoning-08-2025",
+        "command-a-translate-08-2025",
+        "command-a-vision-07-2025",
+        "command-r-08-2024",
+        "command-r-plus-08-2024",
+        "command-r7b-12-2024",
+        "command-r7b-arabic-02-2025"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-04T21:46:04.491513+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "google/gemma-3-27b-it-lora"
+      ]
+    },
+    {
+      "timestamp": "2026-07-04T21:46:04.491513+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "sixfingerdev/claude-sonnet-5",
+        "sixfingerdev/gemini-3.5-flash"
+      ],
+      "removed": []
     }
   ]
 }
