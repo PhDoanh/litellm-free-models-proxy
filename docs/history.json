@@ -1,47 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-19T11:29:18.815556+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "MiniMaxAI/MiniMax-M2.5-FP4"
-      ]
-    },
-    {
-      "timestamp": "2026-06-19T13:05:20.950740+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "claude",
-        "claude-fast",
-        "claude-large",
-        "claude-opus-4.6",
-        "claude-opus-4.7",
-        "gemini",
-        "gemini-3-flash",
-        "gemini-fast",
-        "gemini-flash-lite-3.1",
-        "gemini-large",
-        "gemini-search",
-        "gemini-search-fast",
-        "gemini-search-large",
-        "llama-maverick",
-        "qwen-coder-large"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-19T15:00:23.067694+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "ideogram/ideogram-4.0"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-19T15:00:23.067694+00:00",
       "provider": "pollinations",
       "provider_label": "Pollinations",
@@ -8012,6 +7971,34 @@
         "perplexity-reasoning"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-07-04T14:22:39.351430+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [
+        "google/gemma-3-27b-it-lora"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-04T14:22:39.351430+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "pearl-ai/Gemma-4-31B-it-pearl"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-04T14:22:39.351430+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "perplexity",
+        "perplexity-deep"
+      ]
     }
   ]
 }
