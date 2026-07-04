@@ -2,29 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-19T15:00:23.067694+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "claude",
-        "claude-fast",
-        "claude-large",
-        "claude-opus-4.6",
-        "claude-opus-4.7",
-        "gemini",
-        "gemini-3-flash",
-        "gemini-fast",
-        "gemini-flash-lite-3.1",
-        "gemini-large",
-        "gemini-search",
-        "gemini-search-fast",
-        "gemini-search-large",
-        "llama-maverick",
-        "qwen-coder-large"
-      ]
-    },
-    {
-      "timestamp": "2026-06-19T15:00:23.067694+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
       "added": [
@@ -7998,6 +7975,16 @@
       "removed": [
         "perplexity",
         "perplexity-deep"
+      ]
+    },
+    {
+      "timestamp": "2026-07-04T15:52:59.549441+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "mikl-shortcuts/command-a-plus",
+        "sixfingerdev/claude-opus-4-8"
       ]
     }
   ]

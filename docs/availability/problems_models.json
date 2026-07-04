@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T14:22:39.341134+00:00",
+  "updated": "2026-07-04T15:52:59.538938+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -69,18 +69,6 @@
       "url": "https://cloud.cerebras.ai",
       "models": [
         {
-          "id": "zai-glm-4.7",
-          "name": "zai-glm-4.7",
-          "context": 128000,
-          "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": null
-        },
-        {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
           "context": 131072,
@@ -92,6 +80,18 @@
             "reasoning"
           ],
           "params_b": 120.0
+        },
+        {
+          "id": "zai-glm-4.7",
+          "name": "zai-glm-4.7",
+          "context": 128000,
+          "limits": "1M tokens/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": null
         }
       ],
       "error": null
@@ -739,6 +739,13 @@
           "params_b": null
         },
         {
+          "id": "mistral-large",
+          "name": "mistral-large",
+          "context": 256000,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "polly",
           "name": "polly",
           "context": null,
@@ -907,22 +914,8 @@
           "params_b": null
         },
         {
-          "id": "mikl-shortcuts/command-a-plus",
-          "name": "mikl-shortcuts/command-a-plus",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
           "id": "sixfingerdev/claude-sonnet-4-6",
           "name": "sixfingerdev/claude-sonnet-4-6",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "sixfingerdev/claude-opus-4-8",
-          "name": "sixfingerdev/claude-opus-4-8",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
