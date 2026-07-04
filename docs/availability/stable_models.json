@@ -1,17 +1,10 @@
 {
-  "updated": "2026-07-03T23:55:45.503090+00:00",
+  "updated": "2026-07-04T01:58:44.484697+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
       "url": "https://openrouter.ai",
       "models": [
-        {
-          "id": "poolside/laguna-xs-2.1:free",
-          "name": "Poolside: Laguna XS 2.1 (free)",
-          "context": 262144,
-          "limits": "20 req/min · 50 req/day",
-          "params_b": null
-        },
         {
           "id": "cohere/north-mini-code:free",
           "name": "Cohere: North Mini Code (free)",
@@ -118,22 +111,24 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": 27.0
+        },
+        {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
-            "tool_choice"
+            "tool_choice",
+            "response_schema",
+            "vision"
           ],
-          "params_b": 70.0
-        },
-        {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
+          "params_b": 17.0
         },
         {
           "id": "openai/gpt-oss-120b",
@@ -161,17 +156,11 @@
           "params_b": 32.0
         },
         {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
           "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": 17.0
+          "params_b": 7.0
         },
         {
           "id": "openai/gpt-oss-20b",
@@ -187,6 +176,17 @@
           "params_b": 20.0
         },
         {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
+        },
+        {
           "id": "llama-3.1-8b-instant",
           "name": "llama-3.1-8b-instant",
           "context": 131072,
@@ -196,13 +196,6 @@
             "tool_choice"
           ],
           "params_b": 8.0
-        },
-        {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": 27.0
         }
       ],
       "error": null
@@ -391,6 +384,13 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 8.0
+        },
+        {
+          "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+          "name": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 49.0
         },
         {
           "id": "nvidia/nemotron-3-content-safety",

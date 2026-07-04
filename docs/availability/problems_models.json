@@ -1,10 +1,17 @@
 {
-  "updated": "2026-07-03T23:55:45.503090+00:00",
+  "updated": "2026-07-04T01:58:44.484697+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
       "url": "https://openrouter.ai",
       "models": [
+        {
+          "id": "poolside/laguna-xs-2.1:free",
+          "name": "Poolside: Laguna XS 2.1 (free)",
+          "context": 262144,
+          "limits": "20 req/min · 50 req/day",
+          "params_b": null
+        },
         {
           "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
           "name": "NVIDIA: Nemotron 3 Ultra (free)",
@@ -41,15 +48,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -323,13 +330,6 @@
         {
           "id": "nvidia/llama-3.3-nemotron-super-49b-v1",
           "name": "nvidia/llama-3.3-nemotron-super-49b-v1",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 49.0
-        },
-        {
-          "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "name": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
           "context": null,
           "limits": "40 req/min",
           "params_b": 49.0
@@ -1063,6 +1063,13 @@
         {
           "id": "morriszdweck/kimi-k2.6-cheap",
           "name": "morriszdweck/kimi-k2.6-cheap",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Catniti/gpt-4.0",
+          "name": "Catniti/gpt-4.0",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
