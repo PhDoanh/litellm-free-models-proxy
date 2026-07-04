@@ -2,24 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-18T20:46:09.453947+00:00",
-      "provider": "gemini",
-      "provider_label": "Gemini",
-      "added": [
-        "gemini-3.1-flash-image"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-18T20:46:09.453947+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "alibaba/happyhorse-1.0-r2v"
-      ]
-    },
-    {
-      "timestamp": "2026-06-18T20:46:09.453947+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
       "added": [
@@ -7783,6 +7765,31 @@
         "perplexity",
         "perplexity-deep"
       ]
+    },
+    {
+      "timestamp": "2026-07-04T05:44:45.026689+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "alibaba/happyhorse-1.1-i2v",
+        "alibaba/happyhorse-1.1-r2v",
+        "alibaba/happyhorse-1.1-t2v",
+        "ideogram/ideogram-4.0"
+      ]
+    },
+    {
+      "timestamp": "2026-07-04T05:44:45.026689+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "perplexity",
+        "perplexity-deep",
+        "vendouple/gemma-4-31b",
+        "vendouple/gpt-oss-120b",
+        "vendouple/qwen3.6-27b"
+      ],
+      "removed": []
     }
   ]
 }
