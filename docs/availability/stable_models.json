@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T16:51:22.679840+00:00",
+  "updated": "2026-07-04T17:54:52.073736+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -122,30 +122,6 @@
           "params_b": 8.0
         },
         {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
-        },
-        {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
           "name": "meta-llama/llama-4-scout-17b-16e-instruct",
           "context": 131072,
@@ -166,6 +142,37 @@
           "params_b": 7.0
         },
         {
+          "id": "openai/gpt-oss-20b",
+          "name": "openai/gpt-oss-20b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ],
+          "params_b": 20.0
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
+        },
+        {
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": 27.0
+        },
+        {
           "id": "qwen/qwen3-32b",
           "name": "qwen/qwen3-32b",
           "context": 131072,
@@ -178,15 +185,8 @@
           "params_b": 32.0
         },
         {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": 27.0
-        },
-        {
-          "id": "openai/gpt-oss-20b",
-          "name": "openai/gpt-oss-20b",
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
@@ -195,7 +195,7 @@
             "response_schema",
             "reasoning"
           ],
-          "params_b": 20.0
+          "params_b": 120.0
         }
       ],
       "error": null
@@ -1104,6 +1104,132 @@
           "context": null,
           "limits": "1 req/s · 1B tok/month",
           "params_b": null
+        }
+      ],
+      "error": null
+    },
+    "pollinations": {
+      "name": "Pollinations",
+      "url": "https://pollinations.ai",
+      "models": [
+        {
+          "id": "qwen-coder",
+          "name": "qwen-coder",
+          "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "mistral-small-3.2",
+          "name": "mistral-small-3.2",
+          "context": 128000,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "mistral",
+          "name": "mistral",
+          "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "gemma",
+          "name": "gemma",
+          "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "grok",
+          "name": "grok",
+          "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "nova-fast",
+          "name": "nova-fast",
+          "context": 128000,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "nova",
+          "name": "nova",
+          "context": 1048576,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "llama-scout",
+          "name": "llama-scout",
+          "context": 327680,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "qwen-vision",
+          "name": "qwen-vision",
+          "context": 131072,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "step-flash",
+          "name": "step-flash",
+          "context": 256000,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "qwen-safety",
+          "name": "qwen-safety",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sharktide/inferenceport-ai-mimo-v2.5",
+          "name": "sharktide/inferenceport-ai-mimo-v2.5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sharktide/inferenceport-ai-gpt-4.1",
+          "name": "sharktide/inferenceport-ai-gpt-4.1",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Spit-fires/bonsai-image-1024x1024-4",
+          "name": "Spit-fires/bonsai-image-1024x1024-4",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Catniti/mistral-small-latest",
+          "name": "Catniti/mistral-small-latest",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "vendouple/gpt-oss-120b",
+          "name": "vendouple/gpt-oss-120b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 120.0
+        },
+        {
+          "id": "vendouple/qwen3.6-27b",
+          "name": "vendouple/qwen3.6-27b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 27.0
         }
       ],
       "error": null
