@@ -2,17 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-20T01:39:36.480592+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [
-        "gpt-5.4-mini",
-        "perplexity",
-        "perplexity-deep"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T01:39:36.480592+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
       "added": [
@@ -8377,6 +8366,16 @@
       "added": [
         "sixfingerdev/claude-sonnet-5",
         "sixfingerdev/gemini-3.5-flash"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-04T22:45:29.934963+00:00",
+      "provider": "cohere",
+      "provider_label": "Cohere",
+      "added": [
+        "c4ai-aya-expanse-32b",
+        "c4ai-aya-vision-32b"
       ],
       "removed": []
     }

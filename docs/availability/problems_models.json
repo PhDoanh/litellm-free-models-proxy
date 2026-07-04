@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T21:46:04.482940+00:00",
+  "updated": "2026-07-04T22:45:29.927270+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -322,6 +322,13 @@
           "params_b": 49.0
         },
         {
+          "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+          "name": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 49.0
+        },
+        {
           "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
           "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
           "context": null,
@@ -336,11 +343,25 @@
           "params_b": 550.0
         },
         {
+          "id": "nvidia/nemotron-nano-12b-v2-vl",
+          "name": "nvidia/nemotron-nano-12b-v2-vl",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 12.0
+        },
+        {
           "id": "openai/gpt-oss-120b",
           "name": "openai/gpt-oss-120b",
           "context": null,
           "limits": "40 req/min",
           "params_b": 120.0
+        },
+        {
+          "id": "qwen/qwen3-next-80b-a3b-instruct",
+          "name": "qwen/qwen3-next-80b-a3b-instruct",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 80.0
         },
         {
           "id": "qwen/qwen3.5-122b-a10b",
@@ -397,6 +418,39 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": 550.0
+        }
+      ],
+      "error": null
+    },
+    "mistral": {
+      "name": "Mistral",
+      "url": "https://console.mistral.ai",
+      "models": [
+        {
+          "id": "mistral-large-latest",
+          "name": "mistral-large-2512",
+          "context": 262144,
+          "limits": "1 req/s · 1B tok/month",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": null
+        },
+        {
+          "id": "mistral-large-latest",
+          "name": "mistral-large-2512",
+          "context": 262144,
+          "limits": "1 req/s · 1B tok/month",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": null
         }
       ],
       "error": null
@@ -789,6 +843,13 @@
           "params_b": null
         },
         {
+          "id": "voodoohop/airforce-grok-4-fast",
+          "name": "voodoohop/airforce-grok-4-fast",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "CloudCompile/gemma-4-e2b",
           "name": "CloudCompile/gemma-4-e2b",
           "context": null,
@@ -805,6 +866,13 @@
         {
           "id": "sharktide/inferenceport.ai-gpt-5-chat-latest",
           "name": "sharktide/inferenceport.ai-gpt-5-chat-latest",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "Spit-fires/LFM2.5-230M",
+          "name": "Spit-fires/LFM2.5-230M",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
