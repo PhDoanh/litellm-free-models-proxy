@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T01:56:14.198625+00:00",
+  "updated": "2026-07-05T05:57:07.455682+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -111,44 +111,6 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": 17.0
-        },
-        {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
-          "id": "qwen/qwen3-32b",
-          "name": "qwen/qwen3-32b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": 32.0
-        },
-        {
           "id": "allam-2-7b",
           "name": "allam-2-7b",
           "context": 4096,
@@ -167,6 +129,17 @@
           "params_b": 8.0
         },
         {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
+        },
+        {
           "id": "openai/gpt-oss-20b",
           "name": "openai/gpt-oss-20b",
           "context": 131072,
@@ -180,22 +153,49 @@
           "params_b": 20.0
         },
         {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
-        },
-        {
           "id": "qwen/qwen3.6-27b",
           "name": "qwen/qwen3.6-27b",
           "context": 131072,
           "limits": "varies per model",
           "params_b": 27.0
+        },
+        {
+          "id": "qwen/qwen3-32b",
+          "name": "qwen/qwen3-32b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": 32.0
+        },
+        {
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ],
+          "params_b": 120.0
+        },
+        {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": 17.0
         }
       ],
       "error": null
@@ -306,13 +306,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 3.0
-        },
-        {
-          "id": "meta/llama-3.2-90b-vision-instruct",
-          "name": "meta/llama-3.2-90b-vision-instruct",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 90.0
         },
         {
           "id": "meta/llama-guard-4-12b",
@@ -574,18 +567,18 @@
           "params_b": null
         },
         {
-          "id": "speakleash/Bielik-11B-v3.0-Instruct",
-          "name": "speakleash/Bielik-11B-v3.0-Instruct",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 11.0
-        },
-        {
           "id": "pearl-ai/Gemma-4-31B-it-pearl",
           "name": "pearl-ai/Gemma-4-31B-it-pearl",
           "context": null,
           "limits": "free credits/month",
           "params_b": 31.0
+        },
+        {
+          "id": "speakleash/Bielik-11B-v3.0-Instruct",
+          "name": "speakleash/Bielik-11B-v3.0-Instruct",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 11.0
         }
       ],
       "error": null
