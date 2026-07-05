@@ -2,18 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-20T05:26:27.908611+00:00",
-      "provider": "github",
-      "provider_label": "GitHub Models",
-      "added": [
-        "azureml://registries/azure-openai/models/gpt-4o-mini/versions/1",
-        "azureml://registries/azure-openai/models/gpt-4o/versions/2",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-405B-Instruct/versions/1",
-        "azureml://registries/azureml-meta/models/Meta-Llama-3.1-8B-Instruct/versions/1"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T05:26:27.908611+00:00",
       "provider": "cloudflare",
       "provider_label": "Cloudflare AI",
       "added": [
@@ -8329,6 +8317,15 @@
         "voodoohop/airforce-grok-4-fast",
         "voodoohop/airforce-qwen3-max",
         "voodoohop/anyvm-deepseek-chat"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-05T22:49:48.645897+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/deepseek-v3.2"
       ],
       "removed": []
     }
