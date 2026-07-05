@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-20T03:01:37.661138+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "minimax-m2.7"
-      ]
-    },
-    {
       "timestamp": "2026-06-20T05:26:27.908611+00:00",
       "provider": "openrouter",
       "provider_label": "OpenRouter",
@@ -8385,6 +8376,15 @@
         "mikl-shortcuts/ministral-3"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-07-05T12:13:25.809613+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [],
+      "removed": [
+        "devstral-small-2:24b"
+      ]
     }
   ]
 }
