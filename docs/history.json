@@ -1,25 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-20T01:39:36.480592+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "minimax-m2.7"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T03:01:37.661138+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "perplexity",
-        "perplexity-deep"
-      ]
-    },
-    {
       "timestamp": "2026-06-20T03:01:37.661138+00:00",
       "provider": "llm7",
       "provider_label": "LLM7",
@@ -8376,6 +8357,32 @@
       "added": [
         "c4ai-aya-expanse-32b",
         "c4ai-aya-vision-32b"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-05T10:57:53.354672+00:00",
+      "provider": "cohere",
+      "provider_label": "Cohere",
+      "added": [],
+      "removed": [
+        "command-a-03-2025",
+        "command-a-plus-05-2026",
+        "command-a-reasoning-08-2025",
+        "command-a-translate-08-2025",
+        "command-a-vision-07-2025",
+        "command-r-08-2024",
+        "command-r-plus-08-2024",
+        "command-r7b-12-2024",
+        "command-r7b-arabic-02-2025"
+      ]
+    },
+    {
+      "timestamp": "2026-07-05T10:57:53.354672+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "mikl-shortcuts/ministral-3"
       ],
       "removed": []
     }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T08:45:36.931933+00:00",
+  "updated": "2026-07-05T10:57:53.346515+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -159,51 +159,6 @@
           "params_b": 20.0
         },
         {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
-        },
-        {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
-          "id": "groq/compound",
-          "name": "groq/compound",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
-        },
-        {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
-        },
-        {
           "id": "qwen/qwen3-32b",
           "name": "qwen/qwen3-32b",
           "context": 131072,
@@ -214,6 +169,13 @@
             "reasoning"
           ],
           "params_b": 32.0
+        },
+        {
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model",
+          "params_b": 7.0
         },
         {
           "id": "qwen/qwen3.6-27b",
@@ -232,6 +194,44 @@
             "tool_choice"
           ],
           "params_b": 8.0
+        },
+        {
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "groq/compound",
+          "name": "groq/compound",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ],
+          "params_b": 120.0
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
         },
         {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
@@ -266,13 +266,6 @@
           "params_b": null
         },
         {
-          "id": "gemma-4-31b",
-          "name": "gemma-4-31b",
-          "context": null,
-          "limits": "1M tokens/day",
-          "params_b": 31.0
-        },
-        {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
           "context": 131072,
@@ -284,6 +277,13 @@
             "reasoning"
           ],
           "params_b": 120.0
+        },
+        {
+          "id": "gemma-4-31b",
+          "name": "gemma-4-31b",
+          "context": null,
+          "limits": "1M tokens/day",
+          "params_b": 31.0
         }
       ],
       "error": null
@@ -460,69 +460,6 @@
           "context": 16384,
           "limits": "20 req/min · 1000 req/month",
           "params_b": 32.0
-        },
-        {
-          "id": "command-a-03-2025",
-          "name": "command-a-03-2025",
-          "context": 288000,
-          "limits": "20 req/min · 1000 req/month",
-          "params_b": null
-        },
-        {
-          "id": "command-a-plus-05-2026",
-          "name": "command-a-plus-05-2026",
-          "context": 436000,
-          "limits": "20 req/min · 1000 req/month",
-          "params_b": null
-        },
-        {
-          "id": "command-a-reasoning-08-2025",
-          "name": "command-a-reasoning-08-2025",
-          "context": 288768,
-          "limits": "20 req/min · 1000 req/month",
-          "params_b": null
-        },
-        {
-          "id": "command-a-translate-08-2025",
-          "name": "command-a-translate-08-2025",
-          "context": 8992,
-          "limits": "20 req/min · 1000 req/month",
-          "params_b": null
-        },
-        {
-          "id": "command-a-vision-07-2025",
-          "name": "command-a-vision-07-2025",
-          "context": 128000,
-          "limits": "20 req/min · 1000 req/month",
-          "params_b": null
-        },
-        {
-          "id": "command-r-08-2024",
-          "name": "command-r-08-2024",
-          "context": 128000,
-          "limits": "20 req/min · 1000 req/month",
-          "params_b": null
-        },
-        {
-          "id": "command-r-plus-08-2024",
-          "name": "command-r-plus-08-2024",
-          "context": 128000,
-          "limits": "20 req/min · 1000 req/month",
-          "params_b": null
-        },
-        {
-          "id": "command-r7b-12-2024",
-          "name": "command-r7b-12-2024",
-          "context": 132000,
-          "limits": "20 req/min · 1000 req/month",
-          "params_b": null
-        },
-        {
-          "id": "command-r7b-arabic-02-2025",
-          "name": "command-r7b-arabic-02-2025",
-          "context": 128000,
-          "limits": "20 req/min · 1000 req/month",
-          "params_b": null
         }
       ],
       "error": null
@@ -1007,18 +944,18 @@
           "params_b": null
         },
         {
-          "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-          "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 550.0
-        },
-        {
           "id": "google/gemma-3-4b-it",
           "name": "google/gemma-3-4b-it",
           "context": null,
           "limits": "free credits/month",
           "params_b": 4.0
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 550.0
         },
         {
           "id": "microsoft/phi-4",
@@ -1049,18 +986,18 @@
           "params_b": null
         },
         {
-          "id": "pearl-ai/Gemma-4-31B-it-pearl",
-          "name": "pearl-ai/Gemma-4-31B-it-pearl",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 31.0
-        },
-        {
           "id": "speakleash/Bielik-11B-v3.0-Instruct",
           "name": "speakleash/Bielik-11B-v3.0-Instruct",
           "context": null,
           "limits": "free credits/month",
           "params_b": 11.0
+        },
+        {
+          "id": "pearl-ai/Gemma-4-31B-it-pearl",
+          "name": "pearl-ai/Gemma-4-31B-it-pearl",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 31.0
         }
       ],
       "error": null
@@ -2391,6 +2328,13 @@
         {
           "id": "sixfingerdev/claude-sonnet-5",
           "name": "sixfingerdev/claude-sonnet-5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "mikl-shortcuts/ministral-3",
+          "name": "mikl-shortcuts/ministral-3",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null

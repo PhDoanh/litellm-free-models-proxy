@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T08:45:36.931933+00:00",
+  "updated": "2026-07-05T10:57:53.346515+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -48,15 +48,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -355,6 +355,13 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 550.0
+        },
+        {
+          "id": "nvidia/nemotron-content-safety-reasoning-4b",
+          "name": "nvidia/nemotron-content-safety-reasoning-4b",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 4.0
         },
         {
           "id": "openai/gpt-oss-120b",
@@ -993,6 +1000,20 @@
         {
           "id": "sixfingerdev/gemini-3.1-pro-preview",
           "name": "sixfingerdev/gemini-3.1-pro-preview",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sixfingerdev/gemini-3.5-flash",
+          "name": "sixfingerdev/gemini-3.5-flash",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sixfingerdev/claude-sonnet-5",
+          "name": "sixfingerdev/claude-sonnet-5",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null

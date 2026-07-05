@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T08:45:36.931933+00:00",
+  "updated": "2026-07-05T10:57:53.346515+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -124,37 +124,6 @@
           "params_b": 20.0
         },
         {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "llama-3.3-70b-versatile",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice"
-          ],
-          "params_b": 70.0
-        },
-        {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
           "id": "qwen/qwen3-32b",
           "name": "qwen/qwen3-32b",
           "context": 131072,
@@ -165,6 +134,13 @@
             "reasoning"
           ],
           "params_b": 32.0
+        },
+        {
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model",
+          "params_b": 7.0
         },
         {
           "id": "qwen/qwen3.6-27b",
@@ -183,6 +159,30 @@
             "tool_choice"
           ],
           "params_b": 8.0
+        },
+        {
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "reasoning"
+          ],
+          "params_b": 120.0
+        },
+        {
+          "id": "llama-3.3-70b-versatile",
+          "name": "llama-3.3-70b-versatile",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice"
+          ],
+          "params_b": 70.0
         },
         {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
@@ -205,13 +205,6 @@
       "url": "https://cloud.cerebras.ai",
       "models": [
         {
-          "id": "gemma-4-31b",
-          "name": "gemma-4-31b",
-          "context": null,
-          "limits": "1M tokens/day",
-          "params_b": 31.0
-        },
-        {
           "id": "gpt-oss-120b",
           "name": "gpt-oss-120b",
           "context": 131072,
@@ -223,6 +216,13 @@
             "reasoning"
           ],
           "params_b": 120.0
+        },
+        {
+          "id": "gemma-4-31b",
+          "name": "gemma-4-31b",
+          "context": null,
+          "limits": "1M tokens/day",
+          "params_b": 31.0
         }
       ],
       "error": null
@@ -413,13 +413,6 @@
           "params_b": null
         },
         {
-          "id": "nvidia/nemotron-content-safety-reasoning-4b",
-          "name": "nvidia/nemotron-content-safety-reasoning-4b",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 4.0
-        },
-        {
           "id": "nvidia/nemotron-mini-4b-instruct",
           "name": "nvidia/nemotron-mini-4b-instruct",
           "context": null,
@@ -567,18 +560,18 @@
           "params_b": null
         },
         {
-          "id": "pearl-ai/Gemma-4-31B-it-pearl",
-          "name": "pearl-ai/Gemma-4-31B-it-pearl",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 31.0
-        },
-        {
           "id": "speakleash/Bielik-11B-v3.0-Instruct",
           "name": "speakleash/Bielik-11B-v3.0-Instruct",
           "context": null,
           "limits": "free credits/month",
           "params_b": 11.0
+        },
+        {
+          "id": "pearl-ai/Gemma-4-31B-it-pearl",
+          "name": "pearl-ai/Gemma-4-31B-it-pearl",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 31.0
         }
       ],
       "error": null
