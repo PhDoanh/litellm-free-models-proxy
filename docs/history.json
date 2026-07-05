@@ -2,16 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-20T05:26:27.908611+00:00",
-      "provider": "groq",
-      "provider_label": "Groq",
-      "added": [
-        "canopylabs/orpheus-arabic-saudi",
-        "canopylabs/orpheus-v1-english"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T05:26:27.908611+00:00",
       "provider": "gemini",
       "provider_label": "Gemini",
       "added": [
@@ -8379,6 +8369,15 @@
         "c4ai-aya-expanse-32b",
         "c4ai-aya-vision-32b"
       ]
+    },
+    {
+      "timestamp": "2026-07-05T15:59:34.067279+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/mimo-v2.5"
+      ],
+      "removed": []
     }
   ]
 }

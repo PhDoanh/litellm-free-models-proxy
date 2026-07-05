@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T14:24:33.055403+00:00",
+  "updated": "2026-07-05T15:59:34.059812+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -48,15 +48,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -404,6 +404,13 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": null
+        },
+        {
+          "id": "z-ai/glm-5.2",
+          "name": "z-ai/glm-5.2",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": null
         }
       ],
       "error": null
@@ -567,6 +574,13 @@
           "id": "deepseek",
           "name": "deepseek",
           "context": 1048576,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "gemma",
+          "name": "gemma",
+          "context": 262144,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         },
@@ -767,6 +781,13 @@
           "params_b": null
         },
         {
+          "id": "sharktide/inferenceport-ai-mimo-v2.5",
+          "name": "sharktide/inferenceport-ai-mimo-v2.5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "MarcosFRG/gemini-3-flash-preview",
           "name": "MarcosFRG/gemini-3-flash-preview",
           "context": null,
@@ -800,6 +821,13 @@
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": 31.0
+        },
+        {
+          "id": "sharktide/inferenceport-ai-gpt-4.1",
+          "name": "sharktide/inferenceport-ai-gpt-4.1",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
         },
         {
           "id": "Minor-fun/deepseek-v3.2",
@@ -984,6 +1012,13 @@
           "params_b": 31.0
         },
         {
+          "id": "vendouple/gpt-oss-120b",
+          "name": "vendouple/gpt-oss-120b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 120.0
+        },
+        {
           "id": "vendouple/qwen3.6-27b",
           "name": "vendouple/qwen3.6-27b",
           "context": null,
@@ -1007,6 +1042,13 @@
         {
           "id": "sixfingerdev/claude-sonnet-5",
           "name": "sixfingerdev/claude-sonnet-5",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "MarcosFRG/mimo-v2.5",
+          "name": "MarcosFRG/mimo-v2.5",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
