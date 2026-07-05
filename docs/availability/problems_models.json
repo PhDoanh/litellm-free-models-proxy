@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T05:57:07.455682+00:00",
+  "updated": "2026-07-05T08:45:36.931933+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -467,45 +467,6 @@
       "url": "https://developers.cloudflare.com/workers-ai/",
       "models": [
         {
-          "id": "@cf/openai/gpt-oss-120b",
-          "name": "@cf/openai/gpt-oss-120b",
-          "context": 128000,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "function_calling",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
-          "id": "@cf/google/gemma-2b-it-lora",
-          "name": "@cf/google/gemma-2b-it-lora",
-          "context": 8192,
-          "limits": "10k neurons/day",
-          "params_b": 2.0
-        },
-        {
-          "id": "@cf/meta/llama-3.2-3b-instruct",
-          "name": "@cf/meta/llama-3.2-3b-instruct",
-          "context": 80000,
-          "limits": "10k neurons/day",
-          "params_b": 3.0
-        },
-        {
-          "id": "@cf/meta/llama-guard-3-8b",
-          "name": "@cf/meta/llama-guard-3-8b",
-          "context": 131072,
-          "limits": "10k neurons/day",
-          "params_b": 8.0
-        },
-        {
-          "id": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
-          "name": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
-          "context": 15000,
-          "limits": "10k neurons/day",
-          "params_b": 7.0
-        },
-        {
           "id": "@cf/moonshotai/kimi-k2.7-code",
           "name": "@cf/moonshotai/kimi-k2.7-code",
           "context": 262144,
@@ -515,30 +476,6 @@
             "reasoning"
           ],
           "params_b": null
-        },
-        {
-          "id": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
-          "name": "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
-          "context": 80000,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "reasoning"
-          ],
-          "params_b": 32.0
-        },
-        {
-          "id": "@cf/meta/llama-3.1-8b-instruct-fp8",
-          "name": "@cf/meta/llama-3.1-8b-instruct-fp8",
-          "context": 32000,
-          "limits": "10k neurons/day",
-          "params_b": 8.0
-        },
-        {
-          "id": "@cf/meta/llama-3.2-1b-instruct",
-          "name": "@cf/meta/llama-3.2-1b-instruct",
-          "context": 60000,
-          "limits": "10k neurons/day",
-          "params_b": 1.0
         },
         {
           "id": "@cf/moonshotai/kimi-k2.6",
@@ -563,33 +500,6 @@
           "params_b": null
         },
         {
-          "id": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
-          "name": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
-          "context": 8192,
-          "limits": "10k neurons/day",
-          "params_b": 7.0
-        },
-        {
-          "id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-          "name": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-          "context": 24000,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "function_calling"
-          ],
-          "params_b": 70.0
-        },
-        {
-          "id": "@cf/ibm-granite/granite-4.0-h-micro",
-          "name": "@cf/ibm-granite/granite-4.0-h-micro",
-          "context": 131000,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "function_calling"
-          ],
-          "params_b": null
-        },
-        {
           "id": "@cf/qwen/qwen2.5-coder-32b-instruct",
           "name": "@cf/qwen/qwen2.5-coder-32b-instruct",
           "context": 32768,
@@ -608,42 +518,6 @@
           "params_b": null
         },
         {
-          "id": "@cf/nvidia/nemotron-3-120b-a12b",
-          "name": "@cf/nvidia/nemotron-3-120b-a12b",
-          "context": 256000,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "function_calling",
-            "reasoning"
-          ],
-          "params_b": 120.0
-        },
-        {
-          "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
-          "name": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
-          "context": 128000,
-          "limits": "10k neurons/day",
-          "params_b": 27.0
-        },
-        {
-          "id": "@cf/qwen/qwen3-30b-a3b-fp8",
-          "name": "@cf/qwen/qwen3-30b-a3b-fp8",
-          "context": 32768,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "function_calling",
-            "reasoning"
-          ],
-          "params_b": 30.0
-        },
-        {
-          "id": "@cf/google/gemma-7b-it-lora",
-          "name": "@cf/google/gemma-7b-it-lora",
-          "context": 3500,
-          "limits": "10k neurons/day",
-          "params_b": 7.0
-        },
-        {
           "id": "@cf/google/gemma-4-26b-a4b-it",
           "name": "@cf/google/gemma-4-26b-a4b-it",
           "context": 256000,
@@ -653,47 +527,6 @@
             "reasoning"
           ],
           "params_b": 26.0
-        },
-        {
-          "id": "@cf/mistralai/mistral-small-3.1-24b-instruct",
-          "name": "@cf/mistralai/mistral-small-3.1-24b-instruct",
-          "context": 128000,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "function_calling"
-          ],
-          "params_b": 24.0
-        },
-        {
-          "id": "@cf/openai/gpt-oss-20b",
-          "name": "@cf/openai/gpt-oss-20b",
-          "context": 128000,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "function_calling",
-            "reasoning"
-          ],
-          "params_b": 20.0
-        },
-        {
-          "id": "@cf/meta/llama-4-scout-17b-16e-instruct",
-          "name": "@cf/meta/llama-4-scout-17b-16e-instruct",
-          "context": 131000,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "function_calling"
-          ],
-          "params_b": 17.0
-        },
-        {
-          "id": "@cf/qwen/qwq-32b",
-          "name": "@cf/qwen/qwq-32b",
-          "context": 24000,
-          "limits": "10k neurons/day",
-          "capabilities": [
-            "reasoning"
-          ],
-          "params_b": 32.0
         }
       ],
       "error": null
@@ -1088,13 +921,6 @@
           "params_b": null
         },
         {
-          "id": "Spit-fires/bonsai-image-1024x1024-4",
-          "name": "Spit-fires/bonsai-image-1024x1024-4",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
           "id": "morriszdweck/kimi-k2.6-cheap",
           "name": "morriszdweck/kimi-k2.6-cheap",
           "context": null,
@@ -1163,6 +989,13 @@
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": 27.0
+        },
+        {
+          "id": "sixfingerdev/gemini-3.1-pro-preview",
+          "name": "sixfingerdev/gemini-3.1-pro-preview",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
         }
       ],
       "error": null
