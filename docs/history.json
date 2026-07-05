@@ -2,22 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-20T05:26:27.908611+00:00",
-      "provider": "openrouter",
-      "provider_label": "OpenRouter",
-      "added": [
-        "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-        "google/lyria-3-clip-preview",
-        "google/lyria-3-pro-preview",
-        "meta-llama/llama-3.2-3b-instruct:free",
-        "meta-llama/llama-3.3-70b-instruct:free",
-        "nousresearch/hermes-3-llama-3.1-405b:free",
-        "qwen/qwen3-coder:free",
-        "qwen/qwen3-next-80b-a3b-instruct:free"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T05:26:27.908611+00:00",
       "provider": "groq",
       "provider_label": "Groq",
       "added": [
@@ -8384,6 +8368,16 @@
       "added": [],
       "removed": [
         "devstral-small-2:24b"
+      ]
+    },
+    {
+      "timestamp": "2026-07-05T14:24:33.063044+00:00",
+      "provider": "cohere",
+      "provider_label": "Cohere",
+      "added": [],
+      "removed": [
+        "c4ai-aya-expanse-32b",
+        "c4ai-aya-vision-32b"
       ]
     }
   ]
