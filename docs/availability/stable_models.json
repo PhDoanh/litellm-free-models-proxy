@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T15:59:34.059812+00:00",
+  "updated": "2026-07-05T17:12:07.443797+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -122,16 +122,17 @@
           "params_b": 8.0
         },
         {
-          "id": "qwen/qwen3-32b",
-          "name": "qwen/qwen3-32b",
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
           "context": 131072,
           "limits": "varies per model",
           "capabilities": [
             "function_calling",
             "tool_choice",
-            "reasoning"
+            "response_schema",
+            "vision"
           ],
-          "params_b": 32.0
+          "params_b": 17.0
         },
         {
           "id": "openai/gpt-oss-120b",
@@ -147,17 +148,11 @@
           "params_b": 120.0
         },
         {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
           "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": 17.0
+          "params_b": 7.0
         },
         {
           "id": "openai/gpt-oss-20b",
@@ -173,6 +168,18 @@
           "params_b": 20.0
         },
         {
+          "id": "qwen/qwen3-32b",
+          "name": "qwen/qwen3-32b",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": 32.0
+        },
+        {
           "id": "llama-3.3-70b-versatile",
           "name": "llama-3.3-70b-versatile",
           "context": 131072,
@@ -182,13 +189,6 @@
             "tool_choice"
           ],
           "params_b": 70.0
-        },
-        {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
         },
         {
           "id": "qwen/qwen3.6-27b",
@@ -525,18 +525,18 @@
           "params_b": null
         },
         {
-          "id": "google/gemma-3-12b-it",
-          "name": "google/gemma-3-12b-it",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 12.0
-        },
-        {
           "id": "microsoft/phi-4",
           "name": "microsoft/phi-4",
           "context": null,
           "limits": "free credits/month",
           "params_b": null
+        },
+        {
+          "id": "google/gemma-3-12b-it",
+          "name": "google/gemma-3-12b-it",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 12.0
         },
         {
           "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",

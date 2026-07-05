@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T15:59:34.059812+00:00",
+  "updated": "2026-07-05T17:12:07.443797+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -753,13 +753,6 @@
           "params_b": null
         },
         {
-          "id": "MarcosFRG/deepseek-v3.2",
-          "name": "MarcosFRG/deepseek-v3.2",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
           "id": "MarcosFRG/gemini-2.5-flash-lite",
           "name": "MarcosFRG/gemini-2.5-flash-lite",
           "context": null,
@@ -1010,13 +1003,6 @@
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": 31.0
-        },
-        {
-          "id": "vendouple/gpt-oss-120b",
-          "name": "vendouple/gpt-oss-120b",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": 120.0
         },
         {
           "id": "vendouple/qwen3.6-27b",

@@ -2,20 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-20T05:26:27.908611+00:00",
-      "provider": "gemini",
-      "provider_label": "Gemini",
-      "added": [
-        "gemini-2.0-flash",
-        "gemini-2.0-flash-001",
-        "gemini-2.0-flash-lite",
-        "gemini-2.0-flash-lite-001",
-        "gemini-2.5-flash-image",
-        "gemini-3.1-flash-image-preview"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T05:26:27.908611+00:00",
       "provider": "together",
       "provider_label": "Together AI",
       "added": [
@@ -8378,6 +8364,16 @@
         "MarcosFRG/mimo-v2.5"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-07-05T17:12:07.451464+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [],
+      "removed": [
+        "MarcosFRG/deepseek-v3.2",
+        "vendouple/gpt-oss-120b"
+      ]
     }
   ]
 }
