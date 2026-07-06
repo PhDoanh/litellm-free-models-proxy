@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T02:03:36.114247+00:00",
+  "updated": "2026-07-06T07:00:08.978225+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -390,13 +390,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": null
-        },
-        {
-          "id": "z-ai/glm-5.2",
-          "name": "z-ai/glm-5.2",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": null
         }
       ],
       "error": null
@@ -646,6 +639,13 @@
           "params_b": null
         },
         {
+          "id": "llama-scout",
+          "name": "llama-scout",
+          "context": 327680,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
           "id": "minimax-m2.7",
           "name": "minimax-m2.7",
           "context": 200000,
@@ -684,6 +684,13 @@
           "id": "qwen-vision-pro",
           "name": "qwen-vision-pro",
           "context": 262144,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "step-flash",
+          "name": "step-flash",
+          "context": 256000,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         },
@@ -781,13 +788,6 @@
         {
           "id": "sharktide/inferenceport-ai-command-r-plus",
           "name": "sharktide/inferenceport-ai-command-r-plus",
-          "context": null,
-          "limits": "free tier — token from enter.pollinations.ai",
-          "params_b": null
-        },
-        {
-          "id": "sharktide/inferenceport-ai-mimo-v2.5",
-          "name": "sharktide/inferenceport-ai-mimo-v2.5",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
@@ -1064,6 +1064,13 @@
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
+        },
+        {
+          "id": "MarcosFRG/gemma-3-27b",
+          "name": "MarcosFRG/gemma-3-27b",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 27.0
         }
       ],
       "error": null

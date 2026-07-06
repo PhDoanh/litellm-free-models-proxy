@@ -2,30 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-20T08:59:59.934546+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [
-        "Qwen/Qwen2.5-32B-Instruct",
-        "Qwen/Qwen3-14B",
-        "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
-        "Qwen/Qwen3-32B",
-        "allenai/Molmo-7B-D-0924",
-        "google/gemma-3-1b-pt",
-        "google/medgemma-27b-text-it"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T08:59:59.934546+00:00",
-      "provider": "nvidia",
-      "provider_label": "NVIDIA NIM",
-      "added": [
-        "nvidia/vila"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T08:59:59.934546+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
       "added": [
@@ -8483,6 +8459,26 @@
         "voodoohop/airforce-grok-4-fast",
         "voodoohop/airforce-qwen3-max",
         "voodoohop/anyvm-deepseek-chat"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-06T07:00:08.986496+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "tencent/Hy3"
+      ],
+      "removed": [
+        "zai-org/GLM-5.2-FP8"
+      ]
+    },
+    {
+      "timestamp": "2026-07-06T07:00:08.986496+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/gemma-3-27b"
       ],
       "removed": []
     }
