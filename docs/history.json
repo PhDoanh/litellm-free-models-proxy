@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-20T05:26:27.908611+00:00",
-      "provider": "zai",
-      "provider_label": "Z.ai (GLM)",
-      "added": [
-        "cogvideox-flash"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T08:59:59.934546+00:00",
-      "provider": "sambanova",
-      "provider_label": "SambaNova",
-      "added": [
-        "MiniMax-M2.7"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-20T08:59:59.934546+00:00",
       "provider": "together",
       "provider_label": "Together AI",
@@ -8404,6 +8386,103 @@
       "provider_label": "LLM7",
       "added": [
         "devstral-small-2:24b"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-06T02:03:36.121718+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen3-235B-A22B-Thinking-2507"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-06T02:03:36.121718+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "Catniti/Laguna-xs-2.1",
+        "Catniti/gpt-4.0",
+        "Catniti/mistral-small-latest",
+        "Catniti/nemotron-3-ultra-550b-a55b",
+        "CloudCompile/gemma-4-e2b",
+        "MarcosFRG/deepseek-v3.2",
+        "MarcosFRG/deepseek-v4-pro",
+        "MarcosFRG/gemini-2.5-flash-lite",
+        "MarcosFRG/gemini-3-flash-preview",
+        "MarcosFRG/mimo-v2.5",
+        "MarcosFRG/minimax-m2.7",
+        "MarcosFRG/minimax-m3",
+        "Minor-fun/LongCat-2.0",
+        "Minor-fun/deepseek-v3.2",
+        "Minor-fun/deepseek-v4-flash",
+        "Minor-fun/gemma-4-31B-it",
+        "Spit-fires/LFM2.5-230M",
+        "Spit-fires/bonsai-image-1024x1024-4",
+        "Spit-fires/bonsai-image-512x512-4",
+        "Spit-fires/diffusiongemma-26b-a4b-it",
+        "Spit-fires/gpt-oss-20b-free",
+        "Spit-fires/step-3.5-flash-free",
+        "deepseek",
+        "deepseek-pro",
+        "gemma",
+        "glm",
+        "grok",
+        "grok-4-20-reasoning",
+        "grok-large",
+        "kimi",
+        "kimi-code",
+        "llama",
+        "llama-scout",
+        "mikl-shortcuts/ministral-3",
+        "minimax",
+        "minimax-m2.7",
+        "mistral",
+        "mistral-large",
+        "mistral-small-3.2",
+        "morriszdweck/kimi-k2.6-cheap",
+        "morriszdweck/qwen-3.7-plus-cheap",
+        "nova",
+        "nova-fast",
+        "polly",
+        "qwen-coder",
+        "qwen-large",
+        "qwen-safety",
+        "qwen-vision",
+        "qwen-vision-pro",
+        "sharktide/inferenceport-ai-command-r-plus",
+        "sharktide/inferenceport-ai-gpt-4.1",
+        "sharktide/inferenceport-ai-mimo-v2.5",
+        "sharktide/inferenceport.ai-gpt-5-chat-latest",
+        "sharktide/inferenceport.ai-gpt-oss-20b",
+        "sixfingerdev/claude-haiku-4-5",
+        "sixfingerdev/claude-opus-4-1",
+        "sixfingerdev/claude-opus-4-5",
+        "sixfingerdev/claude-opus-4-7",
+        "sixfingerdev/claude-opus-4-7-fast",
+        "sixfingerdev/claude-sonnet-4-5",
+        "sixfingerdev/claude-sonnet-4-6",
+        "sixfingerdev/claude-sonnet-5",
+        "sixfingerdev/deepseek-v4-flash",
+        "sixfingerdev/gemini-3.1-pro-preview",
+        "sixfingerdev/gemini-3.5-flash",
+        "sixfingerdev/glm-5",
+        "sixfingerdev/gpt-5.4",
+        "sixfingerdev/kimi-k2.7-code",
+        "smplstuff/falcon-h1-tiny",
+        "step-3.5-flash",
+        "step-flash",
+        "tomdacatto/ezra",
+        "vendouple/deepseek-v3.2",
+        "vendouple/gemma-4-31b",
+        "vendouple/kimi-k2.6",
+        "vendouple/qwen3.6-27b",
+        "voodoohop/airforce-doubao-pro",
+        "voodoohop/airforce-grok-4-fast",
+        "voodoohop/airforce-qwen3-max",
+        "voodoohop/anyvm-deepseek-chat"
       ],
       "removed": []
     }
