@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T22:55:51.218493+00:00",
+  "updated": "2026-07-06T23:58:53.966041+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -446,13 +446,6 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": 31.0
-        },
-        {
-          "id": "MiniMaxAI/MiniMax-M2",
-          "name": "MiniMaxAI/MiniMax-M2",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": null
         }
       ],
       "error": null
