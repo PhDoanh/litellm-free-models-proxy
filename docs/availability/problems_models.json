@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T14:54:54.117979+00:00",
+  "updated": "2026-07-06T17:33:58.966244+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -425,13 +425,6 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": 550.0
-        },
-        {
-          "id": "pearl-ai/Gemma-4-31B-it-pearl",
-          "name": "pearl-ai/Gemma-4-31B-it-pearl",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 31.0
         }
       ],
       "error": null

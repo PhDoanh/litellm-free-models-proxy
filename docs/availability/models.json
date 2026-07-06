@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T14:54:54.117979+00:00",
+  "updated": "2026-07-06T17:33:58.966244+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -118,6 +118,19 @@
           "params_b": 30.0
         },
         {
+          "id": "deepseek/deepseek-v3.2",
+          "name": "DeepSeek: DeepSeek V3.2",
+          "context": 163840,
+          "limits": "20 req/min · 50 req/day",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning",
+            "prompt_caching"
+          ],
+          "params_b": null
+        },
+        {
           "id": "nvidia/nemotron-nano-12b-v2-vl:free",
           "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
           "context": 128000,
@@ -153,6 +166,26 @@
       "url": "https://console.groq.com",
       "models": [
         {
+          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
+          "context": 131072,
+          "limits": "varies per model",
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "response_schema",
+            "vision"
+          ],
+          "params_b": 17.0
+        },
+        {
+          "id": "qwen/qwen3.6-27b",
+          "name": "qwen/qwen3.6-27b",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": 27.0
+        },
+        {
           "id": "llama-3.3-70b-versatile",
           "name": "llama-3.3-70b-versatile",
           "context": 131072,
@@ -177,6 +210,27 @@
           "params_b": 20.0
         },
         {
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "groq/compound",
+          "name": "groq/compound",
+          "context": 131072,
+          "limits": "varies per model",
+          "params_b": null
+        },
+        {
+          "id": "allam-2-7b",
+          "name": "allam-2-7b",
+          "context": 4096,
+          "limits": "varies per model",
+          "params_b": 7.0
+        },
+        {
           "id": "llama-3.1-8b-instant",
           "name": "llama-3.1-8b-instant",
           "context": 131072,
@@ -186,13 +240,6 @@
             "tool_choice"
           ],
           "params_b": 8.0
-        },
-        {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
         },
         {
           "id": "qwen/qwen3-32b",
@@ -205,40 +252,6 @@
             "reasoning"
           ],
           "params_b": 32.0
-        },
-        {
-          "id": "allam-2-7b",
-          "name": "allam-2-7b",
-          "context": 4096,
-          "limits": "varies per model",
-          "params_b": 7.0
-        },
-        {
-          "id": "groq/compound",
-          "name": "groq/compound",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": null
-        },
-        {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "context": 131072,
-          "limits": "varies per model",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": 17.0
-        },
-        {
-          "id": "qwen/qwen3.6-27b",
-          "name": "qwen/qwen3.6-27b",
-          "context": 131072,
-          "limits": "varies per model",
-          "params_b": 27.0
         },
         {
           "id": "openai/gpt-oss-120b",
@@ -261,11 +274,16 @@
       "url": "https://cloud.cerebras.ai",
       "models": [
         {
-          "id": "gemma-4-31b",
-          "name": "gemma-4-31b",
-          "context": null,
+          "id": "zai-glm-4.7",
+          "name": "zai-glm-4.7",
+          "context": 128000,
           "limits": "1M tokens/day",
-          "params_b": 31.0
+          "capabilities": [
+            "function_calling",
+            "tool_choice",
+            "reasoning"
+          ],
+          "params_b": null
         },
         {
           "id": "gpt-oss-120b",
@@ -281,16 +299,11 @@
           "params_b": 120.0
         },
         {
-          "id": "zai-glm-4.7",
-          "name": "zai-glm-4.7",
-          "context": 128000,
+          "id": "gemma-4-31b",
+          "name": "gemma-4-31b",
+          "context": null,
           "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": null
+          "params_b": 31.0
         }
       ],
       "error": null
@@ -922,25 +935,11 @@
           "params_b": null
         },
         {
-          "id": "zai-org/GLM-5.2-FP8",
-          "name": "zai-org/GLM-5.2-FP8",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": null
-        },
-        {
           "id": "google/gemma-3-4b-it",
           "name": "google/gemma-3-4b-it",
           "context": null,
           "limits": "free credits/month",
           "params_b": 4.0
-        },
-        {
-          "id": "stepfun-ai/Step-3.7-Flash",
-          "name": "stepfun-ai/Step-3.7-Flash",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": null
         },
         {
           "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -950,11 +949,18 @@
           "params_b": 550.0
         },
         {
-          "id": "google/gemma-3-12b-it",
-          "name": "google/gemma-3-12b-it",
+          "id": "stepfun-ai/Step-3.7-Flash",
+          "name": "stepfun-ai/Step-3.7-Flash",
           "context": null,
           "limits": "free credits/month",
-          "params_b": 12.0
+          "params_b": null
+        },
+        {
+          "id": "zai-org/GLM-5.2-FP8",
+          "name": "zai-org/GLM-5.2-FP8",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
         },
         {
           "id": "microsoft/phi-4",
@@ -962,6 +968,13 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": null
+        },
+        {
+          "id": "google/gemma-3-12b-it",
+          "name": "google/gemma-3-12b-it",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 12.0
         },
         {
           "id": "CohereLabs/c4ai-command-r7b-12-2024",
@@ -976,13 +989,6 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": 17.0
-        },
-        {
-          "id": "pearl-ai/Gemma-4-31B-it-pearl",
-          "name": "pearl-ai/Gemma-4-31B-it-pearl",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 31.0
         },
         {
           "id": "speakleash/Bielik-11B-v3.0-Instruct",
@@ -2344,6 +2350,27 @@
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": 27.0
+        },
+        {
+          "id": "Spit-fires/ministral-3b-2512",
+          "name": "Spit-fires/ministral-3b-2512",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 3.0
+        },
+        {
+          "id": "Spit-fires/ministral-8b-2512",
+          "name": "Spit-fires/ministral-8b-2512",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": 8.0
+        },
+        {
+          "id": "Spit-fires/mistral-small-2506",
+          "name": "Spit-fires/mistral-small-2506",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
         }
       ],
       "error": null
