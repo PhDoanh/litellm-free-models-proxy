@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T11:38:38.290685+00:00",
+  "updated": "2026-07-06T14:54:54.117979+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -387,6 +387,13 @@
         {
           "id": "sarvamai/sarvam-m",
           "name": "sarvamai/sarvam-m",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": null
+        },
+        {
+          "id": "z-ai/glm-5.2",
+          "name": "z-ai/glm-5.2",
           "context": null,
           "limits": "40 req/min",
           "params_b": null
