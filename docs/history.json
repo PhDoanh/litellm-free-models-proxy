@@ -2,15 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-20T08:59:59.934546+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "Qwen/Qwen3-VL-8B-Instruct"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-20T08:59:59.934546+00:00",
       "provider": "mistral",
       "provider_label": "Mistral",
       "added": [
@@ -8481,6 +8472,15 @@
         "MarcosFRG/gemma-3-27b"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-07-06T11:38:38.298275+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "tencent/Hy3"
+      ]
     }
   ]
 }
