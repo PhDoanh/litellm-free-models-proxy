@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T19:39:03.808488+00:00",
+  "updated": "2026-07-06T21:19:22.893116+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -343,6 +343,13 @@
           "params_b": 30.0
         },
         {
+          "id": "nvidia/nemotron-3-super-120b-a12b",
+          "name": "nvidia/nemotron-3-super-120b-a12b",
+          "context": null,
+          "limits": "40 req/min",
+          "params_b": 120.0
+        },
+        {
           "id": "nvidia/nemotron-3-ultra-550b-a55b",
           "name": "nvidia/nemotron-3-ultra-550b-a55b",
           "context": null,
@@ -538,6 +545,13 @@
             "reasoning"
           ],
           "params_b": null
+        },
+        {
+          "id": "@cf/qwen/qwen2.5-coder-32b-instruct",
+          "name": "@cf/qwen/qwen2.5-coder-32b-instruct",
+          "context": 32768,
+          "limits": "10k neurons/day",
+          "params_b": 32.0
         },
         {
           "id": "@cf/zai-org/glm-5.2",

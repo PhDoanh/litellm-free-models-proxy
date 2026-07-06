@@ -2,20 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-20T11:36:04.817140+00:00",
-      "provider": "gemini",
-      "provider_label": "Gemini",
-      "added": [],
-      "removed": [
-        "gemini-2.0-flash",
-        "gemini-2.0-flash-001",
-        "gemini-2.0-flash-lite",
-        "gemini-2.0-flash-lite-001",
-        "gemini-2.5-flash-image",
-        "gemini-3.1-flash-image-preview"
-      ]
-    },
-    {
-      "timestamp": "2026-06-20T11:36:04.817140+00:00",
       "provider": "together",
       "provider_label": "Together AI",
       "added": [],
@@ -8477,6 +8463,15 @@
         "swiss-ai/Apertus-70B-Instruct-2509",
         "zai-org/GLM-4.5",
         "zai-org/GLM-4.7-Flash"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-06T21:19:22.898501+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "perplexity-fast"
       ],
       "removed": []
     }
