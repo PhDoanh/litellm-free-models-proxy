@@ -1,27 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-20T13:31:15.000548+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "openai-audio-large",
-        "openai-fast",
-        "openai-large",
-        "perplexity-reasoning"
-      ]
-    },
-    {
-      "timestamp": "2026-06-20T14:43:40.158180+00:00",
-      "provider": "together",
-      "provider_label": "Together AI",
-      "added": [],
-      "removed": [
-        "google/gemma-3-27b-it-lora"
-      ]
-    },
-    {
       "timestamp": "2026-06-20T14:43:40.158180+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -8347,6 +8326,25 @@
       "added": [
         "labs-leanstral-1-5",
         "labs-leanstral-1-5-1"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-07T16:16:32.082112+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [
+        "gemini-3.1-flash-lite-image",
+        "gemini-omni-flash-preview"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-07T16:16:32.082112+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "zai-org/GLM-4.6-FP8"
       ],
       "removed": []
     }

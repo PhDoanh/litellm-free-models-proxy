@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T13:10:35.727003+00:00",
+  "updated": "2026-07-07T16:16:32.072638+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -301,13 +301,6 @@
           "params_b": 30.0
         },
         {
-          "id": "nvidia/nemotron-3-super-120b-a12b",
-          "name": "nvidia/nemotron-3-super-120b-a12b",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 120.0
-        },
-        {
           "id": "nvidia/nemotron-3-ultra-550b-a55b",
           "name": "nvidia/nemotron-3-ultra-550b-a55b",
           "context": null,
@@ -355,13 +348,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": 397.0
-        },
-        {
-          "id": "sarvamai/sarvam-m",
-          "name": "sarvamai/sarvam-m",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": null
         },
         {
           "id": "z-ai/glm-5.2",
@@ -413,6 +399,13 @@
           "params_b": 235.0
         },
         {
+          "id": "CohereLabs/c4ai-command-a-03-2025",
+          "name": "CohereLabs/c4ai-command-a-03-2025",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        },
+        {
           "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
           "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
           "context": null,
@@ -427,33 +420,7 @@
       "url": "https://console.mistral.ai",
       "models": [
         {
-          "id": "mistral-large-2512",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
           "id": "mistral-large-latest",
-          "name": "mistral-large-2512",
-          "context": 262144,
-          "limits": "1 req/s · 1B tok/month",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision"
-          ],
-          "params_b": null
-        },
-        {
-          "id": "mistral-large-2512",
           "name": "mistral-large-2512",
           "context": 262144,
           "limits": "1 req/s · 1B tok/month",
@@ -691,6 +658,13 @@
           "id": "qwen-large",
           "name": "qwen-large",
           "context": 262000,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "qwen-vision",
+          "name": "qwen-vision",
+          "context": 131072,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         },
