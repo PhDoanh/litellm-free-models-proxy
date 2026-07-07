@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T07:26:41.003809+00:00",
+  "updated": "2026-07-07T10:43:45.728264+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -406,18 +406,18 @@
           "params_b": 31.0
         },
         {
-          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": 17.0
-        },
-        {
           "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
           "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
           "context": null,
           "limits": "free credits/month",
           "params_b": 235.0
+        },
+        {
+          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 17.0
         }
       ],
       "error": null
@@ -593,6 +593,13 @@
           "id": "deepseek-pro",
           "name": "deepseek-pro",
           "context": 1048576,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "grok",
+          "name": "grok",
+          "context": 262144,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
         },
@@ -781,6 +788,13 @@
         {
           "id": "sharktide/inferenceport-ai-command-r-plus",
           "name": "sharktide/inferenceport-ai-command-r-plus",
+          "context": null,
+          "limits": "free tier — token from enter.pollinations.ai",
+          "params_b": null
+        },
+        {
+          "id": "sharktide/inferenceport-ai-mimo-v2.5",
+          "name": "sharktide/inferenceport-ai-mimo-v2.5",
           "context": null,
           "limits": "free tier — token from enter.pollinations.ai",
           "params_b": null
