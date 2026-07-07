@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T03:18:54.457303+00:00",
+  "updated": "2026-07-07T07:26:41.003809+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -404,6 +404,20 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": 31.0
+        },
+        {
+          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 17.0
+        },
+        {
+          "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+          "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 235.0
         }
       ],
       "error": null

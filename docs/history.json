@@ -2,16 +2,6 @@
   "entries": [
     {
       "timestamp": "2026-06-20T11:36:04.817140+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "openai",
-        "openai-audio"
-      ]
-    },
-    {
-      "timestamp": "2026-06-20T11:36:04.817140+00:00",
       "provider": "zai",
       "provider_label": "Z.ai (GLM)",
       "added": [],
@@ -8283,6 +8273,16 @@
         "Spit-fires/ministral-8b-2512",
         "Spit-fires/mistral-small-2506"
       ]
+    },
+    {
+      "timestamp": "2026-07-07T07:26:41.012057+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "Qwen/Qwen2.5-VL-72B-Instruct",
+        "Qwen/Qwen3-4B-Thinking-2507"
+      ],
+      "removed": []
     }
   ]
 }
