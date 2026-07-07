@@ -1,34 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-21T01:46:52.932830+00:00",
-      "provider": "cohere",
-      "provider_label": "Cohere",
-      "added": [],
-      "removed": [
-        "c4ai-aya-expanse-32b",
-        "c4ai-aya-vision-32b"
-      ]
-    },
-    {
-      "timestamp": "2026-06-21T16:30:32.161616+00:00",
-      "provider": "sambanova",
-      "provider_label": "SambaNova",
-      "added": [
-        "DeepSeek-V3.2"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-21T18:27:42.605567+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [],
-      "removed": [
-        "mistral-small-3.2"
-      ]
-    },
-    {
       "timestamp": "2026-06-21T22:23:55.214478+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -8342,6 +8314,36 @@
         "mistral-ocr-3-0",
         "mistral-ocr-4",
         "mistral-ocr-4-0"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-07T20:44:16.594976+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "zai-org/GLM-4.6-FP8",
+        "zai-org/GLM-4.7-FP8"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-07T20:44:16.594976+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "MarcosFRG/deepseek-v4-flash",
+        "MarcosFRG/gemma-4-31b"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-07T20:44:16.594976+00:00",
+      "provider": "llm7",
+      "provider_label": "LLM7",
+      "added": [
+        "gpt-5.4",
+        "gpt-5.5"
       ],
       "removed": []
     }

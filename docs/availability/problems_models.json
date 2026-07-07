@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T18:53:55.747031+00:00",
+  "updated": "2026-07-07T20:44:16.585642+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -294,13 +294,6 @@
           "params_b": 49.0
         },
         {
-          "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "name": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 49.0
-        },
-        {
           "id": "nvidia/nemotron-3-ultra-550b-a55b",
           "name": "nvidia/nemotron-3-ultra-550b-a55b",
           "context": null,
@@ -420,18 +413,18 @@
           "params_b": 27.0
         },
         {
-          "id": "CohereLabs/c4ai-command-a-03-2025",
-          "name": "CohereLabs/c4ai-command-a-03-2025",
-          "context": null,
-          "limits": "free credits/month",
-          "params_b": null
-        },
-        {
           "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
           "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
           "context": null,
           "limits": "free credits/month",
           "params_b": 17.0
+        },
+        {
+          "id": "CohereLabs/c4ai-command-a-03-2025",
+          "name": "CohereLabs/c4ai-command-a-03-2025",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
         }
       ],
       "error": null
