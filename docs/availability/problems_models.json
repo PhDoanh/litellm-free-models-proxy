@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T23:58:53.966041+00:00",
+  "updated": "2026-07-07T03:18:54.457303+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -57,45 +57,10 @@
       ],
       "error": null
     },
-    "cerebras": {
-      "name": "Cerebras",
-      "url": "https://cloud.cerebras.ai",
-      "models": [
-        {
-          "id": "zai-glm-4.7",
-          "name": "zai-glm-4.7",
-          "context": 128000,
-          "limits": "1M tokens/day",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "reasoning"
-          ],
-          "params_b": null
-        }
-      ],
-      "error": null
-    },
     "gemini": {
       "name": "Gemini",
       "url": "https://aistudio.google.com",
       "models": [
-        {
-          "id": "gemini-2.5-flash",
-          "name": "Gemini 2.5 Flash",
-          "context": 1048576,
-          "limits": "varies — see AI Studio",
-          "capabilities": [
-            "function_calling",
-            "tool_choice",
-            "response_schema",
-            "vision",
-            "system_messages",
-            "reasoning",
-            "prompt_caching"
-          ],
-          "params_b": null
-        },
         {
           "id": "gemma-4-26b-a4b-it",
           "name": "Gemma 4 26B A4B IT",
@@ -208,13 +173,6 @@
           "context": null,
           "limits": "40 req/min",
           "params_b": null
-        },
-        {
-          "id": "google/diffusiongemma-26b-a4b-it",
-          "name": "google/diffusiongemma-26b-a4b-it",
-          "context": null,
-          "limits": "40 req/min",
-          "params_b": 26.0
         },
         {
           "id": "google/gemma-3n-e2b-it",
