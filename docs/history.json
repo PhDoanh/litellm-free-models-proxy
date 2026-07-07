@@ -1,24 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-21T22:23:55.214478+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "Qwen/Qwen3-235B-A22B-Thinking-2507"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-21T22:23:55.214478+00:00",
-      "provider": "llm7",
-      "provider_label": "LLM7",
-      "added": [
-        "mistral-small-3.2"
-      ],
-      "removed": []
-    },
-    {
       "timestamp": "2026-06-22T00:30:03.690374+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -8346,6 +8328,28 @@
         "gpt-5.5"
       ],
       "removed": []
+    },
+    {
+      "timestamp": "2026-07-07T22:03:57.571145+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "alibaba/happyhorse-1.0-i2v",
+        "google/gemma-4-31B-it-lora",
+        "google/veo-3.1",
+        "google/veo-3.1-lite",
+        "minimax/speech-2.8-turbo"
+      ]
+    },
+    {
+      "timestamp": "2026-07-07T22:03:57.571145+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.6-FP8"
+      ]
     }
   ]
 }

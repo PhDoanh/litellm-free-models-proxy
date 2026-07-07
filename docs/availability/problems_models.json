@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T20:44:16.585642+00:00",
+  "updated": "2026-07-07T22:03:57.561746+00:00",
   "providers": {
     "openrouter": {
       "name": "OpenRouter",
@@ -18,6 +18,20 @@
           "context": 262144,
           "limits": "20 req/min · 50 req/day",
           "params_b": null
+        },
+        {
+          "id": "liquid/lfm-2.5-1.2b-thinking:free",
+          "name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+          "context": 32768,
+          "limits": "20 req/min · 50 req/day",
+          "params_b": 1.2
+        },
+        {
+          "id": "liquid/lfm-2.5-1.2b-instruct:free",
+          "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+          "context": 32768,
+          "limits": "20 req/min · 50 req/day",
+          "params_b": 1.2
         },
         {
           "id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -41,15 +55,15 @@
       "url": "https://console.groq.com",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "groq/compound",
+          "id": "groq/compound-mini",
+          "name": "groq/compound-mini",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
         },
         {
-          "id": "groq/compound-mini",
-          "name": "groq/compound-mini",
+          "id": "groq/compound",
+          "name": "groq/compound",
           "context": 131072,
           "limits": "varies per model",
           "params_b": null
@@ -364,6 +378,20 @@
           "params_b": 27.0
         },
         {
+          "id": "google/gemma-4-26B-A4B-it",
+          "name": "google/gemma-4-26B-A4B-it",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 26.0
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1",
+          "name": "deepseek-ai/DeepSeek-R1",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
+        },
+        {
           "id": "XiaomiMiMo/MiMo-V2.5-Pro",
           "name": "XiaomiMiMo/MiMo-V2.5-Pro",
           "context": null,
@@ -378,11 +406,18 @@
           "params_b": 550.0
         },
         {
-          "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
-          "name": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+          "id": "zai-org/GLM-5",
+          "name": "zai-org/GLM-5",
           "context": null,
           "limits": "free credits/month",
-          "params_b": 235.0
+          "params_b": null
+        },
+        {
+          "id": "zai-org/GLM-4.6V-Flash",
+          "name": "zai-org/GLM-4.6V-Flash",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
         },
         {
           "id": "pearl-ai/Gemma-4-31B-it-pearl",
@@ -390,6 +425,27 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": 31.0
+        },
+        {
+          "id": "Qwen/Qwen3.5-27B",
+          "name": "Qwen/Qwen3.5-27B",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 27.0
+        },
+        {
+          "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+          "name": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 235.0
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-0528",
+          "name": "deepseek-ai/DeepSeek-R1-0528",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
         },
         {
           "id": "Qwen/Qwen2.5-72B-Instruct",
@@ -413,11 +469,18 @@
           "params_b": 27.0
         },
         {
-          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "id": "zai-org/GLM-4.6",
+          "name": "zai-org/GLM-4.6",
           "context": null,
           "limits": "free credits/month",
-          "params_b": 17.0
+          "params_b": null
+        },
+        {
+          "id": "CohereLabs/c4ai-command-r7b-arabic-02-2025",
+          "name": "CohereLabs/c4ai-command-r7b-arabic-02-2025",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": null
         },
         {
           "id": "CohereLabs/c4ai-command-a-03-2025",
@@ -425,6 +488,13 @@
           "context": null,
           "limits": "free credits/month",
           "params_b": null
+        },
+        {
+          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "context": null,
+          "limits": "free credits/month",
+          "params_b": 17.0
         }
       ],
       "error": null
@@ -496,6 +566,16 @@
           "capabilities": [
             "function_calling",
             "reasoning"
+          ],
+          "params_b": null
+        },
+        {
+          "id": "@cf/ibm-granite/granite-4.0-h-micro",
+          "name": "@cf/ibm-granite/granite-4.0-h-micro",
+          "context": 131000,
+          "limits": "10k neurons/day",
+          "capabilities": [
+            "function_calling"
           ],
           "params_b": null
         },
