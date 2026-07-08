@@ -1,0 +1,51 @@
+model_list:
+- model_name: gemini/flash
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY
+    rpm: 15
+- model_name: gemini/flash
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_2
+    rpm: 15
+- model_name: gemini/flash
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_3
+    rpm: 15
+- model_name: gemini/flash
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_7
+    rpm: 15
+- model_name: gemini/flash
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_8
+    rpm: 15
+- model_name: gemini/pro
+  litellm_params:
+    model: gemini/gemini-2.5-pro
+    api_key: os.environ/GEMINI_API_KEY
+    rpm: 5
+- model_name: gemini/pro
+  litellm_params:
+    model: gemini/gemini-2.5-pro
+    api_key: os.environ/GEMINI_API_KEY_2
+    rpm: 5
+- model_name: gemini/pro
+  litellm_params:
+    model: gemini/gemini-2.5-pro
+    api_key: os.environ/GEMINI_API_KEY_3
+    rpm: 5
+- model_name: gemini/pro
+  litellm_params:
+    model: gemini/gemini-2.5-pro
+    api_key: os.environ/GEMINI_API_KEY_7
+    rpm: 5
+- model_name: gemini/pro
+  litellm_params:
+    model: gemini/gemini-2.5-pro
+    api_key: os.environ/GEMINI_API_KEY_8
+    rpm: 5

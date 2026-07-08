@@ -1,0 +1,17 @@
+model_list:
+- model_name: co/command-a
+  litellm_params:
+    model: cohere/command-a-03-2025
+    api_key: os.environ/COHERE_API_KEY
+- model_name: co/command-r-plus
+  litellm_params:
+    model: cohere/command-r-plus-08-2024
+    api_key: os.environ/COHERE_API_KEY
+- model_name: co/command-r
+  litellm_params:
+    model: cohere/command-r-08-2024
+    api_key: os.environ/COHERE_API_KEY
+- model_name: co/command-r7b
+  litellm_params:
+    model: cohere/command-r7b-12-2024
+    api_key: os.environ/COHERE_API_KEY

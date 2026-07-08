@@ -1,0 +1,41 @@
+model_list:
+- model_name: pai/apertus-70b
+  litellm_params:
+    model: openai/swiss-ai/apertus-70b-instruct
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY
+- model_name: pai/apertus-8b
+  litellm_params:
+    model: openai/swiss-ai/apertus-8b-instruct
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY
+- model_name: pai/sea-lion-gemma-27b
+  litellm_params:
+    model: openai/aisingapore/Gemma-SEA-LION-v4-27B-IT
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY
+- model_name: pai/sea-lion-qwen-32b
+  litellm_params:
+    model: openai/aisingapore/Qwen-SEA-LION-v4-32B-IT
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY
+- model_name: pai/eurollm-22b
+  litellm_params:
+    model: openai/utter-project/EuroLLM-22B-Instruct-2512
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY
+- model_name: pai/olmo-32b
+  litellm_params:
+    model: openai/allenai/Olmo-3.1-32B-Instruct
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY
+- model_name: pai/olmo-32b-think
+  litellm_params:
+    model: openai/allenai/Olmo-3.1-32B-Think
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY
+- model_name: pai/mistral-small-3.1
+  litellm_params:
+    model: openai/mistralai/mistral-small-3-1
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY

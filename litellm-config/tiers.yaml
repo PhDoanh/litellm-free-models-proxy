@@ -1,0 +1,348 @@
+model_list:
+- model_name: smart
+  litellm_params:
+    model: cerebras/zai-glm-4.7
+    api_key: os.environ/CEREBRAS_API_KEY
+    rpm: 30
+  model_info:
+    max_input_tokens: 8192
+- model_name: smart
+  litellm_params:
+    model: groq/llama-3.3-70b-versatile
+    api_key: os.environ/GROQ_API_KEY
+    rpm: 30
+  model_info:
+    max_input_tokens: 131072
+- model_name: smart
+  litellm_params:
+    model: groq/llama-3.3-70b-versatile
+    api_key: os.environ/GROQ_API_KEY_2
+    rpm: 30
+  model_info:
+    max_input_tokens: 131072
+- model_name: smart
+  litellm_params:
+    model: groq/openai/gpt-oss-120b
+    api_key: os.environ/GROQ_API_KEY
+    rpm: 30
+  model_info:
+    max_input_tokens: 131072
+- model_name: smart
+  litellm_params:
+    model: groq/openai/gpt-oss-120b
+    api_key: os.environ/GROQ_API_KEY_2
+    rpm: 30
+  model_info:
+    max_input_tokens: 131072
+- model_name: smart
+  litellm_params:
+    model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+    api_key: os.environ/OPENROUTER_API_KEY
+    rpm: 20
+- model_name: smart
+  litellm_params:
+    model: openrouter/openai/gpt-oss-120b:free
+    api_key: os.environ/OPENROUTER_API_KEY
+    rpm: 20
+- model_name: smart
+  litellm_params:
+    model: openrouter/meta-llama/llama-3.3-70b-instruct:free
+    api_key: os.environ/OPENROUTER_API_KEY
+    rpm: 20
+- model_name: smart
+  litellm_params:
+    model: sambanova/DeepSeek-V3.2
+    api_key: os.environ/SAMBANOVA_API_KEY
+    rpm: 30
+- model_name: smart
+  litellm_params:
+    model: sambanova/gpt-oss-120b
+    api_key: os.environ/SAMBANOVA_API_KEY
+    rpm: 30
+- model_name: smart
+  litellm_params:
+    model: sambanova/Llama-4-Maverick-17B-128E-Instruct
+    api_key: os.environ/SAMBANOVA_API_KEY
+    rpm: 30
+- model_name: smart
+  litellm_params:
+    model: nvidia_nim/meta/llama-3.1-70b-instruct
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+  model_info:
+    max_input_tokens: 128000
+- model_name: smart
+  litellm_params:
+    model: nvidia_nim/mistralai/mistral-large-3-675b-instruct-2512
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+  model_info:
+    max_input_tokens: 256000
+- model_name: smart
+  litellm_params:
+    model: nvidia_nim/deepseek-ai/deepseek-v4-flash
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+  model_info:
+    max_input_tokens: 1000000
+- model_name: smart
+  litellm_params:
+    model: nvidia_nim/moonshotai/kimi-k2-instruct
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+  model_info:
+    max_input_tokens: 128000
+- model_name: smart
+  litellm_params:
+    model: openai/swiss-ai/apertus-70b-instruct
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY
+    rpm: 15
+- model_name: smart
+  litellm_params:
+    model: together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+    api_key: os.environ/TOGETHER_API_KEY
+    rpm: 15
+- model_name: smart
+  litellm_params:
+    model: cohere/command-a-03-2025
+    api_key: os.environ/COHERE_API_KEY
+    rpm: 20
+- model_name: fast
+  litellm_params:
+    model: cerebras/gpt-oss-120b
+    api_key: os.environ/CEREBRAS_API_KEY
+    rpm: 30
+  model_info:
+    max_input_tokens: 65536
+- model_name: fast
+  litellm_params:
+    model: groq/llama-3.1-8b-instant
+    api_key: os.environ/GROQ_API_KEY
+    rpm: 30
+  model_info:
+    max_input_tokens: 131072
+- model_name: fast
+  litellm_params:
+    model: groq/llama-3.1-8b-instant
+    api_key: os.environ/GROQ_API_KEY_2
+    rpm: 30
+  model_info:
+    max_input_tokens: 131072
+- model_name: fast
+  litellm_params:
+    model: groq/openai/gpt-oss-20b
+    api_key: os.environ/GROQ_API_KEY
+    rpm: 30
+  model_info:
+    max_input_tokens: 131072
+- model_name: fast
+  litellm_params:
+    model: groq/openai/gpt-oss-20b
+    api_key: os.environ/GROQ_API_KEY_2
+    rpm: 30
+  model_info:
+    max_input_tokens: 131072
+- model_name: fast
+  litellm_params:
+    model: sambanova/Meta-Llama-3.3-70B-Instruct
+    api_key: os.environ/SAMBANOVA_API_KEY
+    rpm: 30
+- model_name: fast
+  litellm_params:
+    model: nvidia_nim/meta/llama-3.1-8b-instruct
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+  model_info:
+    max_input_tokens: 128000
+- model_name: fast # continue here
+  litellm_params:
+    model: nvidia_nim/nvidia/llama-3.1-nemotron-70b-instruct
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+- model_name: fast
+  litellm_params:
+    model: openai/swiss-ai/apertus-8b-instruct
+    api_base: https://api.publicai.co/v1
+    api_key: os.environ/PUBLICAI_API_KEY
+    rpm: 20
+- model_name: fast
+  litellm_params:
+    model: cohere/command-r7b-12-2024
+    api_key: os.environ/COHERE_API_KEY
+    rpm: 20
+- model_name: reasoning
+  litellm_params:
+    model: cerebras/zai-glm-4.7
+    api_key: os.environ/CEREBRAS_API_KEY
+    rpm: 30
+  model_info:
+    max_input_tokens: 8192
+- model_name: reasoning
+  litellm_params:
+    model: openrouter/openai/gpt-oss-120b:free
+    api_key: os.environ/OPENROUTER_API_KEY
+    rpm: 20
+- model_name: reasoning
+  litellm_params:
+    model: groq/qwen/qwen3-32b
+    api_key: os.environ/GROQ_API_KEY
+    rpm: 30
+- model_name: reasoning
+  litellm_params:
+    model: groq/qwen/qwen3-32b
+    api_key: os.environ/GROQ_API_KEY_2
+    rpm: 30
+- model_name: reasoning
+  litellm_params:
+    model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+    api_key: os.environ/OPENROUTER_API_KEY
+    rpm: 20
+- model_name: reasoning
+  litellm_params:
+    model: sambanova/DeepSeek-V3.2
+    api_key: os.environ/SAMBANOVA_API_KEY
+    rpm: 30
+- model_name: reasoning
+  litellm_params:
+    model: nvidia_nim/nvidia/llama-3.1-nemotron-ultra-253b-v1
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+- model_name: reasoning
+  litellm_params:
+    model: nvidia_nim/moonshotai/kimi-k2-thinking
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+- model_name: reasoning
+  litellm_params:
+    model: nvidia_nim/deepseek-ai/deepseek-v3.2
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+- model_name: coder
+  litellm_params:
+    model: openrouter/qwen/qwen3-coder:free
+    api_key: os.environ/OPENROUTER_API_KEY
+    rpm: 20
+- model_name: coder
+  litellm_params:
+    model: groq/qwen/qwen3-32b
+    api_key: os.environ/GROQ_API_KEY
+    rpm: 30
+- model_name: coder
+  litellm_params:
+    model: groq/qwen/qwen3-32b
+    api_key: os.environ/GROQ_API_KEY_2
+    rpm: 30
+- model_name: coder
+  litellm_params:
+    model: cerebras/zai-glm-4.7
+    api_key: os.environ/CEREBRAS_API_KEY
+    rpm: 30
+  model_info:
+    max_input_tokens: 8192
+- model_name: coder
+  litellm_params:
+    model: openrouter/qwen/qwen3-next-80b-a3b-instruct:free
+    api_key: os.environ/OPENROUTER_API_KEY
+    rpm: 20
+- model_name: coder
+  litellm_params:
+    model: openrouter/openai/gpt-oss-120b:free
+    api_key: os.environ/OPENROUTER_API_KEY
+    rpm: 20
+- model_name: coder
+  litellm_params:
+    model: sambanova/DeepSeek-V3.2
+    api_key: os.environ/SAMBANOVA_API_KEY
+    rpm: 30
+- model_name: coder
+  litellm_params:
+    model: nvidia_nim/mistralai/devstral-2-123b-instruct-2512
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+- model_name: coder
+  litellm_params:
+    model: nvidia_nim/deepseek-ai/deepseek-v3.2
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+- model_name: coder
+  litellm_params:
+    model: openai/codestral-latest
+    api_base: https://codestral.mistral.ai/v1
+    api_key: os.environ/CODESTRAL_API_KEY
+    rpm: 30
+- model_name: long
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY
+    rpm: 15
+- model_name: long
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_2
+    rpm: 15
+- model_name: long
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_3
+    rpm: 15
+- model_name: long
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_7
+    rpm: 15
+- model_name: long
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_8
+    rpm: 15
+- model_name: vision
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY
+    rpm: 15
+- model_name: vision
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_2
+    rpm: 15
+- model_name: vision
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_3
+    rpm: 15
+- model_name: vision
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_7
+    rpm: 15
+- model_name: vision
+  litellm_params:
+    model: gemini/gemini-2.5-flash
+    api_key: os.environ/GEMINI_API_KEY_8
+    rpm: 15
+- model_name: vision
+  litellm_params:
+    model: openrouter/nvidia/nemotron-nano-12b-v2-vl:free
+    api_key: os.environ/OPENROUTER_API_KEY
+    rpm: 20
+- model_name: vision
+  litellm_params:
+    model: sambanova/Llama-4-Maverick-17B-128E-Instruct
+    api_key: os.environ/SAMBANOVA_API_KEY
+    rpm: 30
+- model_name: vision
+  litellm_params:
+    model: nvidia_nim/meta/llama-3.2-90b-vision-instruct
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+- model_name: vision
+  litellm_params:
+    model: nvidia_nim/microsoft/phi-4-multimodal-instruct
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20
+- model_name: vision
+  litellm_params:
+    model: nvidia_nim/meta/llama-4-maverick-17b-128e-instruct
+    api_key: os.environ/NVIDIA_NIM_API_KEY
+    rpm: 20

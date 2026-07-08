@@ -1,0 +1,21 @@
+model_list:
+- model_name: ppl/sonar
+  litellm_params:
+    model: perplexity/sonar
+    api_key: os.environ/PERPLEXITY_API_KEY
+- model_name: ppl/sonar-pro
+  litellm_params:
+    model: perplexity/sonar-pro
+    api_key: os.environ/PERPLEXITY_API_KEY
+- model_name: ppl/sonar-reasoning
+  litellm_params:
+    model: perplexity/sonar-reasoning
+    api_key: os.environ/PERPLEXITY_API_KEY
+- model_name: ppl/sonar-reasoning-pro
+  litellm_params:
+    model: perplexity/sonar-reasoning-pro
+    api_key: os.environ/PERPLEXITY_API_KEY
+- model_name: ppl/sonar-deep-research
+  litellm_params:
+    model: perplexity/sonar-deep-research
+    api_key: os.environ/PERPLEXITY_API_KEY

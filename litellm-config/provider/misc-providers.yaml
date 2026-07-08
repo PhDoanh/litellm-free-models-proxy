@@ -1,0 +1,16 @@
+model_list:
+- model_name: cerebras/zai-glm-4.7
+  litellm_params:
+    model: cerebras/zai-glm-4.7
+    api_key: os.environ/CEREBRAS_API_KEY
+    model_info:
+      max_input_tokens: 8192
+- model_name: mistral/codestral
+  litellm_params:
+    model: openai/codestral-latest
+    api_base: https://codestral.mistral.ai/v1
+    api_key: os.environ/CODESTRAL_API_KEY
+- model_name: t/llama-3.3-70b-free
+  litellm_params:
+    model: together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+    api_key: os.environ/TOGETHER_API_KEY

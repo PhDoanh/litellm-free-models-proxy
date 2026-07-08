@@ -1,0 +1,13 @@
+model_list:
+- model_name: or/qwen3-coder
+  litellm_params:
+    model: openrouter/qwen/qwen3-coder:free
+    api_key: os.environ/OPENROUTER_API_KEY
+- model_name: or/nemotron-120b
+  litellm_params:
+    model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+    api_key: os.environ/OPENROUTER_API_KEY
+- model_name: or/glm-4.5-air
+  litellm_params:
+    model: openrouter/z-ai/glm-4.5-air:free
+    api_key: os.environ/OPENROUTER_API_KEY

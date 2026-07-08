@@ -1,0 +1,17 @@
+model_list:
+- model_name: sn/deepseek-v32
+  litellm_params:
+    model: sambanova/DeepSeek-V3.2
+    api_key: os.environ/SAMBANOVA_API_KEY
+- model_name: sn/llama-3.3-70b
+  litellm_params:
+    model: sambanova/Meta-Llama-3.3-70B-Instruct
+    api_key: os.environ/SAMBANOVA_API_KEY
+- model_name: sn/llama-4-maverick
+  litellm_params:
+    model: sambanova/Llama-4-Maverick-17B-128E-Instruct
+    api_key: os.environ/SAMBANOVA_API_KEY
+- model_name: sn/gpt-oss-120b
+  litellm_params:
+    model: sambanova/gpt-oss-120b
+    api_key: os.environ/SAMBANOVA_API_KEY
