@@ -1,58 +1,6 @@
 {
   "entries": [
     {
-      "timestamp": "2026-06-22T09:56:19.164017+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "CohereLabs/c4ai-command-a-03-2025",
-        "CohereLabs/tiny-aya-earth",
-        "EssentialAI/rnj-1-instruct",
-        "Qwen/Qwen3-Next-80B-A3B-Thinking",
-        "aisingapore/Qwen-SEA-LION-v4-32B-IT",
-        "allenai/Olmo-3-7B-Instruct",
-        "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
-        "deepseek-ai/DeepSeek-V3.1",
-        "deepseek-ai/DeepSeek-V3.1-Terminus",
-        "deepseek-ai/DeepSeek-V3.2-Exp",
-        "google/gemma-3n-E4B-it",
-        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-        "moonshotai/Kimi-K2-Instruct-0905",
-        "moonshotai/Kimi-K2-Thinking",
-        "swiss-ai/Apertus-70B-Instruct-2509",
-        "zai-org/GLM-4.5",
-        "zai-org/GLM-4.7-Flash"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-22T12:02:02.432997+00:00",
-      "provider": "huggingface",
-      "provider_label": "HuggingFace",
-      "added": [
-        "MiniMaxAI/MiniMax-M2"
-      ],
-      "removed": []
-    },
-    {
-      "timestamp": "2026-06-22T12:02:02.432997+00:00",
-      "provider": "pollinations",
-      "provider_label": "Pollinations",
-      "added": [],
-      "removed": [
-        "perplexity-fast"
-      ]
-    },
-    {
-      "timestamp": "2026-06-22T14:51:23.365813+00:00",
-      "provider": "openrouter",
-      "provider_label": "OpenRouter",
-      "added": [],
-      "removed": [
-        "nex-agi/nex-n2-pro:free"
-      ]
-    },
-    {
       "timestamp": "2026-06-22T14:51:23.365813+00:00",
       "provider": "huggingface",
       "provider_label": "HuggingFace",
@@ -8435,6 +8383,125 @@
         "voodoohop/airforce-qwen3-max",
         "voodoohop/anyvm-deepseek-chat"
       ]
+    },
+    {
+      "timestamp": "2026-07-08T01:28:12.630450+00:00",
+      "provider": "gemini",
+      "provider_label": "Gemini",
+      "added": [],
+      "removed": [
+        "gemini-3.1-flash-lite-image",
+        "gemini-omni-flash-preview"
+      ]
+    },
+    {
+      "timestamp": "2026-07-08T01:28:12.630450+00:00",
+      "provider": "together",
+      "provider_label": "Together AI",
+      "added": [],
+      "removed": [
+        "zai-org/GLM-4.7-fp4"
+      ]
+    },
+    {
+      "timestamp": "2026-07-08T01:28:12.630450+00:00",
+      "provider": "huggingface",
+      "provider_label": "HuggingFace",
+      "added": [
+        "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+      ],
+      "removed": []
+    },
+    {
+      "timestamp": "2026-07-08T01:28:12.630450+00:00",
+      "provider": "pollinations",
+      "provider_label": "Pollinations",
+      "added": [
+        "Catniti/Laguna-xs-2.1",
+        "Catniti/gpt-4.0",
+        "Catniti/mistral-small-latest",
+        "Catniti/nemotron-3-ultra-550b-a55b",
+        "CloudCompile/gemma-4-e2b",
+        "MarcosFRG/deepseek-v3.2",
+        "MarcosFRG/deepseek-v4-flash",
+        "MarcosFRG/deepseek-v4-pro",
+        "MarcosFRG/gemini-2.5-flash-lite",
+        "MarcosFRG/gemini-3-flash-preview",
+        "MarcosFRG/gemma-3-27b",
+        "MarcosFRG/gemma-4-31b",
+        "MarcosFRG/mimo-v2.5",
+        "MarcosFRG/minimax-m2.7",
+        "MarcosFRG/minimax-m3",
+        "Minor-fun/LongCat-2.0",
+        "Minor-fun/deepseek-v3.2",
+        "Minor-fun/deepseek-v4-flash",
+        "Minor-fun/gemma-4-31B-it",
+        "Spit-fires/LFM2.5-230M",
+        "Spit-fires/bonsai-image-1024x1024-4",
+        "Spit-fires/bonsai-image-512x512-4",
+        "Spit-fires/diffusiongemma-26b-a4b-it",
+        "Spit-fires/gpt-oss-20b-free",
+        "Spit-fires/step-3.5-flash-free",
+        "deepseek",
+        "deepseek-pro",
+        "gemma",
+        "glm",
+        "grok",
+        "grok-4-20-reasoning",
+        "grok-large",
+        "kimi",
+        "kimi-code",
+        "llama",
+        "llama-scout",
+        "mikl-shortcuts/ministral-3",
+        "minimax",
+        "minimax-m2.7",
+        "mistral",
+        "mistral-large",
+        "mistral-small-3.2",
+        "morriszdweck/kimi-k2.6-cheap",
+        "morriszdweck/qwen-3.7-plus-cheap",
+        "nova",
+        "nova-fast",
+        "polly",
+        "qwen-coder",
+        "qwen-large",
+        "qwen-safety",
+        "qwen-vision",
+        "qwen-vision-pro",
+        "sharktide/inferenceport-ai-command-r-plus",
+        "sharktide/inferenceport-ai-gpt-4.1",
+        "sharktide/inferenceport-ai-mimo-v2.5",
+        "sharktide/inferenceport.ai-gpt-5-chat-latest",
+        "sharktide/inferenceport.ai-gpt-oss-20b",
+        "sixfingerdev/claude-haiku-4-5",
+        "sixfingerdev/claude-opus-4-1",
+        "sixfingerdev/claude-opus-4-5",
+        "sixfingerdev/claude-opus-4-7",
+        "sixfingerdev/claude-opus-4-7-fast",
+        "sixfingerdev/claude-sonnet-4-5",
+        "sixfingerdev/claude-sonnet-4-6",
+        "sixfingerdev/claude-sonnet-5",
+        "sixfingerdev/deepseek-v4-flash",
+        "sixfingerdev/gemini-3.1-pro-preview",
+        "sixfingerdev/gemini-3.5-flash",
+        "sixfingerdev/glm-5",
+        "sixfingerdev/gpt-5.4",
+        "sixfingerdev/kimi-k2.7-code",
+        "smplstuff/falcon-h1-tiny",
+        "step-3.5-flash",
+        "step-flash",
+        "tomdacatto/ezra",
+        "vendouple/deepseek-v3.2",
+        "vendouple/gemma-4-31b",
+        "vendouple/kimi-k2.6",
+        "vendouple/qwen3.6-27b",
+        "voodoohop/airforce-doubao-pro",
+        "voodoohop/airforce-grok-4-fast",
+        "voodoohop/airforce-qwen3-max",
+        "voodoohop/anyvm-deepseek-chat"
+      ],
+      "removed": []
     }
   ]
 }
