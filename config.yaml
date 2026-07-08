@@ -748,30 +748,6 @@ model_list:
     model: gemini/gemini-2.5-pro
     api_key: os.environ/GEMINI_API_KEY_8
     rpm: 5
-- model_name: inbox-zero-main
-  litellm_params:
-    model: os.environ/INBOX_ZERO_MAIN_MODEL
-    api_key: os.environ/OPENROUTER_API_KEY
-- model_name: inbox-zero-economy
-  litellm_params:
-    model: os.environ/INBOX_ZERO_ECONOMY_MODEL
-    api_key: os.environ/GEMINI_API_KEY
-- model_name: inbox-zero-chat
-  litellm_params:
-    model: os.environ/INBOX_ZERO_CHAT_MODEL
-    api_key: os.environ/OPENROUTER_API_KEY
-- model_name: inbox-zero-draft
-  litellm_params:
-    model: os.environ/INBOX_ZERO_DRAFT_MODEL
-    api_key: os.environ/GEMINI_API_KEY
-- model_name: inbox-zero-nano
-  litellm_params:
-    model: os.environ/INBOX_ZERO_NANO_MODEL
-    api_key: os.environ/OPENROUTER_API_KEY
-- model_name: inbox-zero-main-fallback
-  litellm_params:
-    model: os.environ/INBOX_ZERO_MAIN_FALLBACK_MODEL
-    api_key: os.environ/OPENAI_API_KEY
 - model_name: whisper-1
   litellm_params:
     model: groq/whisper-large-v3
@@ -808,10 +784,10 @@ litellm_settings:
   telemetry: false
   success_callback:
   - postgres
+  - helicone
   failure_callback:
   - postgres
-  callbacks:
-  - langfuse_otel
+  - helicone
 router_settings:
   routing_strategy: simple-shuffle
   num_retries: 3
@@ -819,18 +795,6 @@ router_settings:
   cooldown_time: 60
   allowed_fails: 2
   retry_after: 5
-  fallbacks:
-  - inbox-zero-main:
-    - inbox-zero-main-fallback
-    - inbox-zero-economy
-  - inbox-zero-chat:
-    - inbox-zero-main
-    - inbox-zero-economy
-  - inbox-zero-draft:
-    - inbox-zero-economy
-    - inbox-zero-main-fallback
-  - inbox-zero-nano:
-    - inbox-zero-economy
 general_settings:
   master_key: os.environ/LITELLM_MASTER_KEY
   database_url: os.environ/DATABASE_URL

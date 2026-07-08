@@ -1,0 +1,24 @@
+services:
+  shared-postgres:
+    image: postgres:16-alpine
+    container_name: shared-postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER # superuser, just only for create other DB/user
+      - POSTGRES_PASSWORD
+    volumes:
+      - shared_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - shared_db_net
+
+volumes:
+  shared_pgdata:
+
+networks:
+  shared_db_net:
+    name: shared_db_net
